@@ -1,0 +1,85 @@
+  # ===== ブロック1: insertpptx サンプル =====
+  # __________ NEW PPTX: マルチステップ機能.pptx __________
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 1
+    description: ステップ表示のあるPowerPoint 原稿をレシプロマーカーに載せるサンプル
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 2
+    description: ステップ表示アニメーションを レシプロマーカーで使う方法
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 3
+    description: Markdown長文のオンライン説明に役立つシンクロ機能
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 4
+    description: セクション単位でフィードバックが欲しい
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 5
+    description: セクション単位でコメントを書ける
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 6
+    description: 「ちょっと前の部分を見返す」 こともできる
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 7
+    description: 「ここが重要マーカー」 も欲しいよね？
+
+  # ===== ブロック2: insertmd サンプル =====
+  # __________ NEW PPTX: マルチステップ機能.pptx __________
+  - insertmd: マルチステップ機能_slide1_md.md
+    description: ステップ表示のあるPowerPoint 原稿をレシプロマーカーに載せるサンプル
+  - insertmd: マルチステップ機能_slide2_md.md
+    description: ステップ表示アニメーションを レシプロマーカーで使う方法
+  - insertmd: マルチステップ機能_slide3_md.md
+    description: Markdown長文のオンライン説明に役立つシンクロ機能
+  - insertmd: マルチステップ機能_slide4_md.md
+    description: セクション単位でフィードバックが欲しい
+  - insertmd: マルチステップ機能_slide5_md.md
+    description: セクション単位でコメントを書ける
+  - insertmd: マルチステップ機能_slide6_md.md
+    description: 「ちょっと前の部分を見返す」 こともできる
+  - insertmd: マルチステップ機能_slide7_md.md
+    description: 「ここが重要マーカー」 も欲しいよね？
+
+  # ===== ブロック3: insertpptx + insertmd ミックス（スライド単位） =====
+  # __________ NEW PPTX: マルチステップ機能.pptx __________
+  # ----------- slide 1 マルチステップ機能.pptx -----------
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 1
+    description: ステップ表示のあるPowerPoint 原稿をレシプロマーカーに載せるサンプル
+  - insertmd: マルチステップ機能_slide1_md.md
+    description: ステップ表示のあるPowerPoint 原稿をレシプロマーカーに載せるサンプル
+  # ----------- slide 2 マルチステップ機能.pptx -----------
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 2
+    description: ステップ表示アニメーションを レシプロマーカーで使う方法
+  - insertmd: マルチステップ機能_slide2_md.md
+    description: ステップ表示アニメーションを レシプロマーカーで使う方法
+  # ----------- slide 3 マルチステップ機能.pptx -----------
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 3
+    description: Markdown長文のオンライン説明に役立つシンクロ機能
+  - insertmd: マルチステップ機能_slide3_md.md
+    description: Markdown長文のオンライン説明に役立つシンクロ機能
+  # ----------- slide 4 マルチステップ機能.pptx -----------
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 4
+    description: セクション単位でフィードバックが欲しい
+  - insertmd: マルチステップ機能_slide4_md.md
+    description: セクション単位でフィードバックが欲しい
+  # ----------- slide 5 マルチステップ機能.pptx -----------
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 5
+    description: セクション単位でコメントを書ける
+  - insertmd: マルチステップ機能_slide5_md.md
+    description: セクション単位でコメントを書ける
+  # ----------- slide 6 マルチステップ機能.pptx -----------
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 6
+    description: 「ちょっと前の部分を見返す」 こともできる
+  - insertmd: マルチステップ機能_slide6_md.md
+    description: 「ちょっと前の部分を見返す」 こともできる
+  # ----------- slide 7 マルチステップ機能.pptx -----------
+  - insertpptx: src/マルチステップ機能.pptx
+    slides: 7
+    description: 「ここが重要マーカー」 も欲しいよね？
+  - insertmd: マルチステップ機能_slide7_md.md
+    description: 「ここが重要マーカー」 も欲しいよね？

@@ -1,0 +1,115 @@
+schema_version: 1
+kind: id_map
+document:
+  document_id: <DUMMY>
+  title: <DUMMY>
+generated:
+  by: md-merge
+  at: '2026-11-08T14:27:54+09:00'
+source:
+  config_yaml: マルチステップ機能.yaml
+  id_inventory_yaml: build/work_マルチステップ機能_idcollect.yaml
+numbering:
+  profile: default
+  chapter_enabled: true
+  section_numbering: chapter_section
+  image_numbering: global
+entries:
+- full_id: section:マルチステップ機能:slide1
+  identifier_type: section
+  part_id: マルチステップ機能
+  local_id: slide1
+  title: ステップ表示のあるPowerPoint 原稿をレシプロマーカーに載せるサンプル
+  rawtitle: ステップ表示のあるPowerPoint 原稿をレシプロマーカーに載せるサンプル
+  source:
+    pptx: <DUMMY>
+    md: mds/マルチステップ機能_slide1_md.md
+  location:
+    file: build/マルチステップ機能_merged.md
+    line: 11
+  number: '0.1'
+  label: 0.1) ステップ表示のあるPowerPoint 原稿をレシプロマーカーに載せるサンプル
+- full_id: section:マルチステップ機能:slide2
+  identifier_type: section
+  part_id: マルチステップ機能
+  local_id: slide2
+  title: ステップ表示アニメーションを レシプロマーカーで使う方法
+  rawtitle: ステップ表示アニメーションを レシプロマーカーで使う方法
+  source:
+    pptx: <DUMMY>
+    md: mds/マルチステップ機能_slide2_md.md
+  location:
+    file: build/マルチステップ機能_merged.md
+    line: 18
+  number: '0.2'
+  label: 0.2) ステップ表示アニメーションを レシプロマーカーで使う方法
+- full_id: section:マルチステップ機能:slide3
+  identifier_type: section
+  part_id: マルチステップ機能
+  local_id: slide3
+  title: Markdown長文のオンライン説明に役立つシンクロ機能
+  rawtitle: Markdown長文のオンライン説明に役立つシンクロ機能
+  source:
+    pptx: <DUMMY>
+    md: mds/マルチステップ機能_slide3_md.md
+  location:
+    file: build/マルチステップ機能_merged.md
+    line: 35
+  number: '0.3'
+  label: 0.3) Markdown長文のオンライン説明に役立つシンクロ機能
+- full_id: section:マルチステップ機能:slide4
+  identifier_type: section
+  part_id: マルチステップ機能
+  local_id: slide4
+  title: セクション単位でフィードバックが欲しい
+  rawtitle: セクション単位でフィードバックが欲しい
+  source:
+    pptx: <DUMMY>
+    md: mds/マルチステップ機能_slide4_md.md
+  location:
+    file: build/マルチステップ機能_merged.md
+    line: 65
+  number: '0.4'
+  label: 0.4) セクション単位でフィードバックが欲しい
+- full_id: section:マルチステップ機能:slide5
+  identifier_type: section
+  part_id: マルチステップ機能
+  local_id: slide5
+  title: セクション単位でコメントを書ける
+  rawtitle: セクション単位でコメントを書ける
+  source:
+    pptx: <DUMMY>
+    md: mds/マルチステップ機能_slide5_md.md
+  location:
+    file: build/マルチステップ機能_merged.md
+    line: 88
+  number: '0.5'
+  label: 0.5) セクション単位でコメントを書ける
+- full_id: section:マルチステップ機能:slide6
+  identifier_type: section
+  part_id: マルチステップ機能
+  local_id: slide6
+  title: 「ちょっと前の部分を見返す」 こともできる
+  rawtitle: 「ちょっと前の部分を見返す」 こともできる
+  source:
+    pptx: <DUMMY>
+    md: mds/マルチステップ機能_slide6_md.md
+  location:
+    file: build/マルチステップ機能_merged.md
+    line: 109
+  number: '0.6'
+  label: 0.6) 「ちょっと前の部分を見返す」 こともできる
+- full_id: section:マルチステップ機能:slide7
+  identifier_type: section
+  part_id: マルチステップ機能
+  local_id: slide7
+  title: 「ここが重要マーカー」 も欲しいよね？
+  rawtitle: 「ここが重要マーカー」 も欲しいよね？
+  source:
+    pptx: <DUMMY>
+    md: mds/マルチステップ機能_slide7_md.md
+  location:
+    file: build/マルチステップ機能_merged.md
+    line: 131
+  number: '0.7'
+  label: 0.7) 「ここが重要マーカー」 も欲しいよね？

@@ -1,0 +1,85 @@
+# MD, PowerPointファイルの結合指示書のサンプル
+version: 2
+
+vars: # mdファイルとpptxファイルの双方で変数置換に使用する変数の定義
+  # yaml-language-server-disable
+  # TEX_* 変数は撤去（semantic operation / リーフ記法へ移行。抽出MDはビルドで再生成）
+
+
+  # 画像の枠線を表示する。レシプロマーカー用の想定
+  FRONTMATTER: |
+    ---
+    image_border: true
+    image_border_color: "#BBBBFF"
+    image_border_width: 2
+    ---
+
+# ロギング設定
+log:
+  level: debug
+  filename: log.txt
+  duplicate: stdout  # ログファイルと同じ内容を標準出力または標準エラーにも出す。未設定または空欄のときは重複出力しない。stdout は標準出力、stderr は標準エラー出力
+  dir: .  # このyamlファイルと同ディレクトリにログファイルを書き込む
+
+
+# 出力ファイル名設定
+output: 
+  force: true          # 既存の出力ファイルを上書きする（既定: false）
+  outputdir: build  # 出力ファイルを書き込むディレクトリ
+  targetbasefilename: マルチステップ機能
+
+  # 下記2項目は省略時は自動生成される。カスタマイズする場合は明示的に指定する。
+  # ↓省略可
+  mdfilename: マルチステップ機能_merged.md             # 結合後のmdファイルのファイル名
+  renderedfilename: マルチステップ機能_rendered.md     # 結合・付番・変数置換後のmdファイルのファイル名
+  puremdfilename: マルチステップ機能_puremd.md     # 変数置換後のmdファイルのファイル名
+
+# 静的サイト生成システムへのデータ投入用フォルダへの転送設定
+# transfer:
+#   # ↓省略可
+#   inputmd: マルチステップ機能_puremd.md        # 結合・変数置換後のmdファイルのファイル名（省略時は renderedfilename を使用）
+#   # ↓inputというキー名ですが、ここに出力します
+#   dataentry_input: Z:\techcomm\ideacraft-web\dataentry\data\input\    # 静的サイト生成システムへのデータ投入用フォルダ
+#   # 静的サイト生成システム用のslug文字列。 ASCII 文字のみの使用を推奨。アンダースコア付加、ハイフン可
+#   # ↓ FILENAME_TEMPLATE とは別で良い。(^[a-z0-9][a-z0-9-]*[a-z0-9]$)
+#   slug: multisteps-exp
+
+indexer:
+  delimiter: '.'
+  separator: ') '
+  deletecsl: true  # pptmerge 時に #CSL# マーカーのあるスライドを削除するかどうか。デフォルトはfalse。 --deletecsl オプションで上書きされる
+  deletecsp: true  # pptmerge 時に #CSP# マーカーのあるシェイプを削除するかどうか。デフォルトはfalse。 --deletecsp オプションで上書きされる
+  pptxnumbering: no       # pptmerge での章節番号付番方法。chapt_section の場合、idresolve を使わずに pptx 単独で - chapter: / - section: 操作により 章・節番号を付番する
+
+# merge サブコマンドのオプション
+merge:
+  no-copy-images: false # trueなら画像ファイルのコピーおよびパス書き換えを行わない。（既定値 false は画像ファイルのコピーおよびパス書き換えを行う）
+  # ↓ astro 生成用データの場合は、画像コピー先サブディレクトリ名は、
+  # ↓ transfer.dataentry_input と同じにすることを推奨（というか、必要？）
+  image-dir: multisteps-exp
+
+  # ↓ astro 生成用データの場合は、画像はフラット集約しましょう（そのほうが管理が楽。SLUGで分離されるのでファイル名衝突は起こらない）
+  flatten-images: true # trueならすべての画像を<outputdir>/<image-dir>/ にフラット集約する。同名ファイルは _1, _2 … のサフィックスを付けて上書きを回避する（既定: false）
+  strict: false         # 警告をエラーとして扱う（既定: false）
+  overwrite-images: true # trueなら同名ファイルを上書きする（既定: false、同名ファイルは _1, _2 … のサフィックスをつけて上書き回避する）
+
+
+
+input:
+  dirs: 
+    - .
+    - mds
+    - images     # yaml ファイルのディレクトリの下
+
+  # pptxから画像を取得してくるための設定
+  cropsrc:  # リスト使用可能
+    - pptx: src/マルチステップ機能.pptx           # 画像のソースとなる pptx ファイル名
+      pdf: 
+
+
+# 結合手順： "- insertpptx: ファイル名" で、結合したいファイルを結合順に記載する（version 2 記法）
+procedure:
+  - insertvar: FRONTMATTER
+    when:
+      command: [ppt_to_puremd, ppt_to_transfer]   # このサブコマンドで起動したときだけ    
+  - insertmd: マルチステップ機能_slide[1-7]_md.md
