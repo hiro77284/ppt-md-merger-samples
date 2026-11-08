@@ -1,0 +1,727 @@
+2026-11-08 14:54:17,493 DEBUG    log file: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\log.txt
+2026-11-08 14:54:17,494 DEBUG    input.cropsrc.pptx 探索: 入力値='src/マルチステップ機能.pptx' 基準ディレクトリ=D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation
+2026-11-08 14:54:17,494 DEBUG    input.cropsrc.pptx 探索パス: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx (存在)
+2026-11-08 14:54:17,495 DEBUG    input.cropsrc.pdf: 自動生成 D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 14:54:17,565 DEBUG    Opening PPTX: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+2026-11-08 14:54:17,664 DEBUG    Exporting PDF: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 14:54:18,233 DEBUG    PDF export complete
+2026-11-08 14:54:18,233 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 14:54:18,252 INFO     [ppt_to_puremd] pptpdfexport OK
+2026-11-08 14:54:18,252 INFO     [ppt_to_puremd] pptimgexport ...
+2026-11-08 14:54:18,253 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:18,258 DEBUG    input.cropsrc.pdf: 自動生成 D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 14:54:21,099 DEBUG    スライドショーウィンドウ hwnd=6953770
+2026-11-08 14:54:21,390 DEBUG    スライド領域: (8, 53, 1825, 1075)（1817x1022px、目標 2000x1125px）
+2026-11-08 14:54:22,279 DEBUG    スライド領域: (8, 57, 2052, 1207)（2044x1150px、目標 2000x1125px）
+2026-11-08 14:54:22,329 DEBUG    slide 3: GetClickCount() = 4
+2026-11-08 14:54:22,585 DEBUG    スライド領域: (8, 57, 2052, 1207)（2044x1150px、目標 2000x1125px）
+2026-11-08 14:54:22,665 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step0.png
+2026-11-08 14:54:22,979 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step1.png
+2026-11-08 14:54:23,310 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step2.png
+2026-11-08 14:54:23,633 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step3.png
+2026-11-08 14:54:23,964 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step4.png
+2026-11-08 14:54:23,973 DEBUG    slide 4: GetClickCount() = 8
+2026-11-08 14:54:24,301 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step0.png
+2026-11-08 14:54:24,647 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step1.png
+2026-11-08 14:54:24,967 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step2.png
+2026-11-08 14:54:25,286 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step3.png
+2026-11-08 14:54:25,599 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step4.png
+2026-11-08 14:54:25,936 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step5.png
+2026-11-08 14:54:26,269 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step6.png
+2026-11-08 14:54:26,610 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step7.png
+2026-11-08 14:54:26,938 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step8.png
+2026-11-08 14:54:26,947 DEBUG    slide 5: GetClickCount() = 4
+2026-11-08 14:54:27,291 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step0.png
+2026-11-08 14:54:27,607 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step1.png
+2026-11-08 14:54:27,925 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step2.png
+2026-11-08 14:54:28,245 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step3.png
+2026-11-08 14:54:28,553 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step4.png
+2026-11-08 14:54:28,563 DEBUG    slide 6: GetClickCount() = 5
+2026-11-08 14:54:28,900 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step0.png
+2026-11-08 14:54:29,215 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step1.png
+2026-11-08 14:54:29,527 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step2.png
+2026-11-08 14:54:29,849 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step3.png
+2026-11-08 14:54:30,186 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step4.png
+2026-11-08 14:54:30,520 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step5.png
+2026-11-08 14:54:30,526 DEBUG    slide 7: GetClickCount() = 5
+2026-11-08 14:54:30,840 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step0.png
+2026-11-08 14:54:31,157 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step1.png
+2026-11-08 14:54:31,497 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step2.png
+2026-11-08 14:54:31,816 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step3.png
+2026-11-08 14:54:32,135 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step4.png
+2026-11-08 14:54:32,466 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step5.png
+2026-11-08 14:54:32,856 DEBUG    STREAM b'IHDR' 16 13
+2026-11-08 14:54:32,856 DEBUG    STREAM b'pHYs' 41 9
+2026-11-08 14:54:32,856 DEBUG    STREAM b'IDAT' 62 62899
+2026-11-08 14:54:32,886 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide1.png
+2026-11-08 14:54:32,944 DEBUG    STREAM b'IHDR' 16 13
+2026-11-08 14:54:32,944 DEBUG    STREAM b'pHYs' 41 9
+2026-11-08 14:54:32,944 DEBUG    STREAM b'IDAT' 62 197404
+2026-11-08 14:54:32,971 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide2.png
+2026-11-08 14:54:33,028 DEBUG    STREAM b'IHDR' 16 13
+2026-11-08 14:54:33,029 DEBUG    STREAM b'pHYs' 41 9
+2026-11-08 14:54:33,029 DEBUG    STREAM b'IDAT' 62 153399
+2026-11-08 14:54:33,062 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-keyvisual.png
+2026-11-08 14:54:33,063 INFO     [ppt_to_puremd] pptimgexport OK
+2026-11-08 14:54:33,063 INFO     [ppt_to_puremd] pptmdexport ...
+2026-11-08 14:54:33,064 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:33,067 DEBUG    pptmdexport: latex_check=warn
+2026-11-08 14:54:33,093 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide1_md.md
+2026-11-08 14:54:33,094 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide2_md.md
+2026-11-08 14:54:33,097 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide3_md.md
+2026-11-08 14:54:33,098 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide4_md.md
+2026-11-08 14:54:33,100 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide5_md.md
+2026-11-08 14:54:33,102 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide6_md.md
+2026-11-08 14:54:33,104 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide7_md.md
+2026-11-08 14:54:33,110 INFO     insert サンプルを書き出しました: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_insertsample.yaml (insertpptx 7 / insertmd 7)
+2026-11-08 14:54:33,111 INFO     [ppt_to_puremd] pptmdexport OK
+2026-11-08 14:54:33,111 INFO     [ppt_to_puremd] checkverify ...
+2026-11-08 14:54:33,112 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:33,120 DEBUG    insertmd ドリフトゲート: チェックデータなし — スキップ
+2026-11-08 14:54:33,120 INFO     [ppt_to_puremd] checkverify OK
+2026-11-08 14:54:33,120 INFO     [ppt_to_puremd] merge ...
+2026-11-08 14:54:33,120 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:33,124 DEBUG    collect_procedure_items: マルチステップ機能_slide1_md.md
+2026-11-08 14:54:33,125 DEBUG    collect_procedure_items: マルチステップ機能_slide2_md.md
+2026-11-08 14:54:33,125 DEBUG    collect_procedure_items: マルチステップ機能_slide3_md.md
+2026-11-08 14:54:33,125 DEBUG    collect_procedure_items: マルチステップ機能_slide4_md.md
+2026-11-08 14:54:33,125 DEBUG    collect_procedure_items: マルチステップ機能_slide5_md.md
+2026-11-08 14:54:33,126 DEBUG    collect_procedure_items: マルチステップ機能_slide6_md.md
+2026-11-08 14:54:33,126 DEBUG    collect_procedure_items: マルチステップ機能_slide7_md.md
+2026-11-08 14:54:33,126 DEBUG    yaml    : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:33,126 DEBUG    in_dirs : ['D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\images']
+2026-11-08 14:54:33,126 DEBUG    files   : ['D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide1_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide2_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide3_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide4_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide5_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide6_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide7_md.md']
+2026-11-08 14:54:33,126 DEBUG    output  : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 14:54:33,274 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 14:54:33,274 INFO     [ppt_to_puremd] merge OK
+2026-11-08 14:54:33,274 INFO     [ppt_to_puremd] idcollect ...
+2026-11-08 14:54:33,275 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:33,278 DEBUG    yaml      : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:33,278 DEBUG    merged md : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 14:54:33,278 DEBUG    inventory : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idcollect.yaml
+2026-11-08 14:54:33,290 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idcollect.yaml
+2026-11-08 14:54:33,290 INFO     [ppt_to_puremd] idcollect OK
+2026-11-08 14:54:33,290 INFO     [ppt_to_puremd] idresolve ...
+2026-11-08 14:54:33,290 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:33,293 DEBUG    yaml      : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:33,293 DEBUG    inventory : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idcollect.yaml
+2026-11-08 14:54:33,293 DEBUG    resolved  : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idresolve.yaml
+2026-11-08 14:54:33,311 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idresolve.yaml
+2026-11-08 14:54:33,311 INFO     [ppt_to_puremd] idresolve OK
+2026-11-08 14:54:33,311 INFO     [ppt_to_puremd] render ...
+2026-11-08 14:54:33,312 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:33,315 DEBUG    yaml     : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:33,315 DEBUG    merged   : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 14:54:33,315 DEBUG    resolved : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idresolve.yaml
+2026-11-08 14:54:33,315 DEBUG    rendered : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+2026-11-08 14:54:33,329 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+2026-11-08 14:54:33,329 INFO     [ppt_to_puremd] render OK
+2026-11-08 14:54:33,330 INFO     [ppt_to_puremd] puremd ...
+2026-11-08 14:54:33,330 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:33,342 DEBUG    puremd: 2 built-in raw-drop pattern(s) from registry (drop=['latex', 'typst'])
+2026-11-08 14:54:33,342 DEBUG    puremd: compiled pattern 'raw_latex_block' = '^```\\{=latex\\}[ \\t]*\\n[\\s\\S]*?^```[ \\t]*\\n?'
+2026-11-08 14:54:33,342 DEBUG    puremd: compiled pattern 'raw_typst_block' = '^```\\{=typst\\}[ \\t]*\\n[\\s\\S]*?^```[ \\t]*\\n?'
+2026-11-08 14:54:33,342 DEBUG    puremd: fenced_div enabled=True alerts={'note': 'NOTE', 'warning': 'WARNING', 'leadline': 'IMPORTANT'} plain_quotes=['widequote'] unwrap=['center', 'keep-together']
+2026-11-08 14:54:33,342 DEBUG    rendered : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+2026-11-08 14:54:33,342 DEBUG    puremd   : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_puremd.md
+2026-11-08 14:54:33,350 DEBUG    puremd: pattern 'raw_latex_block' matched nothing
+2026-11-08 14:54:33,350 DEBUG    puremd: pattern 'raw_typst_block' matched nothing
+2026-11-08 14:54:33,350 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-08 14:54:33,353 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_puremd.md
+2026-11-08 14:54:33,353 INFO     [ppt_to_puremd] puremd OK
+2026-11-08 14:54:33,354 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:54:33,356 INFO     [ppt_to_puremd] deleting work-files
+2026-11-08 14:54:33,358 INFO     [ppt_to_puremd] deleted: マルチステップ機能_merged.md
+2026-11-08 14:54:33,358 INFO     [ppt_to_puremd] deleted: work_マルチステップ機能_idcollect.yaml
+2026-11-08 14:54:33,359 INFO     [ppt_to_puremd] deleted: work_マルチステップ機能_idresolve.yaml
+2026-11-08 14:54:33,359 INFO     [ppt_to_puremd] deleted: マルチステップ機能_rendered.md
+2026-11-08 14:54:33,359 INFO     [ppt_to_puremd] use --keep-work option to preserve work-files
+2026-11-08 14:57:08,959 DEBUG    log file: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\log.txt
+2026-11-08 14:57:08,960 DEBUG    input.cropsrc.pptx 探索: 入力値='src/マルチステップ機能.pptx' 基準ディレクトリ=D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation
+2026-11-08 14:57:08,960 DEBUG    input.cropsrc.pptx 探索パス: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx (存在)
+2026-11-08 14:57:08,960 DEBUG    input.cropsrc.pdf: 自動生成 D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 14:57:08,960 INFO     最新のためスキップ (--rebuild で再生成): D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 14:57:08,961 INFO     すべての PDF が最新です。生成対象はありません
+2026-11-08 14:57:08,961 INFO     [ppt_to_puremd] pptpdfexport OK
+2026-11-08 14:57:08,961 INFO     [ppt_to_puremd] pptimgexport ...
+2026-11-08 14:57:08,961 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:08,965 DEBUG    input.cropsrc.pdf: 自動生成 D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 14:57:12,429 DEBUG    スライドショーウィンドウ hwnd=17767300
+2026-11-08 14:57:12,748 DEBUG    スライド領域: (8, 53, 1825, 1075)（1817x1022px、目標 2000x1125px）
+2026-11-08 14:57:13,726 DEBUG    スライド領域: (8, 57, 2052, 1207)（2044x1150px、目標 2000x1125px）
+2026-11-08 14:57:13,808 DEBUG    slide 3: GetClickCount() = 4
+2026-11-08 14:57:14,117 DEBUG    スライド領域: (8, 57, 2052, 1207)（2044x1150px、目標 2000x1125px）
+2026-11-08 14:57:14,221 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step0.png
+2026-11-08 14:57:14,570 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step1.png
+2026-11-08 14:57:14,916 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step2.png
+2026-11-08 14:57:15,269 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step3.png
+2026-11-08 14:57:15,655 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step4.png
+2026-11-08 14:57:15,671 DEBUG    slide 4: GetClickCount() = 8
+2026-11-08 14:57:16,040 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step0.png
+2026-11-08 14:57:16,386 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step1.png
+2026-11-08 14:57:16,734 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step2.png
+2026-11-08 14:57:17,061 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step3.png
+2026-11-08 14:57:17,365 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step4.png
+2026-11-08 14:57:17,699 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step5.png
+2026-11-08 14:57:18,029 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step6.png
+2026-11-08 14:57:18,357 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step7.png
+2026-11-08 14:57:18,689 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step8.png
+2026-11-08 14:57:18,703 DEBUG    slide 5: GetClickCount() = 4
+2026-11-08 14:57:19,017 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step0.png
+2026-11-08 14:57:19,338 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step1.png
+2026-11-08 14:57:19,670 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step2.png
+2026-11-08 14:57:19,999 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step3.png
+2026-11-08 14:57:20,328 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step4.png
+2026-11-08 14:57:20,345 DEBUG    slide 6: GetClickCount() = 5
+2026-11-08 14:57:20,679 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step0.png
+2026-11-08 14:57:21,018 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step1.png
+2026-11-08 14:57:21,342 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step2.png
+2026-11-08 14:57:21,845 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step3.png
+2026-11-08 14:57:22,184 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step4.png
+2026-11-08 14:57:22,523 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step5.png
+2026-11-08 14:57:22,529 DEBUG    slide 7: GetClickCount() = 5
+2026-11-08 14:57:22,863 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step0.png
+2026-11-08 14:57:23,186 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step1.png
+2026-11-08 14:57:23,523 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step2.png
+2026-11-08 14:57:23,839 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step3.png
+2026-11-08 14:57:24,170 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step4.png
+2026-11-08 14:57:24,682 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step5.png
+2026-11-08 14:57:25,065 DEBUG    STREAM b'IHDR' 16 13
+2026-11-08 14:57:25,065 DEBUG    STREAM b'pHYs' 41 9
+2026-11-08 14:57:25,065 DEBUG    STREAM b'IDAT' 62 62899
+2026-11-08 14:57:25,095 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide1.png
+2026-11-08 14:57:25,153 DEBUG    STREAM b'IHDR' 16 13
+2026-11-08 14:57:25,153 DEBUG    STREAM b'pHYs' 41 9
+2026-11-08 14:57:25,153 DEBUG    STREAM b'IDAT' 62 197404
+2026-11-08 14:57:25,182 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide2.png
+2026-11-08 14:57:25,242 DEBUG    STREAM b'IHDR' 16 13
+2026-11-08 14:57:25,242 DEBUG    STREAM b'pHYs' 41 9
+2026-11-08 14:57:25,242 DEBUG    STREAM b'IDAT' 62 153399
+2026-11-08 14:57:25,274 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-keyvisual.png
+2026-11-08 14:57:25,275 INFO     [ppt_to_puremd] pptimgexport OK
+2026-11-08 14:57:25,275 INFO     [ppt_to_puremd] pptmdexport ...
+2026-11-08 14:57:25,276 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:25,279 DEBUG    pptmdexport: latex_check=warn
+2026-11-08 14:57:25,303 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide1_md.md
+2026-11-08 14:57:25,305 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide2_md.md
+2026-11-08 14:57:25,306 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide3_md.md
+2026-11-08 14:57:25,308 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide4_md.md
+2026-11-08 14:57:25,311 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide5_md.md
+2026-11-08 14:57:25,313 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide6_md.md
+2026-11-08 14:57:25,315 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide7_md.md
+2026-11-08 14:57:25,321 INFO     insert サンプルを書き出しました: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_insertsample.yaml (insertpptx 7 / insertmd 7)
+2026-11-08 14:57:25,321 INFO     [ppt_to_puremd] pptmdexport OK
+2026-11-08 14:57:25,321 INFO     [ppt_to_puremd] checkverify ...
+2026-11-08 14:57:25,322 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:25,329 DEBUG    insertmd ドリフトゲート: チェックデータなし — スキップ
+2026-11-08 14:57:25,329 INFO     [ppt_to_puremd] checkverify OK
+2026-11-08 14:57:25,329 INFO     [ppt_to_puremd] merge ...
+2026-11-08 14:57:25,330 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:25,333 DEBUG    collect_procedure_items: マルチステップ機能_slide1_md.md
+2026-11-08 14:57:25,334 DEBUG    collect_procedure_items: マルチステップ機能_slide2_md.md
+2026-11-08 14:57:25,334 DEBUG    collect_procedure_items: マルチステップ機能_slide3_md.md
+2026-11-08 14:57:25,334 DEBUG    collect_procedure_items: マルチステップ機能_slide4_md.md
+2026-11-08 14:57:25,335 DEBUG    collect_procedure_items: マルチステップ機能_slide5_md.md
+2026-11-08 14:57:25,335 DEBUG    collect_procedure_items: マルチステップ機能_slide6_md.md
+2026-11-08 14:57:25,335 DEBUG    collect_procedure_items: マルチステップ機能_slide7_md.md
+2026-11-08 14:57:25,335 DEBUG    yaml    : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:25,335 DEBUG    in_dirs : ['D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\images']
+2026-11-08 14:57:25,335 DEBUG    files   : ['D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide1_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide2_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide3_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide4_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide5_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide6_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide7_md.md']
+2026-11-08 14:57:25,336 DEBUG    output  : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 14:57:25,372 INFO     clear-dir-before-merge: image-dir を空にしました: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\multisteps-exp
+2026-11-08 14:57:25,940 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 14:57:25,940 INFO     [ppt_to_puremd] merge OK
+2026-11-08 14:57:25,940 INFO     [ppt_to_puremd] idcollect ...
+2026-11-08 14:57:25,940 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:25,944 DEBUG    yaml      : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:25,944 DEBUG    merged md : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 14:57:25,944 DEBUG    inventory : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idcollect.yaml
+2026-11-08 14:57:25,955 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idcollect.yaml
+2026-11-08 14:57:25,956 INFO     [ppt_to_puremd] idcollect OK
+2026-11-08 14:57:25,956 INFO     [ppt_to_puremd] idresolve ...
+2026-11-08 14:57:25,956 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:25,960 DEBUG    yaml      : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:25,960 DEBUG    inventory : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idcollect.yaml
+2026-11-08 14:57:25,960 DEBUG    resolved  : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idresolve.yaml
+2026-11-08 14:57:25,985 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idresolve.yaml
+2026-11-08 14:57:25,986 INFO     [ppt_to_puremd] idresolve OK
+2026-11-08 14:57:25,986 INFO     [ppt_to_puremd] render ...
+2026-11-08 14:57:25,987 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:25,990 DEBUG    yaml     : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:25,990 DEBUG    merged   : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 14:57:25,990 DEBUG    resolved : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idresolve.yaml
+2026-11-08 14:57:25,990 DEBUG    rendered : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+2026-11-08 14:57:26,004 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+2026-11-08 14:57:26,004 INFO     [ppt_to_puremd] render OK
+2026-11-08 14:57:26,004 INFO     [ppt_to_puremd] puremd ...
+2026-11-08 14:57:26,005 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:26,017 DEBUG    puremd: 2 built-in raw-drop pattern(s) from registry (drop=['latex', 'typst'])
+2026-11-08 14:57:26,017 DEBUG    puremd: compiled pattern 'raw_latex_block' = '^```\\{=latex\\}[ \\t]*\\n[\\s\\S]*?^```[ \\t]*\\n?'
+2026-11-08 14:57:26,017 DEBUG    puremd: compiled pattern 'raw_typst_block' = '^```\\{=typst\\}[ \\t]*\\n[\\s\\S]*?^```[ \\t]*\\n?'
+2026-11-08 14:57:26,017 DEBUG    puremd: fenced_div enabled=True alerts={'note': 'NOTE', 'warning': 'WARNING', 'leadline': 'IMPORTANT'} plain_quotes=['widequote'] unwrap=['center', 'keep-together']
+2026-11-08 14:57:26,017 DEBUG    rendered : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+2026-11-08 14:57:26,017 DEBUG    puremd   : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_puremd.md
+2026-11-08 14:57:26,026 DEBUG    puremd: pattern 'raw_latex_block' matched nothing
+2026-11-08 14:57:26,027 DEBUG    puremd: pattern 'raw_typst_block' matched nothing
+2026-11-08 14:57:26,027 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-08 14:57:26,029 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_puremd.md
+2026-11-08 14:57:26,029 INFO     [ppt_to_puremd] puremd OK
+2026-11-08 14:57:26,030 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:57:26,032 INFO     [ppt_to_puremd] deleting work-files
+2026-11-08 14:57:26,033 INFO     [ppt_to_puremd] deleted: マルチステップ機能_merged.md
+2026-11-08 14:57:26,034 INFO     [ppt_to_puremd] deleted: work_マルチステップ機能_idcollect.yaml
+2026-11-08 14:57:26,035 INFO     [ppt_to_puremd] deleted: work_マルチステップ機能_idresolve.yaml
+2026-11-08 14:57:26,035 INFO     [ppt_to_puremd] deleted: マルチステップ機能_rendered.md
+2026-11-08 14:57:26,035 INFO     [ppt_to_puremd] use --keep-work option to preserve work-files
+2026-11-08 14:58:33,089 DEBUG    log file: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\log.txt
+2026-11-08 14:58:33,089 DEBUG    input.cropsrc.pptx 探索: 入力値='src/マルチステップ機能.pptx' 基準ディレクトリ=D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation
+2026-11-08 14:58:33,090 DEBUG    input.cropsrc.pptx 探索パス: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx (存在)
+2026-11-08 14:58:33,090 DEBUG    input.cropsrc.pdf: 自動生成 D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 14:58:33,090 INFO     最新のためスキップ (--rebuild で再生成): D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 14:58:33,090 INFO     すべての PDF が最新です。生成対象はありません
+2026-11-08 14:58:33,091 INFO     [ppt_to_puremd] pptpdfexport OK
+2026-11-08 14:58:33,091 INFO     [ppt_to_puremd] pptimgexport ...
+2026-11-08 14:58:33,091 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:33,095 DEBUG    input.cropsrc.pdf: 自動生成 D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 14:58:36,740 DEBUG    スライドショーウィンドウ hwnd=130946504
+2026-11-08 14:58:37,070 DEBUG    スライド領域: (8, 53, 1825, 1075)（1817x1022px、目標 2000x1125px）
+2026-11-08 14:58:38,077 DEBUG    スライド領域: (8, 57, 2052, 1207)（2044x1150px、目標 2000x1125px）
+2026-11-08 14:58:38,152 DEBUG    slide 3: GetClickCount() = 4
+2026-11-08 14:58:38,420 DEBUG    スライド領域: (8, 57, 2052, 1207)（2044x1150px、目標 2000x1125px）
+2026-11-08 14:58:38,508 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step0.png
+2026-11-08 14:58:38,846 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step1.png
+2026-11-08 14:58:39,177 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step2.png
+2026-11-08 14:58:39,520 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step3.png
+2026-11-08 14:58:39,859 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step4.png
+2026-11-08 14:58:39,875 DEBUG    slide 4: GetClickCount() = 8
+2026-11-08 14:58:40,212 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step0.png
+2026-11-08 14:58:40,527 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step1.png
+2026-11-08 14:58:40,851 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step2.png
+2026-11-08 14:58:41,165 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step3.png
+2026-11-08 14:58:41,500 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step4.png
+2026-11-08 14:58:41,815 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step5.png
+2026-11-08 14:58:42,135 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step6.png
+2026-11-08 14:58:42,451 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step7.png
+2026-11-08 14:58:42,780 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step8.png
+2026-11-08 14:58:42,789 DEBUG    slide 5: GetClickCount() = 4
+2026-11-08 14:58:43,105 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step0.png
+2026-11-08 14:58:43,425 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step1.png
+2026-11-08 14:58:43,728 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step2.png
+2026-11-08 14:58:44,056 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step3.png
+2026-11-08 14:58:44,381 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step4.png
+2026-11-08 14:58:44,390 DEBUG    slide 6: GetClickCount() = 5
+2026-11-08 14:58:44,714 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step0.png
+2026-11-08 14:58:45,038 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step1.png
+2026-11-08 14:58:45,365 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step2.png
+2026-11-08 14:58:45,690 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step3.png
+2026-11-08 14:58:46,016 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step4.png
+2026-11-08 14:58:46,335 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step5.png
+2026-11-08 14:58:46,342 DEBUG    slide 7: GetClickCount() = 5
+2026-11-08 14:58:46,665 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step0.png
+2026-11-08 14:58:46,994 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step1.png
+2026-11-08 14:58:47,318 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step2.png
+2026-11-08 14:58:47,650 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step3.png
+2026-11-08 14:58:47,978 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step4.png
+2026-11-08 14:58:48,315 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step5.png
+2026-11-08 14:58:48,666 DEBUG    STREAM b'IHDR' 16 13
+2026-11-08 14:58:48,666 DEBUG    STREAM b'pHYs' 41 9
+2026-11-08 14:58:48,666 DEBUG    STREAM b'IDAT' 62 62899
+2026-11-08 14:58:48,699 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide1.png
+2026-11-08 14:58:48,773 DEBUG    STREAM b'IHDR' 16 13
+2026-11-08 14:58:48,773 DEBUG    STREAM b'pHYs' 41 9
+2026-11-08 14:58:48,773 DEBUG    STREAM b'IDAT' 62 197404
+2026-11-08 14:58:48,803 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide2.png
+2026-11-08 14:58:48,863 DEBUG    STREAM b'IHDR' 16 13
+2026-11-08 14:58:48,863 DEBUG    STREAM b'pHYs' 41 9
+2026-11-08 14:58:48,863 DEBUG    STREAM b'IDAT' 62 153399
+2026-11-08 14:58:48,898 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-keyvisual.png
+2026-11-08 14:58:48,900 INFO     [ppt_to_puremd] pptimgexport OK
+2026-11-08 14:58:48,900 INFO     [ppt_to_puremd] pptmdexport ...
+2026-11-08 14:58:48,901 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:48,904 DEBUG    pptmdexport: latex_check=warn
+2026-11-08 14:58:48,935 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide1_md.md
+2026-11-08 14:58:48,937 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide2_md.md
+2026-11-08 14:58:48,939 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide3_md.md
+2026-11-08 14:58:48,940 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide4_md.md
+2026-11-08 14:58:48,942 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide5_md.md
+2026-11-08 14:58:48,943 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide6_md.md
+2026-11-08 14:58:48,945 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide7_md.md
+2026-11-08 14:58:48,950 INFO     insert サンプルを書き出しました: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_insertsample.yaml (insertpptx 7 / insertmd 7)
+2026-11-08 14:58:48,950 INFO     [ppt_to_puremd] pptmdexport OK
+2026-11-08 14:58:48,950 INFO     [ppt_to_puremd] checkverify ...
+2026-11-08 14:58:48,951 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:48,958 DEBUG    insertmd ドリフトゲート: チェックデータなし — スキップ
+2026-11-08 14:58:48,959 INFO     [ppt_to_puremd] checkverify OK
+2026-11-08 14:58:48,959 INFO     [ppt_to_puremd] merge ...
+2026-11-08 14:58:48,960 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:48,963 DEBUG    collect_procedure_items: マルチステップ機能_slide1_md.md
+2026-11-08 14:58:48,964 DEBUG    collect_procedure_items: マルチステップ機能_slide2_md.md
+2026-11-08 14:58:48,964 DEBUG    collect_procedure_items: マルチステップ機能_slide3_md.md
+2026-11-08 14:58:48,964 DEBUG    collect_procedure_items: マルチステップ機能_slide4_md.md
+2026-11-08 14:58:48,965 DEBUG    collect_procedure_items: マルチステップ機能_slide5_md.md
+2026-11-08 14:58:48,965 DEBUG    collect_procedure_items: マルチステップ機能_slide6_md.md
+2026-11-08 14:58:48,966 DEBUG    collect_procedure_items: マルチステップ機能_slide7_md.md
+2026-11-08 14:58:48,966 DEBUG    yaml    : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:48,966 DEBUG    in_dirs : ['D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\images']
+2026-11-08 14:58:48,966 DEBUG    files   : ['D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide1_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide2_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide3_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide4_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide5_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide6_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide7_md.md']
+2026-11-08 14:58:48,966 DEBUG    output  : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 14:58:49,004 INFO     clear-dir-before-merge: image-dir を空にしました: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\multisteps-exp
+2026-11-08 14:58:49,141 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 14:58:49,141 INFO     [ppt_to_puremd] merge OK
+2026-11-08 14:58:49,141 INFO     [ppt_to_puremd] idcollect ...
+2026-11-08 14:58:49,142 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:49,145 DEBUG    yaml      : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:49,146 DEBUG    merged md : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 14:58:49,146 DEBUG    inventory : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idcollect.yaml
+2026-11-08 14:58:49,160 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idcollect.yaml
+2026-11-08 14:58:49,160 INFO     [ppt_to_puremd] idcollect OK
+2026-11-08 14:58:49,160 INFO     [ppt_to_puremd] idresolve ...
+2026-11-08 14:58:49,161 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:49,164 DEBUG    yaml      : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:49,164 DEBUG    inventory : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idcollect.yaml
+2026-11-08 14:58:49,164 DEBUG    resolved  : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idresolve.yaml
+2026-11-08 14:58:49,183 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idresolve.yaml
+2026-11-08 14:58:49,183 INFO     [ppt_to_puremd] idresolve OK
+2026-11-08 14:58:49,183 INFO     [ppt_to_puremd] render ...
+2026-11-08 14:58:49,184 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:49,188 DEBUG    yaml     : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:49,188 DEBUG    merged   : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 14:58:49,188 DEBUG    resolved : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idresolve.yaml
+2026-11-08 14:58:49,188 DEBUG    rendered : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+2026-11-08 14:58:49,202 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+2026-11-08 14:58:49,202 INFO     [ppt_to_puremd] render OK
+2026-11-08 14:58:49,202 INFO     [ppt_to_puremd] puremd ...
+2026-11-08 14:58:49,203 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:49,218 DEBUG    puremd: 2 built-in raw-drop pattern(s) from registry (drop=['latex', 'typst'])
+2026-11-08 14:58:49,218 DEBUG    puremd: compiled pattern 'raw_latex_block' = '^```\\{=latex\\}[ \\t]*\\n[\\s\\S]*?^```[ \\t]*\\n?'
+2026-11-08 14:58:49,218 DEBUG    puremd: compiled pattern 'raw_typst_block' = '^```\\{=typst\\}[ \\t]*\\n[\\s\\S]*?^```[ \\t]*\\n?'
+2026-11-08 14:58:49,218 DEBUG    puremd: fenced_div enabled=True alerts={'note': 'NOTE', 'warning': 'WARNING', 'leadline': 'IMPORTANT'} plain_quotes=['widequote'] unwrap=['center', 'keep-together']
+2026-11-08 14:58:49,218 DEBUG    rendered : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+2026-11-08 14:58:49,218 DEBUG    puremd   : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_puremd.md
+2026-11-08 14:58:49,225 DEBUG    puremd: pattern 'raw_latex_block' matched nothing
+2026-11-08 14:58:49,225 DEBUG    puremd: pattern 'raw_typst_block' matched nothing
+2026-11-08 14:58:49,225 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-08 14:58:49,228 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_puremd.md
+2026-11-08 14:58:49,228 INFO     [ppt_to_puremd] puremd OK
+2026-11-08 14:58:49,228 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 14:58:49,232 INFO     [ppt_to_puremd] deleting work-files
+2026-11-08 14:58:49,233 INFO     [ppt_to_puremd] deleted: マルチステップ機能_merged.md
+2026-11-08 14:58:49,234 INFO     [ppt_to_puremd] deleted: work_マルチステップ機能_idcollect.yaml
+2026-11-08 14:58:49,234 INFO     [ppt_to_puremd] deleted: work_マルチステップ機能_idresolve.yaml
+2026-11-08 14:58:49,235 INFO     [ppt_to_puremd] deleted: マルチステップ機能_rendered.md
+2026-11-08 14:58:49,235 INFO     [ppt_to_puremd] use --keep-work option to preserve work-files
+2026-11-08 15:01:28,539 DEBUG    log file: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\log.txt
+2026-11-08 15:01:28,539 DEBUG    input.cropsrc.pptx 探索: 入力値='src/マルチステップ機能.pptx' 基準ディレクトリ=D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation
+2026-11-08 15:01:28,539 DEBUG    input.cropsrc.pptx 探索パス: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx (存在)
+2026-11-08 15:01:28,540 DEBUG    input.cropsrc.pdf: 自動生成 D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 15:01:28,540 INFO     最新のためスキップ (--rebuild で再生成): D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 15:01:28,540 INFO     すべての PDF が最新です。生成対象はありません
+2026-11-08 15:01:28,540 INFO     [ppt_to_puremd] pptpdfexport OK
+2026-11-08 15:01:28,540 INFO     [ppt_to_puremd] pptimgexport ...
+2026-11-08 15:01:28,541 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 15:01:28,545 DEBUG    input.cropsrc.pdf: 自動生成 D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+2026-11-08 15:01:31,904 DEBUG    スライドショーウィンドウ hwnd=465992
+2026-11-08 15:01:32,210 DEBUG    スライド領域: (8, 53, 1825, 1075)（1817x1022px、目標 2000x1125px）
+2026-11-08 15:01:33,151 DEBUG    スライド領域: (8, 57, 2052, 1207)（2044x1150px、目標 2000x1125px）
+2026-11-08 15:01:33,212 DEBUG    slide 3: GetClickCount() = 4
+2026-11-08 15:01:33,508 DEBUG    スライド領域: (8, 57, 2052, 1207)（2044x1150px、目標 2000x1125px）
+2026-11-08 15:01:33,617 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step0.png
+2026-11-08 15:01:33,972 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step1.png
+2026-11-08 15:01:34,317 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step2.png
+2026-11-08 15:01:34,673 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step3.png
+2026-11-08 15:01:35,026 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide3_step4.png
+2026-11-08 15:01:35,038 DEBUG    slide 4: GetClickCount() = 8
+2026-11-08 15:01:35,389 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step0.png
+2026-11-08 15:01:35,743 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step1.png
+2026-11-08 15:01:36,082 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step2.png
+2026-11-08 15:01:36,432 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step3.png
+2026-11-08 15:01:36,764 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step4.png
+2026-11-08 15:01:37,101 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step5.png
+2026-11-08 15:01:37,433 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step6.png
+2026-11-08 15:01:37,793 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step7.png
+2026-11-08 15:01:38,120 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide4_step8.png
+2026-11-08 15:01:38,132 DEBUG    slide 5: GetClickCount() = 4
+2026-11-08 15:01:38,479 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step0.png
+2026-11-08 15:01:38,802 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step1.png
+2026-11-08 15:01:39,142 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step2.png
+2026-11-08 15:01:39,460 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step3.png
+2026-11-08 15:01:39,780 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide5_step4.png
+2026-11-08 15:01:39,790 DEBUG    slide 6: GetClickCount() = 5
+2026-11-08 15:01:40,104 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step0.png
+2026-11-08 15:01:40,425 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step1.png
+2026-11-08 15:01:40,742 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step2.png
+2026-11-08 15:01:41,060 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step3.png
+2026-11-08 15:01:41,376 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step4.png
+2026-11-08 15:01:41,728 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide6_step5.png
+2026-11-08 15:01:41,738 DEBUG    slide 7: GetClickCount() = 5
+2026-11-08 15:01:42,071 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step0.png
+2026-11-08 15:01:42,385 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step1.png
+2026-11-08 15:01:42,708 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step2.png
+2026-11-08 15:01:43,031 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step3.png
+2026-11-08 15:01:43,368 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step4.png
+2026-11-08 15:01:43,705 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\markdown-walkthrough-tool-slide7_step5.png
+2026-11-08 15:01:43,999 DEBUG    STREAM b'IHDR' 16 13
+2026-11-08 15:01:44,000 DEBUG    STREAM b'pHYs' 41 9
+2026-11-08 15:01:44,000 DEBUG    STREAM b'IDAT' 62 62899
+2026-11-08 15:01:44,033 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide1.png
+2026-11-08 15:01:44,093 DEBUG    STREAM b'IHDR' 16 13
+2026-11-08 15:01:44,093 DEBUG    STREAM b'pHYs' 41 9
+2026-11-08 15:01:44,093 DEBUG    STREAM b'IDAT' 62 197404
+2026-11-08 15:01:44,120 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-slide2.png
+2026-11-08 15:01:44,181 DEBUG    STREAM b'IHDR' 16 13
+2026-11-08 15:01:44,181 DEBUG    STREAM b'pHYs' 41 9
+2026-11-08 15:01:44,181 DEBUG    STREAM b'IDAT' 62 153399
+2026-11-08 15:01:44,220 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_slides.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\images\steps-exp-keyvisual.png
+2026-11-08 15:01:44,221 INFO     [ppt_to_puremd] pptimgexport OK
+2026-11-08 15:01:44,221 INFO     [ppt_to_puremd] pptmdexport ...
+2026-11-08 15:01:44,222 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 15:01:44,227 DEBUG    pptmdexport: latex_check=warn
+2026-11-08 15:01:44,256 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide1_md.md
+2026-11-08 15:01:44,257 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide2_md.md
+2026-11-08 15:01:44,259 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide3_md.md
+2026-11-08 15:01:44,261 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide4_md.md
+2026-11-08 15:01:44,263 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide5_md.md
+2026-11-08 15:01:44,265 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide6_md.md
+2026-11-08 15:01:44,266 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\src\マルチステップ機能.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\mds\マルチステップ機能_slide7_md.md
+2026-11-08 15:01:44,272 INFO     insert サンプルを書き出しました: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_insertsample.yaml (insertpptx 7 / insertmd 7)
+2026-11-08 15:01:44,272 INFO     [ppt_to_puremd] pptmdexport OK
+2026-11-08 15:01:44,272 INFO     [ppt_to_puremd] checkverify ...
+2026-11-08 15:01:44,273 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 15:01:44,282 DEBUG    insertmd ドリフトゲート: チェックデータなし — スキップ
+2026-11-08 15:01:44,283 INFO     [ppt_to_puremd] checkverify OK
+2026-11-08 15:01:44,283 INFO     [ppt_to_puremd] merge ...
+2026-11-08 15:01:44,284 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 15:01:44,289 DEBUG    collect_procedure_items: マルチステップ機能_slide1_md.md
+2026-11-08 15:01:44,290 DEBUG    collect_procedure_items: マルチステップ機能_slide2_md.md
+2026-11-08 15:01:44,290 DEBUG    collect_procedure_items: マルチステップ機能_slide3_md.md
+2026-11-08 15:01:44,291 DEBUG    collect_procedure_items: マルチステップ機能_slide4_md.md
+2026-11-08 15:01:44,291 DEBUG    collect_procedure_items: マルチステップ機能_slide5_md.md
+2026-11-08 15:01:44,291 DEBUG    collect_procedure_items: マルチステップ機能_slide6_md.md
+2026-11-08 15:01:44,292 DEBUG    collect_procedure_items: マルチステップ機能_slide7_md.md
+2026-11-08 15:01:44,292 DEBUG    yaml    : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 15:01:44,292 DEBUG    in_dirs : ['D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\images']
+2026-11-08 15:01:44,292 DEBUG    files   : ['D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide1_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide2_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide3_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide4_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide5_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide6_md.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\pptx-multistep-animation\\mds\\マルチステップ機能_slide7_md.md']
+2026-11-08 15:01:44,292 DEBUG    output  : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 15:01:44,335 INFO     clear-dir-before-merge: image-dir を空にしました: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\multisteps-exp
+2026-11-08 15:01:44,484 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 15:01:44,485 INFO     [ppt_to_puremd] merge OK
+2026-11-08 15:01:44,485 INFO     [ppt_to_puremd] idcollect ...
+2026-11-08 15:01:44,486 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 15:01:44,490 DEBUG    yaml      : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 15:01:44,490 DEBUG    merged md : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 15:01:44,490 DEBUG    inventory : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idcollect.yaml
+2026-11-08 15:01:44,504 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idcollect.yaml
+2026-11-08 15:01:44,504 INFO     [ppt_to_puremd] idcollect OK
+2026-11-08 15:01:44,504 INFO     [ppt_to_puremd] idresolve ...
+2026-11-08 15:01:44,505 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 15:01:44,510 DEBUG    yaml      : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 15:01:44,510 DEBUG    inventory : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idcollect.yaml
+2026-11-08 15:01:44,510 DEBUG    resolved  : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idresolve.yaml
+2026-11-08 15:01:44,531 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idresolve.yaml
+2026-11-08 15:01:44,531 INFO     [ppt_to_puremd] idresolve OK
+2026-11-08 15:01:44,531 INFO     [ppt_to_puremd] render ...
+2026-11-08 15:01:44,532 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 15:01:44,537 DEBUG    yaml     : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 15:01:44,537 DEBUG    merged   : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_merged.md
+2026-11-08 15:01:44,537 DEBUG    resolved : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\work_マルチステップ機能_idresolve.yaml
+2026-11-08 15:01:44,537 DEBUG    rendered : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+2026-11-08 15:01:44,554 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+2026-11-08 15:01:44,554 INFO     [ppt_to_puremd] render OK
+2026-11-08 15:01:44,554 INFO     [ppt_to_puremd] puremd ...
+2026-11-08 15:01:44,555 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\マルチステップ機能.yaml
+2026-11-08 15:01:44,570 DEBUG    puremd: 2 built-in raw-drop pattern(s) from registry (drop=['latex', 'typst'])
+2026-11-08 15:01:44,570 DEBUG    puremd: compiled pattern 'raw_latex_block' = '^```\\{=latex\\}[ \\t]*\\n[\\s\\S]*?^```[ \\t]*\\n?'
+2026-11-08 15:01:44,570 DEBUG    puremd: compiled pattern 'raw_typst_block' = '^```\\{=typst\\}[ \\t]*\\n[\\s\\S]*?^```[ \\t]*\\n?'
+2026-11-08 15:01:44,570 DEBUG    puremd: fenced_div enabled=True alerts={'note': 'NOTE', 'warning': 'WARNING', 'leadline': 'IMPORTANT'} plain_quotes=['widequote'] unwrap=['center', 'keep-together']
+2026-11-08 15:01:44,570 DEBUG    rendered : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+2026-11-08 15:01:44,570 DEBUG    puremd   : D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_puremd.md
+2026-11-08 15:01:44,579 DEBUG    puremd: pattern 'raw_latex_block' matched nothing
+2026-11-08 15:01:44,579 DEBUG    puremd: pattern 'raw_typst_block' matched nothing
+2026-11-08 15:01:44,579 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-08 15:01:44,582 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_rendered.md
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\pptx-multistep-animation\build\マルチステップ機能_puremd.md
+2026-11-08 15:01:44,582 INFO     [ppt_to_puremd] puremd OK

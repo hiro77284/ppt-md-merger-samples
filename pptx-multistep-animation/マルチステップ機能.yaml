@@ -1,6 +1,15 @@
 # MD, PowerPointファイルの結合指示書のサンプル
 version: 2
 
+# レシプロマーカー用のマルチステップMDを作るには、下記パラメータでビルドします。
+# pptmdmerge ppt_to_puremd マルチステップ機能.yaml  --keep-work
+# 
+# 途中、PowerPoint が起動して自動的にアニメーションを実行し、画像ファイルを生成します。
+# build フォルダにファイル一式が生成されます。
+# レシプロマーカーのMDアップロード機能で build フォルダを指定してください。
+# pptx マージと併用しない場合は --keep-work は省略できます。
+# pptx マージと併用して、idresolve ナンバリングを行う場合は --keep-work が必要です。
+
 vars: # mdファイルとpptxファイルの双方で変数置換に使用する変数の定義
   # yaml-language-server-disable
   # TEX_* 変数は撤去（semantic operation / リーフ記法へ移行。抽出MDはビルドで再生成）
@@ -34,16 +43,6 @@ output:
   renderedfilename: マルチステップ機能_rendered.md     # 結合・付番・変数置換後のmdファイルのファイル名
   puremdfilename: マルチステップ機能_puremd.md     # 変数置換後のmdファイルのファイル名
 
-# 静的サイト生成システムへのデータ投入用フォルダへの転送設定
-# transfer:
-#   # ↓省略可
-#   inputmd: マルチステップ機能_puremd.md        # 結合・変数置換後のmdファイルのファイル名（省略時は renderedfilename を使用）
-#   # ↓inputというキー名ですが、ここに出力します
-#   dataentry_input: Z:\techcomm\ideacraft-web\dataentry\data\input\    # 静的サイト生成システムへのデータ投入用フォルダ
-#   # 静的サイト生成システム用のslug文字列。 ASCII 文字のみの使用を推奨。アンダースコア付加、ハイフン可
-#   # ↓ FILENAME_TEMPLATE とは別で良い。(^[a-z0-9][a-z0-9-]*[a-z0-9]$)
-#   slug: multisteps-exp
-
 indexer:
   delimiter: '.'
   separator: ') '
@@ -58,7 +57,6 @@ merge:
   # ↓ transfer.dataentry_input と同じにすることを推奨（というか、必要？）
   image-dir: multisteps-exp
 
-  # ↓ astro 生成用データの場合は、画像はフラット集約しましょう（そのほうが管理が楽。SLUGで分離されるのでファイル名衝突は起こらない）
   flatten-images: true # trueならすべての画像を<outputdir>/<image-dir>/ にフラット集約する。同名ファイルは _1, _2 … のサフィックスを付けて上書きを回避する（既定: false）
   strict: false         # 警告をエラーとして扱う（既定: false）
   overwrite-images: true # trueなら同名ファイルを上書きする（既定: false、同名ファイルは _1, _2 … のサフィックスをつけて上書き回避する）
