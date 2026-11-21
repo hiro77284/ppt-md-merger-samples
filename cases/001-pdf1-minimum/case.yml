@@ -1,0 +1,14 @@
+# 事例メタデータ。ルート README.md の一覧は scripts/build_index.py がこのファイルから生成する。
+id: 001-pdf1-minimum
+title: 1つの PPTX をまるごと PDF にする最小事例
+summary: スライドの note に本文 Markdown を書き、生成指示 YAML 1枚で表紙・目次つきの PDF を作る、いちばん単純な構成の事例。
+tags: [pdf, cover, toc, image-crop]
+ppt_md_merger_version: "2.0.6"
+recipe_version: 4
+build:
+  - recipe: src/pdf1_minimum_pdf_recipe.yaml
+    command: ppt_build
+    options: --githubmd --transfer --pdf --yes-clear-dir
+outputs: [pdf, githubmd]
+thumbnail: readme-images/pdf1-minimum-slide3.webp
+added: 2026-11-21
