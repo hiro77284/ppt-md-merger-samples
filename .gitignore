@@ -1,0 +1,25 @@
+# 事例フォルダには src/（原稿と設定）・README.md・readme-images/・case.yml・サムネイルだけを置く。
+# 以下は src/ から再生成できるので管理しない（本体リポジトリ examples/ と同じ方針）。
+cases/**/build/
+cases/**/images/
+cases/**/mds/
+cases/**/temppdfs/
+cases/**/extracted/
+cases/**/log.txt
+cases/**/*_merge.log
+
+# 事例 zip の作業用出力（scripts/ や Actions が作る）
+dist/
+
+# Python / エディタ
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
+
+# Office の一時ファイル
+~$*
+.~lock.*
+Thumbs.db
+.DS_Store

@@ -1,0 +1,20 @@
+# 事例メタデータ（雛形）。cases/NNN-slug/case.yml としてコピーし、<...> を書き換える。
+# ルート README.md の一覧は scripts/build_index.py がこのファイルから生成する。
+
+# 必須 ----------------------------------------------------------------
+id: <NNN-slug>                 # フォルダ名と同じにする（例: 002-chapter-cover）
+title: <一覧に出るタイトル（1行）>
+summary: <何ができる事例か。どんな原稿から何を作るか（1〜2文、1行で書く）>
+tags: [<pdf>]                  # 推奨タグは CONTRIBUTING.md を参照
+ppt_md_merger_version: "<2.0.6>"   # この事例を最後にビルドして確認した ppt-md-merger のバージョン
+
+# 任意 ----------------------------------------------------------------
+recipe_version: 4              # レシピの version（一覧には出さない。将来の一括移行用）
+build:                         # 再生成手順。上から順に実行する（cases/<id>/ 基準のパス）
+  - recipe: src/<NAME>_pdf_recipe.yaml
+    command: ppt_build
+    options: --githubmd --transfer --pdf --yes-clear-dir
+outputs: [pdf, githubmd]       # 生成物の種類: pdf / githubmd / puremd / html / reveal / pptx
+thumbnail:                     # 省略時は thumbnail.png / .webp / .jpg を探す。無ければ一覧に画像なし
+added: <YYYY-MM-DD>            # 追加日
+updated:                       # 内容を更新した日（任意）
