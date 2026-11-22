@@ -1,0 +1,63 @@
+  # ===== ブロック1: insertpptx サンプル =====
+  # __________ NEW PPTX: 100-slide-md.pptx __________
+  - insertpptx: 100-slide-md.pptx
+    slides: 1
+    description: パワポスライドにMDテキストをつけて一括合成
+  - insertpptx: 100-slide-md.pptx
+    slides: 2
+    description: スライドに図を書き、noteにMarkdownを書く
+  - insertpptx: 100-slide-md.pptx
+    slides: 3
+    description: 長方形シェイプを使って画像切り出し範囲を示す
+  - insertpptx: 100-slide-md.pptx
+    slides: 4
+    description: noteに画像切り出し指示とMarkdownを書く
+  - insertpptx: 100-slide-md.pptx
+    slides: 5
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+
+  # ===== ブロック2: insertmd サンプル =====
+  # __________ NEW PPTX: 100-slide-md.pptx __________
+  - insertmd: 100-slide-md1.md
+    description: パワポスライドにMDテキストをつけて一括合成
+  - insertmd: 100-slide-md2.md
+    description: スライドに図を書き、noteにMarkdownを書く
+  - insertmd: 100-slide-md3.md
+    description: 長方形シェイプを使って画像切り出し範囲を示す
+  - insertmd: 100-slide-md4.md
+    description: noteに画像切り出し指示とMarkdownを書く
+  - insertmd: 100-slide-md5.md
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+
+  # ===== ブロック3: insertpptx + insertmd ミックス（スライド単位） =====
+  # __________ NEW PPTX: 100-slide-md.pptx __________
+  # ----------- slide 1 100-slide-md.pptx -----------
+  - insertpptx: 100-slide-md.pptx
+    slides: 1
+    description: パワポスライドにMDテキストをつけて一括合成
+  - insertmd: 100-slide-md1.md
+    description: パワポスライドにMDテキストをつけて一括合成
+  # ----------- slide 2 100-slide-md.pptx -----------
+  - insertpptx: 100-slide-md.pptx
+    slides: 2
+    description: スライドに図を書き、noteにMarkdownを書く
+  - insertmd: 100-slide-md2.md
+    description: スライドに図を書き、noteにMarkdownを書く
+  # ----------- slide 3 100-slide-md.pptx -----------
+  - insertpptx: 100-slide-md.pptx
+    slides: 3
+    description: 長方形シェイプを使って画像切り出し範囲を示す
+  - insertmd: 100-slide-md3.md
+    description: 長方形シェイプを使って画像切り出し範囲を示す
+  # ----------- slide 4 100-slide-md.pptx -----------
+  - insertpptx: 100-slide-md.pptx
+    slides: 4
+    description: noteに画像切り出し指示とMarkdownを書く
+  - insertmd: 100-slide-md4.md
+    description: noteに画像切り出し指示とMarkdownを書く
+  # ----------- slide 5 100-slide-md.pptx -----------
+  - insertpptx: 100-slide-md.pptx
+    slides: 5
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  - insertmd: 100-slide-md5.md
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
