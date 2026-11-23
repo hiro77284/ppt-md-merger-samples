@@ -13,10 +13,11 @@
 
 全 2 件
 
-| | 事例 | 概要 | タグ | 確認バージョン |
-|---|---|---|---|---|
-| <img src="cases/100-slide-md/readme-images/100-slide1.webp" width="400" alt=""> | [pptxで画像＋Markdown一括制作](cases/100-slide-md/)<br>`100-slide-md` | スライドに画像を描き、noteにMarkdownを書いてそれを組み合わせた Markdown 原稿を自動生成する事例です。 | `markdown` `image-crop` | 2.0.6 |
-| <img src="cases/101-special-variable/readme-images/101-special-variable-1.webp" width="400" alt=""> | [画像ファイルとMDファイルの命名を自動化](cases/101-special-variable/)<br>`101-special-variable` | スライド番号を使って画像ファイルとMDファイルに自動的にスライドごとに違う名前を付与して、export命令をコピペで済ませる | `export` `ファイル名` | 2.0.6 |
+<table>
+<tr><th width="400"></th><th>事例</th><th>概要</th><th>タグ</th><th>確認バージョン</th></tr>
+<tr><td width="400"><img src="cases/100-slide-md/readme-images/100-slide1.webp" width="400" alt=""></td><td><a href="cases/100-slide-md/">pptxで画像＋Markdown一括制作</a><br><code>100-slide-md</code></td><td>スライドに画像を描き、noteにMarkdownを書いてそれを組み合わせた Markdown 原稿を自動生成する事例です。</td><td><code>markdown</code> <code>image-crop</code></td><td>2.0.6</td></tr>
+<tr><td width="400"><img src="cases/101-special-variable/readme-images/101-special-variable-1.webp" width="400" alt=""></td><td><a href="cases/101-special-variable/">画像ファイルとMDファイルの命名を自動化</a><br><code>101-special-variable</code></td><td>スライド番号を使って画像ファイルとMDファイルに自動的にスライドごとに違う名前を付与して、export命令をコピペで済ませる</td><td><code>export</code> <code>ファイル名</code></td><td>2.0.6</td></tr>
+</table>
 
 ### タグ別
 
