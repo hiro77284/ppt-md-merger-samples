@@ -18,6 +18,7 @@ case.yaml の項目は _template/case.yaml を参照。必須項目が欠けて�
 from __future__ import annotations
 
 import argparse
+import html
 import re
 import sys
 from pathlib import Path
@@ -41,6 +42,11 @@ def _cell(text: object) -> str:
     """Markdown 表のセルに入れられるよう、改行と | を処理する。"""
     s = " ".join(str(text).split())
     return s.replace("|", "\\|")
+
+
+def _html(text: object) -> str:
+    """HTML の表のセルに入れられるよう、改行をまとめて特殊文字をエスケープする。"""
+    return html.escape(" ".join(str(text).split()))
 
 
 def load_case(case_dir: Path) -> tuple[dict | None, list[str]]:
@@ -99,25 +105,27 @@ def render_index(cases: list[dict]) -> str:
     if not cases:
         lines += ["（まだ事例はありません）", ""]
     else:
+        # GitHub は Markdown 表の画像を列幅に合わせて縮めるため、列幅を指定できる HTML の表にする
+        w = THUMBNAIL_WIDTH
         lines += [
             f"全 {len(cases)} 件",
             "",
-            "| | 事例 | 概要 | タグ | 確認バージョン |",
-            "|---|---|---|---|---|",
+            "<table>",
+            f'<tr><th width="{w}"></th><th>事例</th><th>概要</th><th>タグ</th><th>確認バージョン</th></tr>',
         ]
         for c in cases:
             d = c["_dir"]
             thumb = (
-                f'<img src="cases/{d}/{c["_thumbnail"]}" width="{THUMBNAIL_WIDTH}" alt="">'
+                f'<img src="cases/{d}/{_html(c["_thumbnail"])}" width="{w}" alt="">'
                 if c["_thumbnail"] else ""
             )
-            title = f"[{_cell(c['title'])}](cases/{d}/)"
-            tags = " ".join(f"`{_cell(t)}`" for t in c["tags"])
+            title = f'<a href="cases/{d}/">{_html(c["title"])}</a><br><code>{d}</code>'
+            tags = " ".join(f"<code>{_html(t)}</code>" for t in c["tags"])
             lines.append(
-                f"| {thumb} | {title}<br>`{d}` | {_cell(c['summary'])} | {tags} "
-                f"| {_cell(c['ppt_md_merger_version'])} |"
+                f'<tr><td width="{w}">{thumb}</td><td>{title}</td><td>{_html(c["summary"])}</td>'
+                f'<td>{tags}</td><td>{_html(c["ppt_md_merger_version"])}</td></tr>'
             )
-        lines.append("")
+        lines += ["</table>", ""]
 
         tag_counts: dict[str, list[str]] = {}
         for c in cases:
