@@ -11,16 +11,18 @@
 <!-- BEGIN CASE INDEX -->
 <!-- この部分は scripts/build_index.py が生成する。手で書き換えない。 -->
 
-全 1 件
+全 2 件
 
 | | 事例 | 概要 | タグ | 確認バージョン |
 |---|---|---|---|---|
 | <img src="cases/001-pdf1-minimum/readme-images/pdf1-minimum-slide3.webp" width="320" alt=""> | [1つの PPTX をまるごと PDF にする最小事例](cases/001-pdf1-minimum/)<br>`001-pdf1-minimum` | スライドの note に本文 Markdown を書き、生成指示 YAML 1枚で表紙・目次つきの PDF を作る、いちばん単純な構成の事例。 | `pdf` `cover` `toc` `image-crop` | 2.0.6 |
+|  | [pptxで画像＋Markdown一括制作](cases/100-slide-md/)<br>`100-slide-md` | スライドに画像を描き、noteにMarkdownを書いてそれを組み合わせた Markdown 原稿を自動生成する事例です。 | `markdown` `image-crop` | 2.0.6 |
 
 ### タグ別
 
 - `cover` (1): [001-pdf1-minimum](cases/001-pdf1-minimum/)
-- `image-crop` (1): [001-pdf1-minimum](cases/001-pdf1-minimum/)
+- `image-crop` (2): [001-pdf1-minimum](cases/001-pdf1-minimum/), [100-slide-md](cases/100-slide-md/)
+- `markdown` (1): [100-slide-md](cases/100-slide-md/)
 - `pdf` (1): [001-pdf1-minimum](cases/001-pdf1-minimum/)
 - `toc` (1): [001-pdf1-minimum](cases/001-pdf1-minimum/)
 
@@ -30,10 +32,10 @@
 
 ```
 cases/NNN-slug/
-├── case.yml          事例のメタデータ（タイトル・概要・タグ・確認バージョンなど）。この一覧の元
+├── case.yaml         事例のメタデータ（タイトル・概要・タグ・確認バージョンなど）。この一覧の元
 ├── README.md         事例ページ。ふつうは ppt_build --githubmd --transfer で生成する
 ├── readme-images/    README.md が参照する画像（transfer が書き出す）
-├── thumbnail.png     一覧用のサムネイル（任意。case.yml の thumbnail で別の画像も指定できる）
+├── thumbnail.png     一覧用のサムネイル（任意。case.yaml の thumbnail で別の画像も指定できる）
 └── src/              入力一式: 原稿 pptx・レシピ yaml・COVER_VARS.yaml・表紙 md など
 ```
 
