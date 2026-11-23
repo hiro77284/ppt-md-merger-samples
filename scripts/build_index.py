@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""cases/*/case.yml から README.md の事例一覧を生成する。
+"""cases/*/case.yaml から README.md の事例一覧を生成する。
 
 使い方（リポジトリ直下で実行）:
     python scripts/build_index.py          # README.md の一覧部分を書き換える
@@ -9,7 +9,7 @@ README.md の次の 2 行の間だけを書き換え、それ以外は手書き�
     <!-- BEGIN CASE INDEX -->
     <!-- END CASE INDEX -->
 
-case.yml の項目は _template/case.yml を参照。必須項目が欠けている、id がフォルダ名と
+case.yaml の項目は _template/case.yaml を参照。必須項目が欠けている、id がフォルダ名と
 違う、などの問題はエラーとして一覧を書き換えずに終了する（終了コード 2）。
 
 依存: PyYAML（pip install pyyaml）
@@ -48,32 +48,35 @@ def load_case(case_dir: Path) -> tuple[dict | None, list[str]]:
     name = case_dir.name
     if not CASE_DIR_RE.match(name):
         errors.append(f"{name}: フォルダ名は NNN-slug（数字3桁 + 英小文字・数字・-）にする")
-    yml = case_dir / "case.yml"
+    yml = case_dir / "case.yaml"
     if not yml.is_file():
-        errors.append(f"{name}: case.yml がない")
+        if (case_dir / "case.yml").is_file():
+            errors.append(f"{name}: case.yml は case.yaml に名前を変える")
+        else:
+            errors.append(f"{name}: case.yaml がない")
         return None, errors
     try:
         data = yaml.safe_load(yml.read_text(encoding="utf-8")) or {}
     except yaml.YAMLError as e:
-        errors.append(f"{name}/case.yml: YAML として読めない: {e}")
+        errors.append(f"{name}/case.yaml: YAML として読めない: {e}")
         return None, errors
     if not isinstance(data, dict):
-        errors.append(f"{name}/case.yml: トップレベルがマッピングではない")
+        errors.append(f"{name}/case.yaml: トップレベルがマッピングではない")
         return None, errors
 
     for key in REQUIRED:
         val = data.get(key)
         if val is None or val == "" or val == []:
-            errors.append(f"{name}/case.yml: 必須項目 {key} がない")
+            errors.append(f"{name}/case.yaml: 必須項目 {key} がない")
         elif isinstance(val, str) and "<" in val and ">" in val:
-            errors.append(f"{name}/case.yml: {key} が雛形のまま: {val}")
+            errors.append(f"{name}/case.yaml: {key} が雛形のまま: {val}")
     if data.get("id") and data["id"] != name:
-        errors.append(f"{name}/case.yml: id ({data['id']}) がフォルダ名と違う")
+        errors.append(f"{name}/case.yaml: id ({data['id']}) がフォルダ名と違う")
     tags = data.get("tags")
     if tags is not None and not (isinstance(tags, list) and all(isinstance(t, str) for t in tags)):
-        errors.append(f"{name}/case.yml: tags は文字列のリストにする")
+        errors.append(f"{name}/case.yaml: tags は文字列のリストにする")
     elif tags and any("<" in t and ">" in t for t in tags):
-        errors.append(f"{name}/case.yml: tags が雛形のまま: {tags}")
+        errors.append(f"{name}/case.yaml: tags が雛形のまま: {tags}")
     if not (case_dir / "README.md").is_file():
         errors.append(f"{name}: README.md がない")
     if not (case_dir / "src").is_dir():
@@ -82,7 +85,7 @@ def load_case(case_dir: Path) -> tuple[dict | None, list[str]]:
     thumb = data.get("thumbnail")
     if thumb:
         if not (case_dir / thumb).is_file():
-            errors.append(f"{name}/case.yml: thumbnail のファイルがない: {thumb}")
+            errors.append(f"{name}/case.yaml: thumbnail のファイルがない: {thumb}")
             thumb = None
     else:
         thumb = next((c for c in THUMBNAIL_CANDIDATES if (case_dir / c).is_file()), None)

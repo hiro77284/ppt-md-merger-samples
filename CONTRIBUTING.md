@@ -12,7 +12,7 @@
    ppt_build NAME_pdf_recipe.yaml --githubmd --transfer --pdf --yes-clear-dir
    ```
    `../README.md` と `../readme-images/` が書き出される。手書きする場合は `_template/README.md` の見出しを埋める
-4. `case.yml` を書く（項目の説明は `_template/case.yml`）
+4. `case.yaml` を書く（項目の説明は `_template/case.yaml`）
    - `ppt_md_merger_version` には、手順 3 で実際に使ったバージョン（`pip show ppt-md-merger` 等で確認）を書く
 5. 一覧を更新する
    ```
