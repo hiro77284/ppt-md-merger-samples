@@ -15,7 +15,7 @@
 
 | | 事例 | 概要 | タグ | 確認バージョン |
 |---|---|---|---|---|
-| <img src="cases/001-pdf1-minimum/readme-images/pdf1-minimum-slide3.webp" width="160" alt=""> | [1つの PPTX をまるごと PDF にする最小事例](cases/001-pdf1-minimum/)<br>`001-pdf1-minimum` | スライドの note に本文 Markdown を書き、生成指示 YAML 1枚で表紙・目次つきの PDF を作る、いちばん単純な構成の事例。 | `pdf` `cover` `toc` `image-crop` | 2.0.6 |
+| <img src="cases/001-pdf1-minimum/readme-images/pdf1-minimum-slide3.webp" width="320" alt=""> | [1つの PPTX をまるごと PDF にする最小事例](cases/001-pdf1-minimum/)<br>`001-pdf1-minimum` | スライドの note に本文 Markdown を書き、生成指示 YAML 1枚で表紙・目次つきの PDF を作る、いちばん単純な構成の事例。 | `pdf` `cover` `toc` `image-crop` | 2.0.6 |
 
 ### タグ別
 
