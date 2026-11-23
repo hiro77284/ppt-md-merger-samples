@@ -1,0 +1,81 @@
+  # ===== ブロック1: insertpptx サンプル =====
+  # __________ NEW PPTX: TEMPLATE.pptx __________
+  - insertpptx: TEMPLATE.pptx
+    slides: 1
+    description: 章とびら1
+  - insertpptx: TEMPLATE.pptx
+    slides: 2
+    description: 地水火風
+  - insertpptx: TEMPLATE.pptx
+    slides: 3
+    description: カネ・時間・やる気・言い訳
+  - insertpptx: TEMPLATE.pptx
+    slides: 4
+    description: 章とびら2
+  - insertpptx: TEMPLATE.pptx
+    slides: 5
+    description: 交通信号
+  - insertpptx: TEMPLATE.pptx
+    slides: 6
+    description: 猫の遊び方
+  - insertpptx: TEMPLATE.pptx
+    slides: 7
+    description: ''
+
+  # ===== ブロック2: insertmd サンプル =====
+  # __________ NEW PPTX: TEMPLATE.pptx __________
+  - insertmd: TEMPLATE_slide1.md
+    description: 章とびら1
+  - insertmd: TEMPLATE_slide2.md
+    description: 地水火風
+  - insertmd: TEMPLATE_slide3.md
+    description: カネ・時間・やる気・言い訳
+  - insertmd: TEMPLATE_slide4.md
+    description: 章とびら2
+  - insertmd: TEMPLATE_slide5.md
+    description: 交通信号
+  - insertmd: TEMPLATE_slide6.md
+    description: 猫の遊び方
+
+  # ===== ブロック3: insertpptx + insertmd ミックス（スライド単位） =====
+  # __________ NEW PPTX: TEMPLATE.pptx __________
+  # ----------- slide 1 TEMPLATE.pptx -----------
+  - insertpptx: TEMPLATE.pptx
+    slides: 1
+    description: 章とびら1
+  - insertmd: TEMPLATE_slide1.md
+    description: 章とびら1
+  # ----------- slide 2 TEMPLATE.pptx -----------
+  - insertpptx: TEMPLATE.pptx
+    slides: 2
+    description: 地水火風
+  - insertmd: TEMPLATE_slide2.md
+    description: 地水火風
+  # ----------- slide 3 TEMPLATE.pptx -----------
+  - insertpptx: TEMPLATE.pptx
+    slides: 3
+    description: カネ・時間・やる気・言い訳
+  - insertmd: TEMPLATE_slide3.md
+    description: カネ・時間・やる気・言い訳
+  # ----------- slide 4 TEMPLATE.pptx -----------
+  - insertpptx: TEMPLATE.pptx
+    slides: 4
+    description: 章とびら2
+  - insertmd: TEMPLATE_slide4.md
+    description: 章とびら2
+  # ----------- slide 5 TEMPLATE.pptx -----------
+  - insertpptx: TEMPLATE.pptx
+    slides: 5
+    description: 交通信号
+  - insertmd: TEMPLATE_slide5.md
+    description: 交通信号
+  # ----------- slide 6 TEMPLATE.pptx -----------
+  - insertpptx: TEMPLATE.pptx
+    slides: 6
+    description: 猫の遊び方
+  - insertmd: TEMPLATE_slide6.md
+    description: 猫の遊び方
+  # ----------- slide 7 TEMPLATE.pptx -----------
+  - insertpptx: TEMPLATE.pptx
+    slides: 7
+    description: ''

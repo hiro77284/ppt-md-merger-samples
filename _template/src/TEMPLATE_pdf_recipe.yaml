@@ -1,0 +1,70 @@
+version: 4
+
+# 事例の生成指示書（雛形）。cases/001-pdf1-minimum/src/pdf1_minimum_pdf_recipe.yaml を短くしたもの。
+# TEMPLATE を事例の原稿名（pptx のファイル名から拡張子を除いたもの）に置き換えて使う。
+# 実行: cd src && ppt_build TEMPLATE_pdf_recipe.yaml --githubmd --transfer --pdf --yes-clear-dir
+#
+# 生成物の置き場（すべて gitignore 済み。src/ から再生成できる）
+#   ../images/   pptimgexport が切り出す画像
+#   ../mds/      pptyamlexport / note 抽出が書き出す md
+#   ../temppdfs/ 画像切り出し用のスライド PDF
+#   ../build/    結合・render 済み md と PDF
+# 管理するのは src/ と、transfer が書き出す ../README.md・../readme-images/ だけ。
+
+vars:
+  COVER_TITLE: "<表紙タイトル>"
+  COVER_SUBTITLE: "<サブタイトル>"
+  COVER_DATE: __DATETIME__
+  COVER_AUTHOR: "<著者>"
+  COVER_IMAGE: ../images/cover_image.webp
+
+log:
+  level: info
+  filename: log.txt
+
+indexer:
+  # 章節番号付与方式の設定
+  pptxnumbering: "idresolve"       # "no" 章節番号付番は行わない。"idresolve" は {{#id:...}} マーカーを抽出して番号付与する。"chapt_section" は★★★★。
+
+output:
+  outputdir: ../build
+  targetbasefilename: TEMPLATE_target
+  force: true
+
+merge:
+  copy-images: true
+  image-dir: ../build/images
+  flatten-images: true
+  strict: true
+
+input:
+  dirs:
+    - .
+    - ../mds
+  imagesdir:
+    - ../images
+  cropsrc:
+    pptx: TEMPLATE.pptx
+    pdf: ../temppdfs/TEMPLATE.pdf
+
+# 事例ページ（../README.md と ../readme-images/）を書き出す
+transfer:
+  dataentry_input: ..
+  slug: readme-images
+  inputmd: TEMPLATE_target_github.md
+  outputmd: README.md
+  image_naming: sanitize
+  image_collision: overwrite
+
+pandoc:
+  resource-path:
+    - ../build
+  # 共通設定はリポジトリ直下の user_settings/ に置く（本体 examples/ と同じ深さ）
+  data-dir: ../../user_settings
+  # PDFに2階層で目次をつける defaults を指定
+  defaults: pandoc/defaults/report_base_defaults_toc2level.yaml
+  # 表紙を付けるときは同梱の cover_standard.md を指定するか、コピーして src/ に置く
+  cover-md: cover_standard.md
+
+procedure:
+  - insertmdpages: TEMPLATE_slide[1-6].md

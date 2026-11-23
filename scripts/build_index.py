@@ -34,7 +34,7 @@ END = "<!-- END CASE INDEX -->"
 REQUIRED = ("id", "title", "summary", "tags", "ppt_md_merger_version")
 CASE_DIR_RE = re.compile(r"^\d{3}-[a-z0-9]+(?:-[a-z0-9]+)*$")
 THUMBNAIL_CANDIDATES = ("thumbnail.png", "thumbnail.webp", "thumbnail.jpg")
-THUMBNAIL_WIDTH = 320
+THUMBNAIL_WIDTH = 400
 
 
 def _cell(text: object) -> str:

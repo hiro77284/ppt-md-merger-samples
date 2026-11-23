@@ -11,20 +11,23 @@
 <!-- BEGIN CASE INDEX -->
 <!-- この部分は scripts/build_index.py が生成する。手で書き換えない。 -->
 
-全 2 件
+全 3 件
 
 | | 事例 | 概要 | タグ | 確認バージョン |
 |---|---|---|---|---|
 | <img src="cases/001-pdf1-minimum/readme-images/pdf1-minimum-slide3.webp" width="320" alt=""> | [1つの PPTX をまるごと PDF にする最小事例](cases/001-pdf1-minimum/)<br>`001-pdf1-minimum` | スライドの note に本文 Markdown を書き、生成指示 YAML 1枚で表紙・目次つきの PDF を作る、いちばん単純な構成の事例。 | `pdf` `cover` `toc` `image-crop` | 2.0.6 |
 |  | [pptxで画像＋Markdown一括制作](cases/100-slide-md/)<br>`100-slide-md` | スライドに画像を描き、noteにMarkdownを書いてそれを組み合わせた Markdown 原稿を自動生成する事例です。 | `markdown` `image-crop` | 2.0.6 |
+| <img src="cases/101-special-variable/readme-images/101-special-variable-1.webp" width="320" alt=""> | [画像ファイルとMDファイルの命名を自動化](cases/101-special-variable/)<br>`101-special-variable` | スライド番号を使って画像ファイルとMDファイルに自動的にスライドごとに違う名前を付与して、export命令をコピペで済ませる | `export` `ファイル名` | 2.0.6 |
 
 ### タグ別
 
 - `cover` (1): [001-pdf1-minimum](cases/001-pdf1-minimum/)
+- `export` (1): [101-special-variable](cases/101-special-variable/)
 - `image-crop` (2): [001-pdf1-minimum](cases/001-pdf1-minimum/), [100-slide-md](cases/100-slide-md/)
 - `markdown` (1): [100-slide-md](cases/100-slide-md/)
 - `pdf` (1): [001-pdf1-minimum](cases/001-pdf1-minimum/)
 - `toc` (1): [001-pdf1-minimum](cases/001-pdf1-minimum/)
+- `ファイル名` (1): [101-special-variable](cases/101-special-variable/)
 
 <!-- END CASE INDEX -->
 

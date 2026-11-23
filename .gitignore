@@ -8,6 +8,8 @@ cases/**/extracted/
 cases/**/log.txt
 cases/**/*_merge.log
 
+cases_back/
+
 # 事例 zip の作業用出力（scripts/ や Actions が作る）
 dist/
 
