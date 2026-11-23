@@ -15,7 +15,7 @@
 
 | | 事例 | 概要 | タグ | 確認バージョン |
 |---|---|---|---|---|
-|  | [pptxで画像＋Markdown一括制作](cases/100-slide-md/)<br>`100-slide-md` | スライドに画像を描き、noteにMarkdownを書いてそれを組み合わせた Markdown 原稿を自動生成する事例です。 | `markdown` `image-crop` | 2.0.6 |
+| <img src="cases/100-slide-md/readme-images/100-slide1.webp" width="400" alt=""> | [pptxで画像＋Markdown一括制作](cases/100-slide-md/)<br>`100-slide-md` | スライドに画像を描き、noteにMarkdownを書いてそれを組み合わせた Markdown 原稿を自動生成する事例です。 | `markdown` `image-crop` | 2.0.6 |
 | <img src="cases/101-special-variable/readme-images/101-special-variable-1.webp" width="400" alt=""> | [画像ファイルとMDファイルの命名を自動化](cases/101-special-variable/)<br>`101-special-variable` | スライド番号を使って画像ファイルとMDファイルに自動的にスライドごとに違う名前を付与して、export命令をコピペで済ませる | `export` `ファイル名` | 2.0.6 |
 
 ### タグ別

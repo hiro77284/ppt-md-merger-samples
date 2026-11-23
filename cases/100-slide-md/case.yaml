@@ -15,6 +15,6 @@ build:                         # 再生成手順。上から順に実行する�
     command: ppt_build
     options: --githubmd --transfer --pdf --yes-clear-dir
 outputs: [pdf, githubmd]       # 生成物の種類: pdf / githubmd / puremd / html / reveal / pptx
-thumbnail:                     # 省略時は thumbnail.png / .webp / .jpg を探す。無ければ一覧に画像なし
+thumbnail: readme-images/100-slide1.webp                    # 省略時は thumbnail.png / .webp / .jpg を探す。無ければ一覧に画像なし
 added: <YYYY-MM-DD>            # 追加日
 updated:                       # 内容を更新した日（任意）

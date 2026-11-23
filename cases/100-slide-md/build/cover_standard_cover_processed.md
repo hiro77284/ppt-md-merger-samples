@@ -44,7 +44,7 @@ version 2 以前のレシピでは、typst-cover-md を省略し cover-md か co
 #align(center, text(size: 11.5pt)[
 ```
 
-作成日：2026-11-22 10:50:54
+作成日：2026-11-24 01:43:42
 
 ```{=typst}
 ])
