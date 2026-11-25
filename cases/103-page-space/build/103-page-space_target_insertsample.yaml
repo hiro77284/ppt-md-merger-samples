@@ -1,0 +1,173 @@
+  # ===== ブロック1: insertpptx サンプル =====
+  # __________ NEW PPTX: 103-page-space.pptx __________
+  - insertpptx: 103-page-space.pptx
+    slides: 1
+    description: ページとスペースの調整
+  - insertpptx: 103-page-space.pptx
+    slides: 2
+    description: PDF資料作成時に改ページと余白を調整したい
+  - insertpptx: 103-page-space.pptx
+    slides: 3
+    description: 改ページ・伸縮空白・固定空白
+  - insertpptx: 103-page-space.pptx
+    slides: 4
+    description: 表紙と目次をつけるためのレシピYAML
+  - insertpptx: 103-page-space.pptx
+    slides: 5
+    description: 現行PPTXの note での空行制御
+  - insertpptx: 103-page-space.pptx
+    slides: 6
+    description: 生成処理の実行
+  - insertpptx: 103-page-space.pptx
+    slides: 7
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  - insertpptx: 103-page-space.pptx
+    slides: 8
+    description: 実使用例
+  - insertpptx: 103-page-space.pptx
+    slides: 9
+    description: Contents A
+  - insertpptx: 103-page-space.pptx
+    slides: 10
+    description: Contents B
+  - insertpptx: 103-page-space.pptx
+    slides: 11
+    description: Contents C
+  - insertpptx: 103-page-space.pptx
+    slides: 12
+    description: Contents D
+  - insertpptx: 103-page-space.pptx
+    slides: 13
+    description: Contents E
+  - insertpptx: 103-page-space.pptx
+    slides: 14
+    description: Contents F
+  - insertpptx: 103-page-space.pptx
+    slides: 15
+    description: Contents G
+
+  # ===== ブロック2: insertmd サンプル =====
+  # __________ NEW PPTX: 103-page-space.pptx __________
+  - insertmd: 103-page-space_slide1.md
+    description: ページとスペースの調整
+  - insertmd: 103-page-space_slide2.md
+    description: PDF資料作成時に改ページと余白を調整したい
+  - insertmd: 103-page-space_slide3.md
+    description: 改ページ・伸縮空白・固定空白
+  - insertmd: 103-page-space_slide4.md
+    description: 表紙と目次をつけるためのレシピYAML
+  - insertmd: 103-page-space_slide5.md
+    description: 現行PPTXの note での空行制御
+  - insertmd: 103-page-space_slide6.md
+    description: 生成処理の実行
+  - insertmd: 103-page-space_slide7.md
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  - insertmd: 103-page-space_slide8.md
+    description: 実使用例
+  - insertmd: 103-page-space_slide9.md
+    description: Contents A
+  - insertmd: 103-page-space_slide10.md
+    description: Contents B
+  - insertmd: 103-page-space_slide11.md
+    description: Contents C
+  - insertmd: 103-page-space_slide12.md
+    description: Contents D
+  - insertmd: 103-page-space_slide13.md
+    description: Contents E
+  - insertmd: 103-page-space_slide14.md
+    description: Contents F
+  - insertmd: 103-page-space_slide15.md
+    description: Contents G
+
+  # ===== ブロック3: insertpptx + insertmd ミックス（スライド単位） =====
+  # __________ NEW PPTX: 103-page-space.pptx __________
+  # ----------- slide 1 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 1
+    description: ページとスペースの調整
+  - insertmd: 103-page-space_slide1.md
+    description: ページとスペースの調整
+  # ----------- slide 2 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 2
+    description: PDF資料作成時に改ページと余白を調整したい
+  - insertmd: 103-page-space_slide2.md
+    description: PDF資料作成時に改ページと余白を調整したい
+  # ----------- slide 3 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 3
+    description: 改ページ・伸縮空白・固定空白
+  - insertmd: 103-page-space_slide3.md
+    description: 改ページ・伸縮空白・固定空白
+  # ----------- slide 4 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 4
+    description: 表紙と目次をつけるためのレシピYAML
+  - insertmd: 103-page-space_slide4.md
+    description: 表紙と目次をつけるためのレシピYAML
+  # ----------- slide 5 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 5
+    description: 現行PPTXの note での空行制御
+  - insertmd: 103-page-space_slide5.md
+    description: 現行PPTXの note での空行制御
+  # ----------- slide 6 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 6
+    description: 生成処理の実行
+  - insertmd: 103-page-space_slide6.md
+    description: 生成処理の実行
+  # ----------- slide 7 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 7
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  - insertmd: 103-page-space_slide7.md
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  # ----------- slide 8 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 8
+    description: 実使用例
+  - insertmd: 103-page-space_slide8.md
+    description: 実使用例
+  # ----------- slide 9 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 9
+    description: Contents A
+  - insertmd: 103-page-space_slide9.md
+    description: Contents A
+  # ----------- slide 10 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 10
+    description: Contents B
+  - insertmd: 103-page-space_slide10.md
+    description: Contents B
+  # ----------- slide 11 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 11
+    description: Contents C
+  - insertmd: 103-page-space_slide11.md
+    description: Contents C
+  # ----------- slide 12 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 12
+    description: Contents D
+  - insertmd: 103-page-space_slide12.md
+    description: Contents D
+  # ----------- slide 13 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 13
+    description: Contents E
+  - insertmd: 103-page-space_slide13.md
+    description: Contents E
+  # ----------- slide 14 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 14
+    description: Contents F
+  - insertmd: 103-page-space_slide14.md
+    description: Contents F
+  # ----------- slide 15 103-page-space.pptx -----------
+  - insertpptx: 103-page-space.pptx
+    slides: 15
+    description: Contents G
+  - insertmd: 103-page-space_slide15.md
+    description: Contents G

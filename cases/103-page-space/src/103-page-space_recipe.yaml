@@ -1,0 +1,105 @@
+version: 4
+
+# 事例の生成指示書（雛形）。cases/001-pdf1-minimum/src/pdf1_minimum_pdf_recipe.yaml を短くしたもの。
+# TEMPLATE を事例の原稿名（pptx のファイル名から拡張子を除いたもの）に置き換えて使う。
+# 実行: cd src && ppt_build 102-cover-index_recipe.yaml --githubmd --transfer --pdf --yes-clear-dir
+#
+# 生成物の置き場（すべて gitignore 済み。src/ から再生成できる）
+#   ../images/   pptimgexport が切り出す画像
+#   ../mds/      pptyamlexport / note 抽出が書き出す md
+#   ../temppdfs/ 画像切り出し用のスライド PDF
+#   ../build/    結合・render 済み md と PDF
+# 管理するのは src/ と、transfer が書き出す ../README.md・../readme-images/ だけ。
+
+vars:
+  COVER_TITLE: "PDF資料のページとスペースを調整する方法"
+  COVER_SUBTITLE: "PDF資料の改ページとコンテンツ間のスペースを調整する方法の解説とサンプル"
+  COVER_NOTE: "ページとスペースを調整するための insertvfill,insertpagebreak,insetmdpages,vspace 等の使用方法を解説します"
+  COVER_DATE: __DATETIME__
+  COVER_AUTHOR: "開米瑞浩"
+  COVER_AFFILIATION: "アイデアクラフト"
+  # COVER_IMAGE: "images/cover_image.webp"
+  # COVER_FOOTERIMAGE: "images/cover_footerimage.webp"
+
+log:
+  level: info
+  filename: log.txt
+
+indexer:  # 章節番号付与方式の設定
+  pptxnumbering: idresolve
+  autoid: true
+
+output:
+  outputdir: ../build
+  targetbasefilename: 103-page-space_target
+  renderedfilename: 103-page-space_target_rendered.md
+  githubmdfilename: 103-page-space_target_github.md
+  pdffilename: 103-page-space_target.pdf
+  force: true
+
+merge:
+  copy-images: true
+  image-dir: ../build/images
+  flatten-images: true
+  strict: true
+
+fragment:
+  dirs:
+    - .
+    - ../mds
+
+source:
+  cropimagedirs:
+    - ../images
+
+  cropsrc:
+    pptx: 103-page-space.pptx
+    pdf: ../temppdfs/103-page-space.pdf
+
+# 事例ページ（../README.md と ../readme-images/）を書き出す
+transfer:
+  dataentry_input: ..
+  slug: readme-images
+  inputmd: 103-page-space_target_github.md
+  outputmd: README.md
+  image_naming: sanitize
+  image_collision: overwrite
+
+pandoc:
+  resource-path:
+    - ../build
+  # 共通設定はリポジトリ直下の user_settings/ に置く（本体 examples/ と同じ深さ）
+  data-dir: ../../../user_settings
+  # PDFに2階層で目次をつける defaults を指定
+  defaults: pandoc/defaults/report_base_defaults_toc2level.yaml
+  # 表紙を付けるときは同梱の cover_standard.md を指定するか、コピーして src/ に置く
+  cover-md: cover_standard.md
+
+procedure:
+  - insertmdpages: 103-page-space_slide1.md
+  - insertvfillpagebreak:
+  - insertmdpages: 103-page-space_slide2.md
+  - insertvfillpagebreak:
+  - insertmdpages: 103-page-space_slide3.md
+  - insertvfillpagebreak:
+  - insertmdpages: 103-page-space_slide4.md
+  - insertvfillpagebreak:
+  - insertmdpages: 103-page-space_slide5.md
+  - insertpagebreak:
+  - insertmdpages: 103-page-space_slide6.md
+  - insertvfillpagebreak:
+  - insertmdpages: 103-page-space_slide7.md
+  - insertvfillpagebreak:
+  - insertmdpages: 103-page-space_slide8.md
+  - insertvfillpagebreak:
+  - insertmdpages: 103-page-space_slide9.md
+  - insertvfill:
+  - insertmdpages: 103-page-space_slide10.md
+  - insertvfill:
+  - insertpagebreak:
+  - insertmdpages: 103-page-space_slide11.md
+  - insertvspace: 2
+  - insertmdpages: 103-page-space_slide12.md
+  - insertvfill:
+  - insertpagebreak:
+  - insertmdpages: 103-page-space_slide[13-END].md
