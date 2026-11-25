@@ -1,0 +1,191 @@
+schema_version: 1
+kind: id_inventory
+document:
+  document_id: <DUMMY>
+  title: <DUMMY>
+generated:
+  by: md-merge
+  at: '2026-11-25T23:47:38+09:00'
+source:
+  config_yaml: 102-cover-index_recipe.yaml
+entries:
+- full_id: chapter:AUTOHEAD:1
+  identifier_type: chapter
+  part_id: AUTOHEAD
+  local_id: '1'
+  title: 表紙と目次をつける方法
+  rawtitle: 表紙と目次をつける方法
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide1.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 3
+- full_id: section:AUTOHEAD:2
+  identifier_type: section
+  part_id: AUTOHEAD
+  local_id: '2'
+  title: PDF生成時に表紙と目次をつけたい
+  rawtitle: PDF生成時に表紙と目次をつけたい
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide2.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 26
+- full_id: section:AUTOHEAD:3
+  identifier_type: section
+  part_id: AUTOHEAD
+  local_id: '3'
+  title: 表紙と目次をつけるためのレシピYAML
+  rawtitle: 表紙と目次をつけるためのレシピYAML
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide3.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 59
+- full_id: section:AUTOHEAD:4
+  identifier_type: section
+  part_id: AUTOHEAD
+  local_id: '4'
+  title: 目次設定項目
+  rawtitle: 目次設定項目
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide4.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 84
+- full_id: subsection:AUTOHEAD:5
+  identifier_type: subsection
+  part_id: AUTOHEAD
+  local_id: '5'
+  title: レシピYAML内の章節番号付与方式設定部分
+  rawtitle: レシピYAML内の章節番号付与方式設定部分
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide4.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 87
+- full_id: subsection:AUTOHEAD:6
+  identifier_type: subsection
+  part_id: AUTOHEAD
+  local_id: '6'
+  title: report_base_defaults_toc2level.yaml 内の目次設定項目
+  rawtitle: report_base_defaults_toc2level.yaml 内の目次設定項目
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide4.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 101
+- full_id: section:AUTOHEAD:7
+  identifier_type: section
+  part_id: AUTOHEAD
+  local_id: '7'
+  title: 章節番号付与のしくみ
+  rawtitle: 章節番号付与のしくみ
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide5.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 122
+- full_id: section:AUTOHEAD:8
+  identifier_type: section
+  part_id: AUTOHEAD
+  local_id: '8'
+  title: 「章とびら」 のしくみ
+  rawtitle: 「章とびら」 のしくみ
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide6.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 148
+- full_id: section:AUTOHEAD:9
+  identifier_type: section
+  part_id: AUTOHEAD
+  local_id: '9'
+  title: 生成処理の実行
+  rawtitle: 生成処理の実行
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide7.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 183
+- full_id: section:AUTOHEAD:10
+  identifier_type: section
+  part_id: AUTOHEAD
+  local_id: '10'
+  title: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  rawtitle: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide8.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 228
+- full_id: subsection:AUTOHEAD:11
+  identifier_type: subsection
+  part_id: AUTOHEAD
+  local_id: '11'
+  title: ソース
+  rawtitle: ソース
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide8.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 233
+- full_id: subsection:AUTOHEAD:12
+  identifier_type: subsection
+  part_id: AUTOHEAD
+  local_id: '12'
+  title: 成果物
+  rawtitle: 成果物
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide8.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 241
+- full_id: chapter:AUTOHEAD:13
+  identifier_type: chapter
+  part_id: AUTOHEAD
+  local_id: '13'
+  title: 表紙用画像の章
+  rawtitle: 表紙用画像の章
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide9.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 266
+- full_id: section:AUTOHEAD:14
+  identifier_type: section
+  part_id: AUTOHEAD
+  local_id: '14'
+  title: COVER_IMAGE
+  rawtitle: COVER_IMAGE
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide10.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 289
+- full_id: section:AUTOHEAD:15
+  identifier_type: section
+  part_id: AUTOHEAD
+  local_id: '15'
+  title: COVER_FOOTERIMAGE
+  rawtitle: COVER_FOOTERIMAGE
+  source:
+    pptx: <DUMMY>
+    md: ../mds/102-cover-index_slide11.md
+  location:
+    file: ../build/work_102-cover-index_target_merged.md
+    line: 307

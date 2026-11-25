@@ -1,6 +1,5 @@
 # 事例フォルダには src/（原稿と設定）・README.md・readme-images/・case.yaml・サムネイルだけを置く。
 # 以下は src/ から再生成できるので管理しない（本体リポジトリ examples/ と同じ方針）。
-cases/**/build/
 cases/**/images/
 cases/**/mds/
 cases/**/temppdfs/
@@ -8,6 +7,9 @@ cases/**/extracted/
 cases/**/log.txt
 cases/**/*_merge.log
 build_all_cases_*.log
+
+# buildは例外で、自動生成物だが、そのまま管理しておく
+#cases/**/build/
 
 cases_back/
 

@@ -1,0 +1,129 @@
+  # ===== ブロック1: insertpptx サンプル =====
+  # __________ NEW PPTX: 102-cover-index.pptx __________
+  - insertpptx: 102-cover-index.pptx
+    slides: 1
+    description: 表紙と目次をつける方法
+  - insertpptx: 102-cover-index.pptx
+    slides: 2
+    description: PDF生成時に表紙と目次をつけたい
+  - insertpptx: 102-cover-index.pptx
+    slides: 3
+    description: 表紙と目次をつけるためのレシピYAML
+  - insertpptx: 102-cover-index.pptx
+    slides: 4
+    description: 目次設定項目
+  - insertpptx: 102-cover-index.pptx
+    slides: 5
+    description: 章節番号付与のしくみ
+  - insertpptx: 102-cover-index.pptx
+    slides: 6
+    description: 「章とびら」 のしくみ
+  - insertpptx: 102-cover-index.pptx
+    slides: 7
+    description: 生成処理の実行
+  - insertpptx: 102-cover-index.pptx
+    slides: 8
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  - insertpptx: 102-cover-index.pptx
+    slides: 9
+    description: 表紙用画像の章
+  - insertpptx: 102-cover-index.pptx
+    slides: 10
+    description: COVER_IMAGE
+  - insertpptx: 102-cover-index.pptx
+    slides: 11
+    description: COVER_FOOTERIMAGE
+
+  # ===== ブロック2: insertmd サンプル =====
+  # __________ NEW PPTX: 102-cover-index.pptx __________
+  - insertmd: 102-cover-index_slide1.md
+    description: 表紙と目次をつける方法
+  - insertmd: 102-cover-index_slide2.md
+    description: PDF生成時に表紙と目次をつけたい
+  - insertmd: 102-cover-index_slide3.md
+    description: 表紙と目次をつけるためのレシピYAML
+  - insertmd: 102-cover-index_slide4.md
+    description: 目次設定項目
+  - insertmd: 102-cover-index_slide5.md
+    description: 章節番号付与のしくみ
+  - insertmd: 102-cover-index_slide6.md
+    description: 「章とびら」 のしくみ
+  - insertmd: 102-cover-index_slide7.md
+    description: 生成処理の実行
+  - insertmd: 102-cover-index_slide8.md
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  - insertmd: 102-cover-index_slide9.md
+    description: 表紙用画像の章
+  - insertmd: 102-cover-index_slide10.md
+    description: COVER_IMAGE
+  - insertmd: 102-cover-index_slide11.md
+    description: COVER_FOOTERIMAGE
+
+  # ===== ブロック3: insertpptx + insertmd ミックス（スライド単位） =====
+  # __________ NEW PPTX: 102-cover-index.pptx __________
+  # ----------- slide 1 102-cover-index.pptx -----------
+  - insertpptx: 102-cover-index.pptx
+    slides: 1
+    description: 表紙と目次をつける方法
+  - insertmd: 102-cover-index_slide1.md
+    description: 表紙と目次をつける方法
+  # ----------- slide 2 102-cover-index.pptx -----------
+  - insertpptx: 102-cover-index.pptx
+    slides: 2
+    description: PDF生成時に表紙と目次をつけたい
+  - insertmd: 102-cover-index_slide2.md
+    description: PDF生成時に表紙と目次をつけたい
+  # ----------- slide 3 102-cover-index.pptx -----------
+  - insertpptx: 102-cover-index.pptx
+    slides: 3
+    description: 表紙と目次をつけるためのレシピYAML
+  - insertmd: 102-cover-index_slide3.md
+    description: 表紙と目次をつけるためのレシピYAML
+  # ----------- slide 4 102-cover-index.pptx -----------
+  - insertpptx: 102-cover-index.pptx
+    slides: 4
+    description: 目次設定項目
+  - insertmd: 102-cover-index_slide4.md
+    description: 目次設定項目
+  # ----------- slide 5 102-cover-index.pptx -----------
+  - insertpptx: 102-cover-index.pptx
+    slides: 5
+    description: 章節番号付与のしくみ
+  - insertmd: 102-cover-index_slide5.md
+    description: 章節番号付与のしくみ
+  # ----------- slide 6 102-cover-index.pptx -----------
+  - insertpptx: 102-cover-index.pptx
+    slides: 6
+    description: 「章とびら」 のしくみ
+  - insertmd: 102-cover-index_slide6.md
+    description: 「章とびら」 のしくみ
+  # ----------- slide 7 102-cover-index.pptx -----------
+  - insertpptx: 102-cover-index.pptx
+    slides: 7
+    description: 生成処理の実行
+  - insertmd: 102-cover-index_slide7.md
+    description: 生成処理の実行
+  # ----------- slide 8 102-cover-index.pptx -----------
+  - insertpptx: 102-cover-index.pptx
+    slides: 8
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  - insertmd: 102-cover-index_slide8.md
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  # ----------- slide 9 102-cover-index.pptx -----------
+  - insertpptx: 102-cover-index.pptx
+    slides: 9
+    description: 表紙用画像の章
+  - insertmd: 102-cover-index_slide9.md
+    description: 表紙用画像の章
+  # ----------- slide 10 102-cover-index.pptx -----------
+  - insertpptx: 102-cover-index.pptx
+    slides: 10
+    description: COVER_IMAGE
+  - insertmd: 102-cover-index_slide10.md
+    description: COVER_IMAGE
+  # ----------- slide 11 102-cover-index.pptx -----------
+  - insertpptx: 102-cover-index.pptx
+    slides: 11
+    description: COVER_FOOTERIMAGE
+  - insertmd: 102-cover-index_slide11.md
+    description: COVER_FOOTERIMAGE

@@ -1,0 +1,74 @@
+  # ===== ブロック1: insertpptx サンプル =====
+  # __________ NEW PPTX: 101-special-variable.pptx __________
+  - insertpptx: 101-special-variable.pptx
+    slides: 1
+    description: MDファイルと画像ファイルに名前をつけるのが面倒
+  - insertpptx: 101-special-variable.pptx
+    slides: 2
+    description: export 命令のファイル名書き換えを自動化したい
+  - insertpptx: 101-special-variable.pptx
+    slides: 3
+    description: スライド番号を使ってファイル名を自動付与する例
+  - insertpptx: 101-special-variable.pptx
+    slides: 4
+    description: 置換される特殊変数
+  - insertpptx: 101-special-variable.pptx
+    slides: 5
+    description: 生成処理の実行
+  - insertpptx: 101-special-variable.pptx
+    slides: 6
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+
+  # ===== ブロック2: insertmd サンプル =====
+  # __________ NEW PPTX: 101-special-variable.pptx __________
+  - insertmd: 101-special-variable-1.md
+    description: MDファイルと画像ファイルに名前をつけるのが面倒
+  - insertmd: 101-special-variable-2.md
+    description: export 命令のファイル名書き換えを自動化したい
+  - insertmd: 101-special-variable-3.md
+    description: スライド番号を使ってファイル名を自動付与する例
+  - insertmd: 101-special-variable-4.md
+    description: 置換される特殊変数
+  - insertmd: 101-special-variable-5.md
+    description: 生成処理の実行
+  - insertmd: 101-special-variable-6.md
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+
+  # ===== ブロック3: insertpptx + insertmd ミックス（スライド単位） =====
+  # __________ NEW PPTX: 101-special-variable.pptx __________
+  # ----------- slide 1 101-special-variable.pptx -----------
+  - insertpptx: 101-special-variable.pptx
+    slides: 1
+    description: MDファイルと画像ファイルに名前をつけるのが面倒
+  - insertmd: 101-special-variable-1.md
+    description: MDファイルと画像ファイルに名前をつけるのが面倒
+  # ----------- slide 2 101-special-variable.pptx -----------
+  - insertpptx: 101-special-variable.pptx
+    slides: 2
+    description: export 命令のファイル名書き換えを自動化したい
+  - insertmd: 101-special-variable-2.md
+    description: export 命令のファイル名書き換えを自動化したい
+  # ----------- slide 3 101-special-variable.pptx -----------
+  - insertpptx: 101-special-variable.pptx
+    slides: 3
+    description: スライド番号を使ってファイル名を自動付与する例
+  - insertmd: 101-special-variable-3.md
+    description: スライド番号を使ってファイル名を自動付与する例
+  # ----------- slide 4 101-special-variable.pptx -----------
+  - insertpptx: 101-special-variable.pptx
+    slides: 4
+    description: 置換される特殊変数
+  - insertmd: 101-special-variable-4.md
+    description: 置換される特殊変数
+  # ----------- slide 5 101-special-variable.pptx -----------
+  - insertpptx: 101-special-variable.pptx
+    slides: 5
+    description: 生成処理の実行
+  - insertmd: 101-special-variable-5.md
+    description: 生成処理の実行
+  # ----------- slide 6 101-special-variable.pptx -----------
+  - insertpptx: 101-special-variable.pptx
+    slides: 6
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  - insertmd: 101-special-variable-6.md
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
