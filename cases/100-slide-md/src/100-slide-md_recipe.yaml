@@ -1,0 +1,75 @@
+version: 4
+
+# 生成物の置き場（すべて gitignore 済み。src/ から再生成できる）
+#   ../images/   pptimgexport が切り出す画像
+#   ../mds/      pptyamlexport / note 抽出が書き出す md
+#   ../temppdfs/ 画像切り出し用のスライド PDF
+#   ../build/    結合・render 済み md と PDF
+# 管理するのは src/ と、transfer が書き出す ../README.md・../readme-images/ だけ。
+
+vars:
+  COVER_TITLE: "パワポで画像とMarkdownを一括制作"
+  COVER_SUBTITLE: "技術解説画像入りMarkdown制作のメンドクササを解消"
+  COVER_NOTE: "スライドに画像を描き、noteにMarkdownを書いてそれを組み合わせた Markdown 原稿を自動生成する事例です。"
+  COVER_DATE: __DATETIME__
+  COVER_AUTHOR: "開米瑞浩"
+
+log:
+  level: info
+  filename: log.txt
+
+indexer:
+  # 章節番号付与方式の設定
+  pptxnumbering: "no"       # "no" 章節番号付番は行わない。"idresolve" は {{#id:...}} マーカーを抽出して番号付与する。"chapt_section" は★★★★。
+
+output:
+  outputdir: ../build
+  targetbasefilename: 100-slide-md_target
+  renderedfilename: 100-slide-md_target_rendered.md
+  githubmdfilename: 100-slide-md_target_github.md
+  pdffilename: 100-slide-md_target.pdf
+  force: true
+
+merge:
+  copy-images: true
+  image-dir: ../build/images
+  flatten-images: true
+  strict: true
+
+fragment:
+  dirs:
+    - .
+    - ../mds
+
+source:
+  cropimagedirs:
+    - ..
+    - ../images
+  cropsrc:
+    pptx: 100-slide-md.pptx
+    pdf: ../temppdfs/100-slide-md.pdf
+
+# 事例ページ（../README.md と ../readme-images/）を書き出す
+transfer:
+  dataentry_input: ..
+  slug: readme-images
+  inputmd: 100-slide-md_target_github.md
+  outputmd: README.md
+  image_naming: sanitize
+  image_collision: overwrite
+
+pandoc:
+  resource-path:
+    - ../build
+  # 共通設定はリポジトリ直下の user_settings/ に置く（本体 examples/ と同じ深さ）
+  data-dir: ../../../user_settings
+  # PDFに2階層で目次をつける defaults を指定
+  defaults: pandoc/defaults/report_base_defaults_toc2level.yaml
+  # 表紙を付けるときは同梱の cover_standard.md を指定するか、コピーして src/ に置く
+  cover-md: cover_standard.md
+
+procedure:
+  - insertmdpages: 100-slide-md1.md
+  - insertvfill
+  - insertpagebreak
+  - insertmdpages: 100-slide-md[2-END].md

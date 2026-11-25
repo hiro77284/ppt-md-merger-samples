@@ -61,7 +61,7 @@ noteテキスト中で
 
 ページの挿入・削除が今後もあると予想できるときは、別ページの画像参照には固有名方式を使うと良いでしょう。
 
-なお、<__SLIDENUM__>の置換はスライド中の文字列についても行われます。
+なお、このスライド番号置換はスライド中の文字列についても行われます。
 
 
 
@@ -76,9 +76,9 @@ noteテキスト中で
 
 | 記法 | 置換内容 |
 |---|---|
-| `<__BASEFILENAME__>` | ソース pptx のファイル名（拡張子なし） |
-| `<__FILENAME__>` | ソース pptx のファイル名（拡張子あり） |
-| `<__SLIDENUM__>` | ソース pptx でのスライド番号（1 始まり） |
+| `<__BASEFILENAME__>` | 原稿pptx のファイル名（拡張子なし） |
+| `<__FILENAME__>` | 原稿pptx のファイル名（拡張子あり） |
+| `<__SLIDENUM__>` | 原稿pptx でのスライド番号（1 始まり） |
 | `<__TITLE__>` | そのスライドのタイトル文字列 |
 
 
@@ -86,22 +86,67 @@ noteテキスト中で
 
 
 <!-- source: ../mds/101-special-variable-5.md -->
-<!-- md_merge_rawtitle: ソースPPTX、生成指示YAML、および成果物MDとPDF -->
+<!-- md_merge_rawtitle: 生成処理の実行 -->
 <!-- #id:section:101-special-variable-:5 -->
+## 生成処理の実行
+
+以下の命令で生成を実行します。サブコマンド ppt_build の引数に生成指示書を指定します。
+
+
+
+```bash
+cd cases\101-special-variable\src
+pptmdmerge ppt_build 101-slide-md_recipe.yaml --github --pdf --transfer
+```
+
+
+
+「WARNING: YAML ファイルが見つかりません」 という警告は出ても問題ありません。
+
+この命令で生成されるのは renderedfilename で指定する Rendered MD です。
+
+オプションを追加すると、PDFやGitHubMDも生成します。
+
+
+
+```bash
+cd cases\101-special-variable\src
+pptmdmerge ppt_build 100-slide-md_recipe.yaml --pdf --github --transfer
+```
+
+
+
+**オプションなし** Rendered MD のみ生成する
+
+**--pdf** Rendered MD をもとにPDFを生成する
+
+**--github** Rendered MD をもとにGitHub用MDを生成する
+
+**--transfer** 生成したMDを他の場所に転送するオプション。当サンプルでは、GitHubMD をもとに README.md を作るために使用する。
+
+Rendered, PDF, GitHubMD 等の関係については次項の図をご覧ください。
+
+
+
+
+
+<!-- source: ../mds/101-special-variable-6.md -->
+<!-- md_merge_rawtitle: ソースPPTX、生成指示YAML、および成果物MDとPDF -->
+<!-- #id:section:101-special-variable-:6 -->
 ## ソースPPTX、生成指示YAML、および成果物MDとPDF
 
 当サンプルのソースと成果物を以下のリンクで確認できます。
 
 ### ソース
 
-**生成指示** [101-special-variable_pdf_recipe.yaml](src/101-special-variable_pdf_recipe.yaml)
+**生成指示** [101-special-variable_recipe.yaml](src/101-special-variable_recipe.yaml)
 
-**画像とMD** [101-special-variable.pptx](src/101-special-variable.pptx)
+**原稿PPTX** [101-special-variable.pptx](src/101-special-variable.pptx)
 
 
 ### 成果物
 
-MDは何種類か異なる仕様で生成します。 Rendered MDはPPTXソースから切り出したMDにさまざまな加工を加えた生成物で、豊富な書式指示を含んでいます。 それらの書式指示をすべて落として GitHub での表示に特化したのがGitHub用MDです。
+MDは異なる仕様で数種類生成します。 Rendered MDはPPTXソースから切り出したMDにさまざまな加工を加えた生成物で、PDF用やHTML用の書式指示を含んでいます。 それらの書式指示をすべて落として GitHub での表示に特化したのがGitHub用MDです。
 
 **Rendered MD** [101-special-variable-target-rendered.md](build/101-special-variable-target-rendered.md)
 
@@ -109,6 +154,8 @@ MDは何種類か異なる仕様で生成します。 Rendered MDはPPTXソー�
 
 **PDF** [101-special-variable-target.pdf](build/101-special-variable-target.pdf)
 
-<img src="readme-images/101-special-variable-5.webp" alt="" width="100%">
+**README** このファイルです
+
+<img src="readme-images/101-special-variable-6.webp" alt="" width="100%">
 
 当サンプルはnoteのexport命令でファイル名を自動付与するサンプルですので、「画像とMD」 のpptxを開いて note の export 命令を確認し、次いで Rendered のMDを開いて画像ファイル名がどうなっているかを確認してください。

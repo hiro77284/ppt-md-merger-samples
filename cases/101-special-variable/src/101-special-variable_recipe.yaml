@@ -1,0 +1,75 @@
+version: 4
+
+# 事例の生成指示書（雛形）。cases/001-pdf1-minimum/src/pdf1_minimum_pdf_recipe.yaml を短くしたもの。
+# TEMPLATE を事例の原稿名（pptx のファイル名から拡張子を除いたもの）に置き換えて使う。
+# 実行: cd src && ppt_build TEMPLATE_pdf_recipe.yaml --githubmd --transfer --pdf --yes-clear-dir
+#
+# 生成物の置き場（すべて gitignore 済み。src/ から再生成できる）
+#   ../images/   pptimgexport が切り出す画像
+#   ../mds/      pptyamlexport / note 抽出が書き出す md
+#   ../temppdfs/ 画像切り出し用のスライド PDF
+#   ../build/    結合・render 済み md と PDF
+# 管理するのは src/ と、transfer が書き出す ../README.md・../readme-images/ だけ。
+
+vars:
+  COVER_TITLE: "画像ファイルとMDファイルの命名を自動化"
+  COVER_SUBTITLE: "スライド番号を使って画像ファイルとMDファイルに自動的にスライドごとに違う名前を付与して、export命令をコピペで済ませる"
+  COVER_NOTE: "スライド番号を使って画像ファイルとMDファイルに自動的にスライドごとに違う名前を付与して、export命令をコピペで済ませる"
+  COVER_DATE: __DATETIME__
+  COVER_AUTHOR: "開米瑞浩"
+
+log:
+  level: info
+  filename: log.txt
+
+indexer:
+  # 章節番号付与方式の設定
+  pptxnumbering: "no"       # "no" 章節番号付番は行わない。"idresolve" は {{#id:...}} マーカーを抽出して番号付与する。"chapt_section" は★★★★。
+
+output:
+  outputdir: ../build
+  targetbasefilename: 101-special-variable-target
+  renderedfilename: 101-special-variable-target-rendered.md
+  githubmdfilename: 101-special-variable-target-github.md
+  pdffilename: 101-special-variable-target.pdf
+  force: true
+
+merge:
+  copy-images: true
+  image-dir: ../build/images
+  flatten-images: true
+  strict: true
+
+fragment:
+  dirs:
+    - .
+    - ../mds
+
+source:
+  cropimagedirs:
+    - ../images
+  cropsrc:
+    pptx: 101-special-variable.pptx
+    pdf: ../temppdfs/101-special-variable.pdf
+
+# 事例ページ（../README.md と ../readme-images/）を書き出す
+transfer:
+  dataentry_input: ..
+  slug: readme-images
+  inputmd: 101-special-variable-target-github.md
+  outputmd: README.md
+  image_naming: sanitize
+  image_collision: overwrite
+
+pandoc:
+  resource-path:
+    - ../build
+  # 共通設定はリポジトリ直下の user_settings/ に置く（本体 examples/ と同じ深さ）
+  data-dir: ../../../user_settings
+  # PDFに2階層で目次をつける defaults を指定
+  defaults: pandoc/defaults/report_base_defaults_toc2level.yaml
+  # 表紙を付けるときは同梱の cover_standard.md を指定するか、コピーして src/ に置く
+  cover-md: cover_standard.md
+
+procedure:
+  - insertmdpages: 101-special-variable-[1-END].md

@@ -1,0 +1,224 @@
+  # ===== ブロック1: insertpptx サンプル =====
+  # __________ NEW PPTX: pdf1_minimum.pptx __________
+  - insertpptx: pdf1_minimum.pptx
+    slides: 1
+    description: 表紙画像
+  - insertpptx: pdf1_minimum.pptx
+    slides: 2
+    description: pdf1_minimumサンプル概要
+  - insertpptx: pdf1_minimum.pptx
+    slides: 3
+    description: PPTXをもとにPDFを生成するサンプル
+  - insertpptx: pdf1_minimum.pptx
+    slides: 4
+    description: 実際に書くものは note と生成指示書
+  - insertpptx: pdf1_minimum.pptx
+    slides: 5
+    description: PPTX ファイルの記述方法
+  - insertpptx: pdf1_minimum.pptx
+    slides: 6
+    description: 画像切り出し： 長方形カット
+  - insertpptx: pdf1_minimum.pptx
+    slides: 7
+    description: MD切り出し
+  - insertpptx: pdf1_minimum.pptx
+    slides: 8
+    description: MDテキスト中での画像参照
+  - insertpptx: pdf1_minimum.pptx
+    slides: 9
+    description: レシピyamlの記述方法
+  - insertpptx: pdf1_minimum.pptx
+    slides: 10
+    description: 単純PDF化処理イメージ
+  - insertpptx: pdf1_minimum.pptx
+    slides: 11
+    description: 生成指示書解説(1)　表紙データ
+  - insertpptx: pdf1_minimum.pptx
+    slides: 12
+    description: 生成指示書解説(2)　出力ファイル、フォルダ
+  - insertpptx: pdf1_minimum.pptx
+    slides: 13
+    description: 生成指示書解説(3)　結合MD生成処理
+  - insertpptx: pdf1_minimum.pptx
+    slides: 14
+    description: 生成指示書解説(4)　原稿データ
+  - insertpptx: pdf1_minimum.pptx
+    slides: 15
+    description: 生成指示書解説(5)　PDF生成処理-Pandoc 1
+  - insertpptx: pdf1_minimum.pptx
+    slides: 16
+    description: 生成指示書解説(6)　PDF生成処理-Pandoc 2
+  - insertpptx: pdf1_minimum.pptx
+    slides: 17
+    description: 生成指示書解説(7)　個別MD結合処理
+  - insertpptx: pdf1_minimum.pptx
+    slides: 18
+    description: 生成コマンド実行方法
+  - insertpptx: pdf1_minimum.pptx
+    slides: 19
+    description: pdf1_minimum 生成方法
+  - insertpptx: pdf1_minimum.pptx
+    slides: 20
+    description: pdf1_minimum フォルダの構成
+
+  # ===== ブロック2: insertmd サンプル =====
+  # __________ NEW PPTX: pdf1_minimum.pptx __________
+  - insertmd: pdf1_minimum_slide2.md
+    description: pdf1_minimumサンプル概要
+  - insertmd: pdf1_minimum_slide3.md
+    description: PPTXをもとにPDFを生成するサンプル
+  - insertmd: pdf1_minimum_slide4.md
+    description: 実際に書くものは note と生成指示書
+  - insertmd: pdf1_minimum_slide5.md
+    description: PPTX ファイルの記述方法
+  - insertmd: pdf1_minimum_slide6.md
+    description: 画像切り出し： 長方形カット
+  - insertmd: pdf1_minimum_slide7.md
+    description: MD切り出し
+  - insertmd: pdf1_minimum_slide8.md
+    description: MDテキスト中での画像参照
+  - insertmd: pdf1_minimum_slide9.md
+    description: レシピyamlの記述方法
+  - insertmd: pdf1_minimum_slide10.md
+    description: 単純PDF化処理イメージ
+  - insertmd: pdf1_minimum_slide11.md
+    description: 生成指示書解説(1)　表紙データ
+  - insertmd: pdf1_minimum_slide12.md
+    description: 生成指示書解説(2)　出力ファイル、フォルダ
+  - insertmd: pdf1_minimum_slide13.md
+    description: 生成指示書解説(3)　結合MD生成処理
+  - insertmd: pdf1_minimum_slide14.md
+    description: 生成指示書解説(4)　原稿データ
+  - insertmd: pdf1_minimum_slide15.md
+    description: 生成指示書解説(5)　PDF生成処理-Pandoc 1
+  - insertmd: pdf1_minimum_slide16.md
+    description: 生成指示書解説(6)　PDF生成処理-Pandoc 2
+  - insertmd: pdf1_minimum_slide17.md
+    description: 生成指示書解説(7)　個別MD結合処理
+  - insertmd: pdf1_minimum_slide18.md
+    description: 生成コマンド実行方法
+  - insertmd: pdf1_minimum_slide19.md
+    description: pdf1_minimum 生成方法
+  - insertmd: pdf1_minimum_slide20.md
+    description: pdf1_minimum フォルダの構成
+
+  # ===== ブロック3: insertpptx + insertmd ミックス（スライド単位） =====
+  # __________ NEW PPTX: pdf1_minimum.pptx __________
+  # ----------- slide 1 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 1
+    description: 表紙画像
+  # ----------- slide 2 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 2
+    description: pdf1_minimumサンプル概要
+  - insertmd: pdf1_minimum_slide2.md
+    description: pdf1_minimumサンプル概要
+  # ----------- slide 3 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 3
+    description: PPTXをもとにPDFを生成するサンプル
+  - insertmd: pdf1_minimum_slide3.md
+    description: PPTXをもとにPDFを生成するサンプル
+  # ----------- slide 4 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 4
+    description: 実際に書くものは note と生成指示書
+  - insertmd: pdf1_minimum_slide4.md
+    description: 実際に書くものは note と生成指示書
+  # ----------- slide 5 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 5
+    description: PPTX ファイルの記述方法
+  - insertmd: pdf1_minimum_slide5.md
+    description: PPTX ファイルの記述方法
+  # ----------- slide 6 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 6
+    description: 画像切り出し： 長方形カット
+  - insertmd: pdf1_minimum_slide6.md
+    description: 画像切り出し： 長方形カット
+  # ----------- slide 7 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 7
+    description: MD切り出し
+  - insertmd: pdf1_minimum_slide7.md
+    description: MD切り出し
+  # ----------- slide 8 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 8
+    description: MDテキスト中での画像参照
+  - insertmd: pdf1_minimum_slide8.md
+    description: MDテキスト中での画像参照
+  # ----------- slide 9 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 9
+    description: レシピyamlの記述方法
+  - insertmd: pdf1_minimum_slide9.md
+    description: レシピyamlの記述方法
+  # ----------- slide 10 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 10
+    description: 単純PDF化処理イメージ
+  - insertmd: pdf1_minimum_slide10.md
+    description: 単純PDF化処理イメージ
+  # ----------- slide 11 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 11
+    description: 生成指示書解説(1)　表紙データ
+  - insertmd: pdf1_minimum_slide11.md
+    description: 生成指示書解説(1)　表紙データ
+  # ----------- slide 12 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 12
+    description: 生成指示書解説(2)　出力ファイル、フォルダ
+  - insertmd: pdf1_minimum_slide12.md
+    description: 生成指示書解説(2)　出力ファイル、フォルダ
+  # ----------- slide 13 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 13
+    description: 生成指示書解説(3)　結合MD生成処理
+  - insertmd: pdf1_minimum_slide13.md
+    description: 生成指示書解説(3)　結合MD生成処理
+  # ----------- slide 14 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 14
+    description: 生成指示書解説(4)　原稿データ
+  - insertmd: pdf1_minimum_slide14.md
+    description: 生成指示書解説(4)　原稿データ
+  # ----------- slide 15 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 15
+    description: 生成指示書解説(5)　PDF生成処理-Pandoc 1
+  - insertmd: pdf1_minimum_slide15.md
+    description: 生成指示書解説(5)　PDF生成処理-Pandoc 1
+  # ----------- slide 16 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 16
+    description: 生成指示書解説(6)　PDF生成処理-Pandoc 2
+  - insertmd: pdf1_minimum_slide16.md
+    description: 生成指示書解説(6)　PDF生成処理-Pandoc 2
+  # ----------- slide 17 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 17
+    description: 生成指示書解説(7)　個別MD結合処理
+  - insertmd: pdf1_minimum_slide17.md
+    description: 生成指示書解説(7)　個別MD結合処理
+  # ----------- slide 18 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 18
+    description: 生成コマンド実行方法
+  - insertmd: pdf1_minimum_slide18.md
+    description: 生成コマンド実行方法
+  # ----------- slide 19 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 19
+    description: pdf1_minimum 生成方法
+  - insertmd: pdf1_minimum_slide19.md
+    description: pdf1_minimum 生成方法
+  # ----------- slide 20 pdf1_minimum.pptx -----------
+  - insertpptx: pdf1_minimum.pptx
+    slides: 20
+    description: pdf1_minimum フォルダの構成
+  - insertmd: pdf1_minimum_slide20.md
+    description: pdf1_minimum フォルダの構成

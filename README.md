@@ -11,18 +11,21 @@
 <!-- BEGIN CASE INDEX -->
 <!-- この部分は scripts/build_index.py が生成する。手で書き換えない。 -->
 
-全 2 件
+全 3 件
 
 <table>
 <tr><th width="400"></th><th>事例</th><th>概要</th><th>タグ</th><th>確認バージョン</th></tr>
-<tr><td width="400"><img src="cases/100-slide-md/readme-images/100-slide1.webp" width="400" alt=""></td><td><a href="cases/100-slide-md/">pptxで画像＋Markdown一括制作</a><br><code>100-slide-md</code></td><td>スライドに画像を描き、noteにMarkdownを書いてそれを組み合わせた Markdown 原稿を自動生成する事例です。</td><td><code>markdown</code> <code>image-crop</code></td><td>2.0.6</td></tr>
+<tr><td width="400"><img src="cases/100-slide-md/readme-images/100-slide-md1.webp" width="400" alt=""></td><td><a href="cases/100-slide-md/">pptxで画像＋Markdown一括制作</a><br><code>100-slide-md</code></td><td>スライドに画像を描き、noteにMarkdownを書いてそれを組み合わせた Markdown 原稿を自動生成する事例です。</td><td><code>markdown</code> <code>image-crop</code></td><td>2.0.6</td></tr>
 <tr><td width="400"><img src="cases/101-special-variable/readme-images/101-special-variable-1.webp" width="400" alt=""></td><td><a href="cases/101-special-variable/">画像ファイルとMDファイルの命名を自動化</a><br><code>101-special-variable</code></td><td>スライド番号を使って画像ファイルとMDファイルに自動的にスライドごとに違う名前を付与して、export命令をコピペで済ませる</td><td><code>export</code> <code>ファイル名</code></td><td>2.0.6</td></tr>
+<tr><td width="400"><img src="cases/102-cover-index/readme-images/102-cover-index-slide2.webp" width="400" alt=""></td><td><a href="cases/102-cover-index/">表紙と目次をつけてPDF生成</a><br><code>102-cover-index</code></td><td>PDF生成時に表紙と目次を付加する設定項目の解説</td><td><code>cover</code> <code>index</code></td><td>2.0.6</td></tr>
 </table>
 
 ### タグ別
 
+- `cover` (1): [102-cover-index](cases/102-cover-index/)
 - `export` (1): [101-special-variable](cases/101-special-variable/)
 - `image-crop` (1): [100-slide-md](cases/100-slide-md/)
+- `index` (1): [102-cover-index](cases/102-cover-index/)
 - `markdown` (1): [100-slide-md](cases/100-slide-md/)
 - `ファイル名` (1): [101-special-variable](cases/101-special-variable/)
 

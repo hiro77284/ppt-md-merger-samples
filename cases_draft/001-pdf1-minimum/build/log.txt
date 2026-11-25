@@ -1,0 +1,309 @@
+2026-11-21 21:04:09,478 DEBUG    log file: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\build\log.txt
+2026-11-21 21:04:09,479 DEBUG    input.cropsrc.pptx 探索: 入力値='pdf1_minimum.pptx' 基準ディレクトリ=D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src
+2026-11-21 21:04:09,479 DEBUG    input.cropsrc.pptx 探索パス: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx (存在)
+2026-11-21 21:04:10,348 DEBUG    Opening PPTX: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+2026-11-21 21:04:10,499 DEBUG    Exporting PDF: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+2026-11-21 21:04:12,068 DEBUG    PDF export complete
+2026-11-21 21:04:12,069 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+2026-11-21 21:04:12,132 INFO     [ppt_build] pptpdfexport OK
+2026-11-21 21:04:12,132 INFO     [ppt_build] pptimgexport ...
+2026-11-21 21:04:12,133 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:12,457 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:12,457 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:12,457 DEBUG    STREAM b'IDAT' 62 245958
+2026-11-21 21:04:12,512 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\cover_image.webp
+2026-11-21 21:04:12,569 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:12,570 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:12,570 DEBUG    STREAM b'IDAT' 62 64710
+2026-11-21 21:04:12,655 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide2.webp
+2026-11-21 21:04:12,707 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:12,707 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:12,707 DEBUG    STREAM b'IDAT' 62 174964
+2026-11-21 21:04:12,839 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide3.webp
+2026-11-21 21:04:12,893 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:12,893 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:12,893 DEBUG    STREAM b'IDAT' 62 151949
+2026-11-21 21:04:13,021 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide4.webp
+2026-11-21 21:04:13,075 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:13,075 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:13,075 DEBUG    STREAM b'IDAT' 62 65452
+2026-11-21 21:04:13,134 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide5.webp
+2026-11-21 21:04:13,193 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:13,194 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:13,194 DEBUG    STREAM b'IDAT' 62 221132
+2026-11-21 21:04:13,263 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\apple_orange_image.webp
+2026-11-21 21:04:13,317 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:13,317 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:13,317 DEBUG    STREAM b'IDAT' 62 221132
+2026-11-21 21:04:13,474 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_largerange.webp
+2026-11-21 21:04:13,526 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:13,526 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:13,526 DEBUG    STREAM b'IDAT' 62 115164
+2026-11-21 21:04:13,648 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\mdcut_image.webp
+2026-11-21 21:04:13,698 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:13,698 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:13,698 DEBUG    STREAM b'IDAT' 62 117688
+2026-11-21 21:04:13,803 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\include_image_sample.webp
+2026-11-21 21:04:13,856 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:13,856 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:13,856 DEBUG    STREAM b'IDAT' 62 65365
+2026-11-21 21:04:13,915 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide9.webp
+2026-11-21 21:04:13,977 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:13,977 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:13,977 DEBUG    STREAM b'IDAT' 62 178567
+2026-11-21 21:04:14,160 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_processimage.webp
+2026-11-21 21:04:14,220 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:14,220 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:14,220 DEBUG    STREAM b'IDAT' 62 148130
+2026-11-21 21:04:14,341 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide11.webp
+2026-11-21 21:04:14,400 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:14,400 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:14,400 DEBUG    STREAM b'IDAT' 62 199490
+2026-11-21 21:04:14,537 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide12.webp
+2026-11-21 21:04:14,595 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:14,595 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:14,595 DEBUG    STREAM b'IDAT' 62 164451
+2026-11-21 21:04:14,722 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide13.webp
+2026-11-21 21:04:14,779 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:14,779 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:14,779 DEBUG    STREAM b'IDAT' 62 158537
+2026-11-21 21:04:14,901 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide14.webp
+2026-11-21 21:04:14,959 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:14,959 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:14,959 DEBUG    STREAM b'IDAT' 62 194145
+2026-11-21 21:04:15,047 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pandoc_section_sample_1.webp
+2026-11-21 21:04:15,105 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:15,105 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:15,105 DEBUG    STREAM b'IDAT' 62 194145
+2026-11-21 21:04:15,167 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pandoc_section_sample_2.webp
+2026-11-21 21:04:15,231 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:15,231 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:15,231 DEBUG    STREAM b'IDAT' 62 121896
+2026-11-21 21:04:15,357 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\common_defauls_file_referreing.webp
+2026-11-21 21:04:15,411 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:15,411 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:15,411 DEBUG    STREAM b'IDAT' 62 166242
+2026-11-21 21:04:15,556 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide17.webp
+2026-11-21 21:04:15,606 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:15,606 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:15,606 DEBUG    STREAM b'IDAT' 62 60834
+2026-11-21 21:04:15,661 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide18.webp
+2026-11-21 21:04:15,712 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:15,713 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:15,713 DEBUG    STREAM b'IDAT' 62 148113
+2026-11-21 21:04:15,865 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide19.webp
+2026-11-21 21:04:15,910 DEBUG    STREAM b'IHDR' 16 13
+2026-11-21 21:04:15,910 DEBUG    STREAM b'pHYs' 41 9
+2026-11-21 21:04:15,910 DEBUG    STREAM b'IDAT' 62 80504
+2026-11-21 21:04:15,997 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\temppdfs\pdf1_minimum.pdf
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\images\pdf1_minimum_slide20.webp
+2026-11-21 21:04:15,999 INFO     [ppt_build] pptimgexport OK
+2026-11-21 21:04:16,000 INFO     [ppt_build] pptmdexport ...
+2026-11-21 21:04:16,000 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,005 DEBUG    pptmdexport: latex_check=warn
+2026-11-21 21:04:16,054 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide2.md
+2026-11-21 21:04:16,056 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide3.md
+2026-11-21 21:04:16,081 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide4.md
+2026-11-21 21:04:16,083 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide5.md
+2026-11-21 21:04:16,085 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide6.md
+2026-11-21 21:04:16,088 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide7.md
+2026-11-21 21:04:16,090 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide8.md
+2026-11-21 21:04:16,091 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide9.md
+2026-11-21 21:04:16,093 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide10.md
+2026-11-21 21:04:16,111 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide11.md
+2026-11-21 21:04:16,113 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide12.md
+2026-11-21 21:04:16,115 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide13.md
+2026-11-21 21:04:16,117 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide14.md
+2026-11-21 21:04:16,119 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide15.md
+2026-11-21 21:04:16,123 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide16.md
+2026-11-21 21:04:16,124 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide17.md
+2026-11-21 21:04:16,126 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide18.md
+2026-11-21 21:04:16,128 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide19.md
+2026-11-21 21:04:16,131 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum.pptx
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\mds\pdf1_minimum_slide20.md
+2026-11-21 21:04:16,142 INFO     insert サンプルを書き出しました: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\pdf1_minimum_target_insertsample.yaml (insertpptx 20 / insertmd 19)
+2026-11-21 21:04:16,142 INFO     [ppt_build] pptmdexport OK
+2026-11-21 21:04:16,142 INFO     [ppt_build] checkverify ...
+2026-11-21 21:04:16,142 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,146 DEBUG    insertmd ドリフトゲート: チェックデータなし — スキップ
+2026-11-21 21:04:16,146 INFO     [ppt_build] checkverify OK
+2026-11-21 21:04:16,147 INFO     [ppt_build] merge ...
+2026-11-21 21:04:16,147 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,152 DEBUG    collect_procedure_items: pdf1_minimum_slide2.md
+2026-11-21 21:04:16,152 DEBUG    collect_procedure_items: pdf1_minimum_slide3.md
+2026-11-21 21:04:16,152 DEBUG    collect_procedure_items: pdf1_minimum_slide4.md
+2026-11-21 21:04:16,152 DEBUG    collect_procedure_items: pdf1_minimum_slide5.md
+2026-11-21 21:04:16,153 DEBUG    collect_procedure_items: pdf1_minimum_slide6.md
+2026-11-21 21:04:16,153 DEBUG    collect_procedure_items: pdf1_minimum_slide7.md
+2026-11-21 21:04:16,153 DEBUG    collect_procedure_items: pdf1_minimum_slide8.md
+2026-11-21 21:04:16,153 DEBUG    collect_procedure_items: pdf1_minimum_slide9.md
+2026-11-21 21:04:16,154 DEBUG    collect_procedure_items: pdf1_minimum_slide10.md
+2026-11-21 21:04:16,154 DEBUG    collect_procedure_items: pdf1_minimum_slide11.md
+2026-11-21 21:04:16,154 DEBUG    collect_procedure_items: pdf1_minimum_slide12.md
+2026-11-21 21:04:16,154 DEBUG    collect_procedure_items: pdf1_minimum_slide13.md
+2026-11-21 21:04:16,154 DEBUG    collect_procedure_items: pdf1_minimum_slide14.md
+2026-11-21 21:04:16,155 DEBUG    collect_procedure_items: pdf1_minimum_slide15.md
+2026-11-21 21:04:16,155 DEBUG    collect_procedure_items: pdf1_minimum_slide16.md
+2026-11-21 21:04:16,155 DEBUG    collect_procedure_items: pdf1_minimum_slide17.md
+2026-11-21 21:04:16,155 DEBUG    collect_procedure_items: pdf1_minimum_slide18.md
+2026-11-21 21:04:16,156 DEBUG    collect_procedure_items: pdf1_minimum_slide19.md
+2026-11-21 21:04:16,156 DEBUG    collect_procedure_items: pdf1_minimum_slide20.md
+2026-11-21 21:04:16,156 DEBUG    yaml    : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,156 DEBUG    in_dirs : ['D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\src', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds']
+2026-11-21 21:04:16,156 DEBUG    files   : ['D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide2.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide3.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide4.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide5.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide6.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide7.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide8.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide9.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide10.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide11.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide12.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide13.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide14.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide15.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide16.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide17.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide18.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide19.md', 'D:\\DOCS\\SWPJs\\ppt-md-merger-samples\\cases\\001-pdf1-minimum\\mds\\pdf1_minimum_slide20.md']
+2026-11-21 21:04:16,156 DEBUG    output  : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\work_pdf1_minimum_target_merged.md
+2026-11-21 21:04:16,366 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\work_pdf1_minimum_target_merged.md
+2026-11-21 21:04:16,367 INFO     [ppt_build] merge OK
+2026-11-21 21:04:16,367 INFO     [ppt_build] idcollect ...
+2026-11-21 21:04:16,368 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,374 DEBUG    yaml      : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,374 DEBUG    merged md : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\work_pdf1_minimum_target_merged.md
+2026-11-21 21:04:16,374 DEBUG    inventory : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\work_pdf1_minimum_target_idcollect.yaml
+2026-11-21 21:04:16,402 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\work_pdf1_minimum_target_idcollect.yaml
+2026-11-21 21:04:16,402 INFO     [ppt_build] idcollect OK
+2026-11-21 21:04:16,402 INFO     [ppt_build] idresolve ...
+2026-11-21 21:04:16,403 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,407 DEBUG    yaml      : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,407 DEBUG    inventory : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\work_pdf1_minimum_target_idcollect.yaml
+2026-11-21 21:04:16,407 DEBUG    resolved  : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\work_pdf1_minimum_target_idresolve.yaml
+2026-11-21 21:04:16,456 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\work_pdf1_minimum_target_idresolve.yaml
+2026-11-21 21:04:16,456 INFO     [ppt_build] idresolve OK
+2026-11-21 21:04:16,457 INFO     [ppt_build] render ...
+2026-11-21 21:04:16,457 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,464 DEBUG    yaml     : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,464 DEBUG    merged   : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\work_pdf1_minimum_target_merged.md
+2026-11-21 21:04:16,464 DEBUG    resolved : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\work_pdf1_minimum_target_idresolve.yaml
+2026-11-21 21:04:16,464 DEBUG    rendered : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\pdf1_minimum_target_rendered.md
+2026-11-21 21:04:16,501 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\pdf1_minimum_target_rendered.md
+2026-11-21 21:04:16,501 INFO     [ppt_build] render OK
+2026-11-21 21:04:16,501 INFO     [ppt_build] puremd ...
+2026-11-21 21:04:16,502 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,514 DEBUG    puremd: 2 built-in raw-drop pattern(s) from registry (drop=['latex', 'typst'])
+2026-11-21 21:04:16,514 DEBUG    puremd: compiled pattern 'raw_latex_block' = '^```\\{=latex\\}[ \\t]*\\n[\\s\\S]*?^```[ \\t]*\\n?'
+2026-11-21 21:04:16,514 DEBUG    puremd: compiled pattern 'raw_typst_block' = '^```\\{=typst\\}[ \\t]*\\n[\\s\\S]*?^```[ \\t]*\\n?'
+2026-11-21 21:04:16,514 DEBUG    puremd: fenced_div enabled=True alerts={'note': 'NOTE', 'warning': 'WARNING', 'leadline': 'IMPORTANT'} plain_quotes=['widequote'] unwrap=['center', 'keep-together']
+2026-11-21 21:04:16,514 DEBUG    rendered : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\pdf1_minimum_target_rendered.md
+2026-11-21 21:04:16,514 DEBUG    puremd   : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\pdf1_minimum_target_puremd.md
+2026-11-21 21:04:16,521 DEBUG    puremd: pattern 'raw_latex_block' matched nothing
+2026-11-21 21:04:16,521 DEBUG    puremd: pattern 'raw_typst_block' matched nothing
+2026-11-21 21:04:16,521 DEBUG    puremd: fenced div '.widequote' -> plain blockquote
+2026-11-21 21:04:16,521 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,521 DEBUG    puremd: fenced div '.widequote' -> plain blockquote
+2026-11-21 21:04:16,521 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.blockindent' -> labelled blockquote
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.blockindent' -> labelled blockquote
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.widequote' -> plain blockquote
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.widequote' -> plain blockquote
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.widequote' -> plain blockquote
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.widequote' -> plain blockquote
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,522 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,523 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,523 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,523 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,523 DEBUG    puremd: fenced div '.widequote' -> plain blockquote
+2026-11-21 21:04:16,523 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,523 DEBUG    puremd: fenced div '.widequote' -> plain blockquote
+2026-11-21 21:04:16,523 DEBUG    puremd: fenced div '.center' -> unwrap
+2026-11-21 21:04:16,526 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\pdf1_minimum_target_rendered.md
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\pdf1_minimum_target_puremd.md
+2026-11-21 21:04:16,526 INFO     [ppt_build] puremd OK
+2026-11-21 21:04:16,526 INFO     [ppt_build] githubmd ...
+2026-11-21 21:04:16,526 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,532 DEBUG    puremd   : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\pdf1_minimum_target_puremd.md
+2026-11-21 21:04:16,532 DEBUG    githubmd : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\pdf1_minimum_target_github.md
+2026-11-21 21:04:16,540 INFO     githubmd: 17 image(s) converted to <img>
+2026-11-21 21:04:16,576 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\pdf1_minimum_target_puremd.md
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\..\build\pdf1_minimum_target_github.md
+2026-11-21 21:04:16,576 INFO     [ppt_build] githubmd OK
+2026-11-21 21:04:16,576 INFO     [ppt_build] transfer ...
+2026-11-21 21:04:16,577 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,583 DEBUG    src_md        : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\build\pdf1_minimum_target_github.md
+2026-11-21 21:04:16,583 DEBUG    dataentry_dir : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum
+2026-11-21 21:04:16,583 DEBUG    img_dst_dir   : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\readme-images
+2026-11-21 21:04:16,583 DEBUG    out_md        : D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\README.md
+2026-11-21 21:04:16,583 DEBUG    image_naming  : sanitize
+2026-11-21 21:04:16,583 DEBUG    image_collision: overwrite
+2026-11-21 21:04:16,591 DEBUG    transfer: 画像名を ASCII 化: pdf1_minimum_slide3.webp → pdf1-minimum-slide3.webp
+2026-11-21 21:04:16,592 DEBUG    transfer: 画像名を ASCII 化: pdf1_minimum_slide4.webp → pdf1-minimum-slide4.webp
+2026-11-21 21:04:16,592 DEBUG    transfer: 画像名を ASCII 化: pdf1_minimum_largerange.webp → pdf1-minimum-largerange.webp
+2026-11-21 21:04:16,592 DEBUG    transfer: 画像名を ASCII 化: apple_orange_image.webp → apple-orange-image.webp
+2026-11-21 21:04:16,593 DEBUG    transfer: 画像名を ASCII 化: mdcut_image.webp → mdcut-image.webp
+2026-11-21 21:04:16,593 DEBUG    transfer: 画像名を ASCII 化: include_image_sample.webp → include-image-sample.webp
+2026-11-21 21:04:16,593 DEBUG    transfer: 画像名を ASCII 化: pdf1_minimum_processimage.webp → pdf1-minimum-processimage.webp
+2026-11-21 21:04:16,593 DEBUG    transfer: 画像名を ASCII 化: pdf1_minimum_slide11.webp → pdf1-minimum-slide11.webp
+2026-11-21 21:04:16,594 DEBUG    transfer: 画像名を ASCII 化: pdf1_minimum_slide12.webp → pdf1-minimum-slide12.webp
+2026-11-21 21:04:16,594 DEBUG    transfer: 画像名を ASCII 化: pdf1_minimum_slide13.webp → pdf1-minimum-slide13.webp
+2026-11-21 21:04:16,594 DEBUG    transfer: 画像名を ASCII 化: pdf1_minimum_slide14.webp → pdf1-minimum-slide14.webp
+2026-11-21 21:04:16,594 DEBUG    transfer: 画像名を ASCII 化: pandoc_section_sample_1.webp → pandoc-section-sample-1.webp
+2026-11-21 21:04:16,595 DEBUG    transfer: 画像名を ASCII 化: common_defauls_file_referreing.webp → common-defauls-file-referreing.webp
+2026-11-21 21:04:16,595 DEBUG    transfer: 画像名を ASCII 化: pandoc_section_sample_2.webp → pandoc-section-sample-2.webp
+2026-11-21 21:04:16,595 DEBUG    transfer: 画像名を ASCII 化: pdf1_minimum_slide17.webp → pdf1-minimum-slide17.webp
+2026-11-21 21:04:16,595 DEBUG    transfer: 画像名を ASCII 化: pdf1_minimum_slide19.webp → pdf1-minimum-slide19.webp
+2026-11-21 21:04:16,596 DEBUG    transfer: 画像名を ASCII 化: pdf1_minimum_slide20.webp → pdf1-minimum-slide20.webp
+2026-11-21 21:04:16,807 INFO     OK: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\build\pdf1_minimum_target_github.md
+-> D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\README.md
+2026-11-21 21:04:16,807 INFO     [ppt_build] transfer OK
+2026-11-21 21:04:16,808 DEBUG    recipe expanded: D:\DOCS\SWPJs\ppt-md-merger-samples\cases\001-pdf1-minimum\src\pdf1_minimum_pdf_recipe.yaml
+2026-11-21 21:04:16,813 INFO     [ppt_build] deleting work-files
+2026-11-21 21:04:16,832 INFO     [ppt_build] deleted: work_pdf1_minimum_target_merged.md
+2026-11-21 21:04:16,833 INFO     [ppt_build] deleted: work_pdf1_minimum_target_idcollect.yaml
+2026-11-21 21:04:16,835 INFO     [ppt_build] deleted: work_pdf1_minimum_target_idresolve.yaml
+2026-11-21 21:04:16,836 INFO     [ppt_build] deleted: pdf1_minimum_target_rendered.md
+2026-11-21 21:04:16,836 INFO     [ppt_build] use --keep-work option to preserve work-files
