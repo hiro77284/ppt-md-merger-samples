@@ -81,9 +81,9 @@ report_base_defaults_toc2level.yaml はPDF生成に使用する文書変換プ�
 <!-- #id:subsection:AUTOHEAD:5 -->
 ### 1.3.1) レシピYAML内の章節番号付与方式設定部分
 
-pptxnumbering: "idresolve" は、 MD ファイル中の #id マーカーを認識して章節番号を付与します。
+pptxnumbering: idresolve を設定すると、 MD ファイル中の #id マーカーを認識して章節番号を付与します。
 
-autoid: "true" は、MDファイル中の #, ##, ### 見出しに自動的に #id マーカーを付与します。
+autoid: true は、MDファイル中の #, ##, ### 見出しに自動的に #id マーカーを付与します。 trueをコーテーションで囲わないように注意してください。
 
 
 
