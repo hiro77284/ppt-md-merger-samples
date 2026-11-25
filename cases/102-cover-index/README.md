@@ -78,7 +78,8 @@ report_base_defaults_toc2level.yaml はPDF生成に使用する文書変換プ�
 <!-- #id:section:AUTOHEAD:4 -->
 ## 1.3) 目次設定項目
 
-レシピYAML内の章節番号付与方式設定部分です。
+<!-- #id:subsection:AUTOHEAD:5 -->
+### 1.3.1) レシピYAML内の章節番号付与方式設定部分
 
 pptxnumbering: "idresolve" は、 MD ファイル中の #id マーカーを認識して章節番号を付与します。
 
@@ -88,6 +89,9 @@ autoid: "true" は、MDファイル中の #, ##, ### 見出しに自動的に #i
 
 <img src="readme-images/102-cover-index-slide4-range1.webp" alt="" width="70%">
 
+
+<!-- #id:subsection:AUTOHEAD:6 -->
+### 1.3.2) report_base_defaults_toc2level.yaml 内の目次設定項目
 
 data-dir: と defaults: で参照する pandoc 設定ファイル、report_base_defaults_toc2level.yaml 内の目次設定項目です。
 
@@ -105,13 +109,13 @@ toc-depth: は目次の階層数です。数字を大きくすると、より深
 
 <!-- source: ../mds/102-cover-index_slide5.md -->
 <!-- md_merge_rawtitle: 章節番号付与のしくみ -->
-<!-- #id:section:AUTOHEAD:5 -->
+<!-- #id:section:AUTOHEAD:7 -->
 ## 1.4) 章節番号付与のしくみ
 
 この章節番号付与のしくみは以下のようなものです。 原稿pptx から切り出された素材MD(mds/102-cover-index_slide1.md) の段階ではMD見出しのみがあり、番号はついていません。
 
 次に結合処理の途中で(build/work_102-cover-index_target_merged.md)、#, ##, ### の各レベルの見出しに #id を自動付与します。これは autoid: true の作用です。
-なお、work_102-cover-index_target_rendered.md というファイルはMD結合処理の途中で生成される作業用ファイルで、すぐに削除されるため通常はビルドの中には残りません。pptmdmerge コマンド実行時に --keep-work というオプションをつけると削除されずに残ります。
+なお、work_102-cover-index_target_merged.md というファイルはMD結合処理の途中で生成される作業用ファイルで、すぐに削除されるため通常はビルドの中には残りません。pptmdmerge コマンド実行時に --keep-work というオプションをつけると削除されずに残ります。
 
 その後、この #id を解析して章節番号を付与します。 最終的に生成される結合MD(build/102-cover-index_target_rendered.md)では、#id がコメント化されてMDビューアーやPDF上では見えなくなる一方、見出しには "# 1) 表紙" のように番号が付与されています。
 
@@ -129,7 +133,7 @@ toc-depth: は目次の階層数です。数字を大きくすると、より深
 
 <!-- source: ../mds/102-cover-index_slide6.md -->
 <!-- md_merge_rawtitle: 「章とびら」 のしくみ -->
-<!-- #id:section:AUTOHEAD:6 -->
+<!-- #id:section:AUTOHEAD:8 -->
 ## 1.5) 「章とびら」 のしくみ
 
 章ごとに先頭に 「章とびら」 という独立ページをつけて、その章の概要と、含まれる節のリストを載せると、プロが編集した書籍のように見えるし読みやすくもなります。
@@ -160,7 +164,7 @@ ppt-md-merger には章とびらを作るための sectionlist という機能�
 
 <!-- source: ../mds/102-cover-index_slide7.md -->
 <!-- md_merge_rawtitle: 生成処理の実行 -->
-<!-- #id:section:AUTOHEAD:7 -->
+<!-- #id:section:AUTOHEAD:9 -->
 ## 1.6) 生成処理の実行
 
 以下の命令で生成を実行します。サブコマンド ppt_build の引数に生成指示書を指定します。
@@ -169,7 +173,7 @@ ppt-md-merger には章とびらを作るための sectionlist という機能�
 
 ```bash
 cd cases\102-cover-index\src
-pptmdmerge ppt_build 102-cover-index_recipe.yaml --github --pdf --transfer
+pptmdmerge ppt_build 102-cover-index_recipe.yaml
 ```
 
 
@@ -205,12 +209,12 @@ Rendered, PDF, GitHubMD 等の関係については次項の図をご覧くだ�
 
 <!-- source: ../mds/102-cover-index_slide8.md -->
 <!-- md_merge_rawtitle: ソースPPTX、生成指示YAML、および成果物MDとPDF -->
-<!-- #id:section:AUTOHEAD:8 -->
+<!-- #id:section:AUTOHEAD:10 -->
 ## 1.7) ソースPPTX、生成指示YAML、および成果物MDとPDF
 
 当サンプルのソースと成果物を以下のリンクで確認できます。
 
-<!-- #id:subsection:AUTOHEAD:9 -->
+<!-- #id:subsection:AUTOHEAD:11 -->
 ### 1.7.1) ソース
 
 **生成指示** [102-cover-index_pdf_recipe.yaml](src/102-cover-index_recipe.yaml)
@@ -218,7 +222,7 @@ Rendered, PDF, GitHubMD 等の関係については次項の図をご覧くだ�
 **原稿PPTX** [102-cover-index.pptx](src/102-cover-index.pptx)
 
 
-<!-- #id:subsection:AUTOHEAD:10 -->
+<!-- #id:subsection:AUTOHEAD:12 -->
 ### 1.7.2) 成果物
 
 MDは何種類か異なる仕様で生成します。 Rendered MDはPPTXソースから切り出したMDにさまざまな加工を加えた生成物で、豊富な書式指示を含んでいます。 それらの書式指示をすべて落として GitHub での表示に特化したのがGitHub用MDです。
@@ -241,7 +245,7 @@ MDは何種類か異なる仕様で生成します。 Rendered MDはPPTXソー�
 
 <!-- source: ../mds/102-cover-index_slide9.md -->
 <!-- md_merge_rawtitle: 表紙用画像の章 -->
-<!-- #id:chapter:AUTOHEAD:11 -->
+<!-- #id:chapter:AUTOHEAD:13 -->
 # 2) 表紙用画像の章
 
 > この章は表紙用画像制作用で、本文のコンテンツとしては不要なパートですが、章・節番号を付与して目次をつけるサンプルとしては意味があるので、PDFにも掲載しておきます。
@@ -257,7 +261,7 @@ MDは何種類か異なる仕様で生成します。 Rendered MDはPPTXソー�
 
 <!-- source: ../mds/102-cover-index_slide10.md -->
 <!-- md_merge_rawtitle: COVER_IMAGE -->
-<!-- #id:section:AUTOHEAD:12 -->
+<!-- #id:section:AUTOHEAD:14 -->
 ## 2.1) COVER_IMAGE
 
 表紙上部に載せたい画像をこのスライドで制作し、cover_image.webp という名前で切り出します。
@@ -273,7 +277,7 @@ MDは何種類か異なる仕様で生成します。 Rendered MDはPPTXソー�
 
 <!-- source: ../mds/102-cover-index_slide11.md -->
 <!-- md_merge_rawtitle: COVER_FOOTERIMAGE -->
-<!-- #id:section:AUTOHEAD:13 -->
+<!-- #id:section:AUTOHEAD:15 -->
 ## 2.2) COVER_FOOTERIMAGE
 
 表紙上部に載せたい画像をこのスライドで制作し、cover_footerimage.webp という名前で切り出します。
