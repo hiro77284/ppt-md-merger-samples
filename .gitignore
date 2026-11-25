@@ -7,6 +7,7 @@ cases/**/temppdfs/
 cases/**/extracted/
 cases/**/log.txt
 cases/**/*_merge.log
+build_all_cases_*.log
 
 cases_back/
 

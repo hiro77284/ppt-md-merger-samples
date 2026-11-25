@@ -11,7 +11,7 @@ ppt_md_merger_version: "<2.0.6>"   # この事例を最後にビルドして確�
 # 任意 ----------------------------------------------------------------
 recipe_version: 4              # レシピの version（一覧には出さない。将来の一括移行用）
 build:                         # 再生成手順。上から順に実行する（cases/<id>/ 基準のパス）
-  - recipe: src/<NAME>_pdf_recipe.yaml
+  - recipe: src/<NAME>_recipe.yaml
     command: ppt_build
     options: --githubmd --transfer --pdf --yes-clear-dir
 outputs: [pdf, githubmd]       # 生成物の種類: pdf / githubmd / puremd / html / reveal / pptx

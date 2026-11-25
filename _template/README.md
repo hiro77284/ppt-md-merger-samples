@@ -17,13 +17,13 @@
 | ファイル | 内容 |
 |---|---|
 | `<NAME>.pptx` | 原稿。本文はスライドの note に Markdown で書く |
-| `<NAME>_pdf_recipe.yaml` | 生成指示書（レシピ） |
+| `<NAME>_recipe.yaml` | 生成指示書（レシピ） |
 
 ## 生成手順
 
 ```
 cd src
-ppt_build <NAME>_pdf_recipe.yaml --githubmd --transfer --pdf --yes-clear-dir
+ppt_build <NAME>_recipe.yaml --githubmd --transfer --pdf --yes-clear-dir
 ```
 
 ## ポイント

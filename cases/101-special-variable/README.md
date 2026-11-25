@@ -96,7 +96,7 @@ noteテキスト中で
 
 ```bash
 cd cases\101-special-variable\src
-pptmdmerge ppt_build 101-slide-md_recipe.yaml --github --pdf --transfer
+pptmdmerge ppt_build 101-slide-md_recipe.yaml 
 ```
 
 

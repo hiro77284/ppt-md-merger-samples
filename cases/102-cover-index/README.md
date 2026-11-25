@@ -217,7 +217,7 @@ Rendered, PDF, GitHubMD 等の関係については次項の図をご覧くだ�
 <!-- #id:subsection:AUTOHEAD:11 -->
 ### 1.7.1) ソース
 
-**生成指示** [102-cover-index_pdf_recipe.yaml](src/102-cover-index_recipe.yaml)
+**生成指示** [102-cover-index_recipe.yaml](src/102-cover-index_recipe.yaml)
 
 **原稿PPTX** [102-cover-index.pptx](src/102-cover-index.pptx)
 

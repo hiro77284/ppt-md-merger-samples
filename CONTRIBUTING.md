@@ -4,12 +4,12 @@
    - `NNN` は連番（3桁）、`slug` は英小文字・数字・`-`（例: `002-chapter-cover`）
 2. `src/` に入力一式を置く
    - 原稿 pptx、レシピ yaml、`COVER_VARS.yaml`、表紙 md、挿入用のサンプル pptx など
-   - 雛形のレシピ `src/NAME_pdf_recipe.yaml` は NAME を原稿名に置き換えて使う（不要なら削除）
+   - 雛形のレシピ `src/NAME_recipe.yaml` は NAME を原稿名に置き換えて使う（不要なら削除）
    - 1つの事例でしか使わない設定は `src/` に、2つ以上で使う設定は `user_settings/` に置く
 3. `src/` でビルドし、事例ページを生成する
    ```
    cd cases/NNN-slug/src
-   ppt_build NAME_pdf_recipe.yaml --githubmd --transfer --pdf --yes-clear-dir
+   ppt_build NAME_recipe.yaml --githubmd --transfer --pdf --yes-clear-dir
    ```
    `../README.md` と `../readme-images/` が書き出される。手書きする場合は `_template/README.md` の見出しを埋める
 4. `case.yaml` を書く（項目の説明は `_template/case.yaml`）

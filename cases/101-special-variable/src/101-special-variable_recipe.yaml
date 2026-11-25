@@ -2,7 +2,7 @@ version: 4
 
 # 事例の生成指示書（雛形）。cases/001-pdf1-minimum/src/pdf1_minimum_pdf_recipe.yaml を短くしたもの。
 # TEMPLATE を事例の原稿名（pptx のファイル名から拡張子を除いたもの）に置き換えて使う。
-# 実行: cd src && ppt_build TEMPLATE_pdf_recipe.yaml --githubmd --transfer --pdf --yes-clear-dir
+# 実行: cd src && ppt_build 101-special-variable_recipe.yaml --githubmd --transfer --pdf --yes-clear-dir
 #
 # 生成物の置き場（すべて gitignore 済み。src/ から再生成できる）
 #   ../images/   pptimgexport が切り出す画像
