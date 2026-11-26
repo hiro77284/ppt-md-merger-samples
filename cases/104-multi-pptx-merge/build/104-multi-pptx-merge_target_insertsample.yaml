@@ -1,0 +1,176 @@
+  # ===== ブロック1: insertpptx サンプル =====
+  # __________ NEW PPTX: 104-multi-pptx-merge.pptx __________
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 1
+    description: PPTXとPDFの同一構成マージ
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 2
+    description: 複数の原稿PPTXから単一のPDFとPPTXを作りたい
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 3
+    description: 配布用PDFと講師用PPTXへの章節番号付与のしくみ
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 4
+    description: 'ユニークな #id 付与のしくみ'
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 5
+    description: 複数の原稿PPTXを source に指定する
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 6
+    description: 複数の原稿PPTXをマージ(結合)する
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 7
+    description: 生成処理の実行
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 8
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  # __________ NEW PPTX: additional.pptx __________
+  - insertpptx: additional.pptx
+    slides: 1
+    description: 複数原稿PPTXの2ファイル目
+  - insertpptx: additional.pptx
+    slides: 2
+    description: Contents A
+  - insertpptx: additional.pptx
+    slides: 3
+    description: Contents B
+  - insertpptx: additional.pptx
+    slides: 4
+    description: Contents C
+  - insertpptx: additional.pptx
+    slides: 5
+    description: Contents D
+  - insertpptx: additional.pptx
+    slides: 6
+    description: Contents E
+  - insertpptx: additional.pptx
+    slides: 7
+    description: Contents F
+
+  # ===== ブロック2: insertmd サンプル =====
+  # __________ NEW PPTX: 104-multi-pptx-merge.pptx __________
+  - insertmd: 104-multi-pptx-merge_slide1.md
+    description: PPTXとPDFの同一構成マージ
+  - insertmd: 104-multi-pptx-merge_slide2.md
+    description: 複数の原稿PPTXから単一のPDFとPPTXを作りたい
+  - insertmd: 104-multi-pptx-merge_slide3.md
+    description: 配布用PDFと講師用PPTXへの章節番号付与のしくみ
+  - insertmd: 104-multi-pptx-merge_slide4.md
+    description: 'ユニークな #id 付与のしくみ'
+  - insertmd: 104-multi-pptx-merge_slide5.md
+    description: 複数の原稿PPTXを source に指定する
+  - insertmd: 104-multi-pptx-merge_slide6.md
+    description: 複数の原稿PPTXをマージ(結合)する
+  - insertmd: 104-multi-pptx-merge_slide7.md
+    description: 生成処理の実行
+  - insertmd: 104-multi-pptx-merge_slide8.md
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  # __________ NEW PPTX: additional.pptx __________
+  - insertmd: additional_slide1.md
+    description: 複数原稿PPTXの2ファイル目
+  - insertmd: additional_slide2.md
+    description: Contents A
+  - insertmd: additional_slide3.md
+    description: Contents B
+  - insertmd: additional_slide4.md
+    description: Contents C
+  - insertmd: additional_slide5.md
+    description: Contents D
+  - insertmd: additional_slide6.md
+    description: Contents E
+  - insertmd: additional_slide7.md
+    description: Contents F
+
+  # ===== ブロック3: insertpptx + insertmd ミックス（スライド単位） =====
+  # __________ NEW PPTX: 104-multi-pptx-merge.pptx __________
+  # ----------- slide 1 104-multi-pptx-merge.pptx -----------
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 1
+    description: PPTXとPDFの同一構成マージ
+  - insertmd: 104-multi-pptx-merge_slide1.md
+    description: PPTXとPDFの同一構成マージ
+  # ----------- slide 2 104-multi-pptx-merge.pptx -----------
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 2
+    description: 複数の原稿PPTXから単一のPDFとPPTXを作りたい
+  - insertmd: 104-multi-pptx-merge_slide2.md
+    description: 複数の原稿PPTXから単一のPDFとPPTXを作りたい
+  # ----------- slide 3 104-multi-pptx-merge.pptx -----------
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 3
+    description: 配布用PDFと講師用PPTXへの章節番号付与のしくみ
+  - insertmd: 104-multi-pptx-merge_slide3.md
+    description: 配布用PDFと講師用PPTXへの章節番号付与のしくみ
+  # ----------- slide 4 104-multi-pptx-merge.pptx -----------
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 4
+    description: 'ユニークな #id 付与のしくみ'
+  - insertmd: 104-multi-pptx-merge_slide4.md
+    description: 'ユニークな #id 付与のしくみ'
+  # ----------- slide 5 104-multi-pptx-merge.pptx -----------
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 5
+    description: 複数の原稿PPTXを source に指定する
+  - insertmd: 104-multi-pptx-merge_slide5.md
+    description: 複数の原稿PPTXを source に指定する
+  # ----------- slide 6 104-multi-pptx-merge.pptx -----------
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 6
+    description: 複数の原稿PPTXをマージ(結合)する
+  - insertmd: 104-multi-pptx-merge_slide6.md
+    description: 複数の原稿PPTXをマージ(結合)する
+  # ----------- slide 7 104-multi-pptx-merge.pptx -----------
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 7
+    description: 生成処理の実行
+  - insertmd: 104-multi-pptx-merge_slide7.md
+    description: 生成処理の実行
+  # ----------- slide 8 104-multi-pptx-merge.pptx -----------
+  - insertpptx: 104-multi-pptx-merge.pptx
+    slides: 8
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  - insertmd: 104-multi-pptx-merge_slide8.md
+    description: ソースPPTX、生成指示YAML、および成果物MDとPDF
+  # __________ NEW PPTX: additional.pptx __________
+  # ----------- slide 1 additional.pptx -----------
+  - insertpptx: additional.pptx
+    slides: 1
+    description: 複数原稿PPTXの2ファイル目
+  - insertmd: additional_slide1.md
+    description: 複数原稿PPTXの2ファイル目
+  # ----------- slide 2 additional.pptx -----------
+  - insertpptx: additional.pptx
+    slides: 2
+    description: Contents A
+  - insertmd: additional_slide2.md
+    description: Contents A
+  # ----------- slide 3 additional.pptx -----------
+  - insertpptx: additional.pptx
+    slides: 3
+    description: Contents B
+  - insertmd: additional_slide3.md
+    description: Contents B
+  # ----------- slide 4 additional.pptx -----------
+  - insertpptx: additional.pptx
+    slides: 4
+    description: Contents C
+  - insertmd: additional_slide4.md
+    description: Contents C
+  # ----------- slide 5 additional.pptx -----------
+  - insertpptx: additional.pptx
+    slides: 5
+    description: Contents D
+  - insertmd: additional_slide5.md
+    description: Contents D
+  # ----------- slide 6 additional.pptx -----------
+  - insertpptx: additional.pptx
+    slides: 6
+    description: Contents E
+  - insertmd: additional_slide6.md
+    description: Contents E
+  # ----------- slide 7 additional.pptx -----------
+  - insertpptx: additional.pptx
+    slides: 7
+    description: Contents F
+  - insertmd: additional_slide7.md
+    description: Contents F
