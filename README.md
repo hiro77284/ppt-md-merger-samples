@@ -13,15 +13,62 @@
 
 全 6 件
 
-<table>
-<tr><th width="400"></th><th>事例</th><th>概要</th><th>タグ</th><th>確認バージョン</th></tr>
-<tr><td width="400"><img src="cases/100-slide-md/readme-images/100-slide-md1.webp" width="400" alt=""></td><td><a href="cases/100-slide-md/">pptxで画像＋Markdown一括制作</a><br><code>100-slide-md</code></td><td>スライドに画像を描き、noteにMarkdownを書いてそれを組み合わせた Markdown 原稿を自動生成する事例です。</td><td><code>markdown</code> <code>image-crop</code></td><td>2.0.6</td></tr>
-<tr><td width="400"><img src="cases/101-special-variable/readme-images/101-special-variable-1.webp" width="400" alt=""></td><td><a href="cases/101-special-variable/">画像ファイルとMDファイルの命名を自動化</a><br><code>101-special-variable</code></td><td>スライド番号を使って画像ファイルとMDファイルに自動的にスライドごとに違う名前を付与して、export命令をコピペで済ませる</td><td><code>export</code> <code>ファイル名</code></td><td>2.0.6</td></tr>
-<tr><td width="400"><img src="cases/102-cover-index/readme-images/102-cover-index-slide2.webp" width="400" alt=""></td><td><a href="cases/102-cover-index/">表紙と目次をつけてPDF生成</a><br><code>102-cover-index</code></td><td>PDF生成時に表紙と目次を付加する設定項目の解説</td><td><code>cover</code> <code>index</code></td><td>2.0.6</td></tr>
-<tr><td width="400"><img src="cases/103-page-space/readme-images/103-page-space-slide3.webp" width="400" alt=""></td><td><a href="cases/103-page-space/">PDF資料のページとスペースを調整する</a><br><code>103-page-space</code></td><td>PDF資料の改ページとコンテンツ間のスペースを調整する方法の解説とサンプル</td><td><code>page</code> <code>space</code></td><td>2.1.0</td></tr>
-<tr><td width="400"><img src="cases/104-multi-pptx-merge/readme-images/104-multi-pptx-merge-slide2.webp" width="400" alt=""></td><td><a href="cases/104-multi-pptx-merge/">複数の原稿PPTXをマージしてPDFおよび同一構成の単一PPTXを生成する</a><br><code>104-multi-pptx-merge</code></td><td>複数の原稿PPTXをマージして、章節構造で付番されたPDFと単一のPPTXを同じ構成で生成する方法の解説とサンプル</td><td><code>pptx</code> <code>merge</code> <code>pdf</code></td><td>2.1.0</td></tr>
-<tr><td width="400"><img src="cases/105-pptx-numbering/readme-images/105-pptx-numbering-slide3.webp" width="400" alt=""></td><td><a href="cases/105-pptx-numbering/">大きなPPTXファイルに章・節番号を付番する</a><br><code>105-pptx-numbering</code></td><td>ページ数の多いPPTXファイルに自動的に章・節番号を付番する方法の解説とサンプル</td><td><code>pptx</code> <code>numbering</code></td><td>2.1.2</td></tr>
-</table>
+| No. | 事例 |
+| --- | --- |
+| 100 | [pptxで画像＋Markdown一括制作](#100-pptxで画像markdown一括制作) |
+| 101 | [画像ファイルとMDファイルの命名を自動化](#101-画像ファイルとmdファイルの命名を自動化) |
+| 102 | [表紙と目次をつけてPDF生成](#102-表紙と目次をつけてpdf生成) |
+| 103 | [PDF資料のページとスペースを調整する](#103-pdf資料のページとスペースを調整する) |
+| 104 | [複数の原稿PPTXをマージしてPDFおよび同一構成の単一PPTXを生成する](#104-複数の原稿pptxをマージしてpdfおよび同一構成の単一pptxを生成する) |
+| 105 | [大きなPPTXファイルに章・節番号を付番する](#105-大きなpptxファイルに章節番号を付番する) |
+
+### 100 pptxで画像＋Markdown一括制作
+
+<a href="cases/100-slide-md/"><img src="cases/100-slide-md/readme-images/100-slide-md1.webp" width="600" alt="pptxで画像＋Markdown一括制作"></a>
+
+スライドに画像を描き、noteにMarkdownを書いてそれを組み合わせた Markdown 原稿を自動生成する事例です。
+
+[事例を開く](cases/100-slide-md/) ・ タグ: `markdown` `image-crop` ・ 確認バージョン: 2.0.6
+
+### 101 画像ファイルとMDファイルの命名を自動化
+
+<a href="cases/101-special-variable/"><img src="cases/101-special-variable/readme-images/101-special-variable-1.webp" width="600" alt="画像ファイルとMDファイルの命名を自動化"></a>
+
+スライド番号を使って画像ファイルとMDファイルに自動的にスライドごとに違う名前を付与して、export命令をコピペで済ませる
+
+[事例を開く](cases/101-special-variable/) ・ タグ: `export` `ファイル名` ・ 確認バージョン: 2.0.6
+
+### 102 表紙と目次をつけてPDF生成
+
+<a href="cases/102-cover-index/"><img src="cases/102-cover-index/readme-images/102-cover-index-slide2.webp" width="600" alt="表紙と目次をつけてPDF生成"></a>
+
+PDF生成時に表紙と目次を付加する設定項目の解説
+
+[事例を開く](cases/102-cover-index/) ・ タグ: `cover` `index` ・ 確認バージョン: 2.0.6
+
+### 103 PDF資料のページとスペースを調整する
+
+<a href="cases/103-page-space/"><img src="cases/103-page-space/readme-images/103-page-space-slide3.webp" width="600" alt="PDF資料のページとスペースを調整する"></a>
+
+PDF資料の改ページとコンテンツ間のスペースを調整する方法の解説とサンプル
+
+[事例を開く](cases/103-page-space/) ・ タグ: `page` `space` ・ 確認バージョン: 2.1.0
+
+### 104 複数の原稿PPTXをマージしてPDFおよび同一構成の単一PPTXを生成する
+
+<a href="cases/104-multi-pptx-merge/"><img src="cases/104-multi-pptx-merge/readme-images/104-multi-pptx-merge-slide2.webp" width="600" alt="複数の原稿PPTXをマージしてPDFおよび同一構成の単一PPTXを生成する"></a>
+
+複数の原稿PPTXをマージして、章節構造で付番されたPDFと単一のPPTXを同じ構成で生成する方法の解説とサンプル
+
+[事例を開く](cases/104-multi-pptx-merge/) ・ タグ: `pptx` `merge` `pdf` ・ 確認バージョン: 2.1.0
+
+### 105 大きなPPTXファイルに章・節番号を付番する
+
+<a href="cases/105-pptx-numbering/"><img src="cases/105-pptx-numbering/readme-images/105-pptx-numbering-slide3.webp" width="600" alt="大きなPPTXファイルに章・節番号を付番する"></a>
+
+ページ数の多いPPTXファイルに自動的に章・節番号を付番する方法の解説とサンプル
+
+[事例を開く](cases/105-pptx-numbering/) ・ タグ: `pptx` `numbering` ・ 確認バージョン: 2.1.2
 
 ### タグ別
 
