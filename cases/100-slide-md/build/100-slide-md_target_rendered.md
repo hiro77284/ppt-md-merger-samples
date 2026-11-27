@@ -256,7 +256,7 @@ MDは異なる仕様で数種類生成します。 Rendered MDはPPTXソース�
 
 [PDF]{.term} [100-slide-md_target.pdf](build/100-slide-md_target.pdf)
 
-[README]{.term} このファイルです
+[README]{.term} 今、あなたがGitHubで読んでいるこのファイルです
 
 ::: {.center}
 ![](images/100-slide-md8.webp){ width=100% }

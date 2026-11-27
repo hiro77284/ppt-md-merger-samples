@@ -233,7 +233,7 @@ MDは何種類か異なる仕様で生成します。 Rendered MDはPPTXソー�
 
 **PDF** [102-cover-index_target.pdf](build/102-cover-index_target.pdf)
 
-**README** このファイルです
+**README** 今、あなたがGitHubで読んでいるこのファイルです
 
 <img src="images/102-cover-index_slide8.webp" alt="" width="100%">
 

@@ -312,7 +312,7 @@ PDF資料の改ページとコンテンツ間のスペースを調整する方�
 ])
 #v(7.4mm)
 #align(center, text(size: 11.5pt)[
-作成日：2026-11-27 11:42:27
+作成日：2026-11-28 07:50:58
 
 ])
 #v(6mm)
@@ -520,7 +520,7 @@ MDはPPTXソースから切り出したMDにさまざまな加工を加えた生
 #semterm[PDF];
 #link("build/103-page-space_target.pdf")[103-page-space\_target.pdf]
 
-#semterm[README]; このファイルです
+#semterm[README]; 今、あなたがGitHubで読んでいるこのファイルです
 
 #semcenter[
 #box(image("images/103-page-space_slide7.webp", width: 100.0%))

@@ -32,9 +32,12 @@
     description: 注意！　MD、PDF生成時はchapt_sectionは使えない
   - insertpptx: 105-pptx-numbering.pptx
     slides: 11
-    description: 生成処理の実行
+    description: 注意！　付番されるのは「タイトル」属性を持つシェイプのみ
   - insertpptx: 105-pptx-numbering.pptx
     slides: 12
+    description: 生成処理の実行
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 13
     description: ソースPPTX、生成指示YAML、および成果物PPTX
 
   # ===== ブロック2: insertmd サンプル =====
@@ -60,8 +63,10 @@
   - insertmd: 105-pptx-numbering_slide10.md
     description: 注意！　MD、PDF生成時はchapt_sectionは使えない
   - insertmd: 105-pptx-numbering_slide11.md
-    description: 生成処理の実行
+    description: 注意！　付番されるのは「タイトル」属性を持つシェイプのみ
   - insertmd: 105-pptx-numbering_slide12.md
+    description: 生成処理の実行
+  - insertmd: 105-pptx-numbering_slide13.md
     description: ソースPPTX、生成指示YAML、および成果物PPTX
 
   # ===== ブロック3: insertpptx + insertmd ミックス（スライド単位） =====
@@ -129,12 +134,18 @@
   # ----------- slide 11 105-pptx-numbering.pptx -----------
   - insertpptx: 105-pptx-numbering.pptx
     slides: 11
-    description: 生成処理の実行
+    description: 注意！　付番されるのは「タイトル」属性を持つシェイプのみ
   - insertmd: 105-pptx-numbering_slide11.md
-    description: 生成処理の実行
+    description: 注意！　付番されるのは「タイトル」属性を持つシェイプのみ
   # ----------- slide 12 105-pptx-numbering.pptx -----------
   - insertpptx: 105-pptx-numbering.pptx
     slides: 12
-    description: ソースPPTX、生成指示YAML、および成果物PPTX
+    description: 生成処理の実行
   - insertmd: 105-pptx-numbering_slide12.md
+    description: 生成処理の実行
+  # ----------- slide 13 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 13
+    description: ソースPPTX、生成指示YAML、および成果物PPTX
+  - insertmd: 105-pptx-numbering_slide13.md
     description: ソースPPTX、生成指示YAML、および成果物PPTX

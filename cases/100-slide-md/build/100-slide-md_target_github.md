@@ -242,7 +242,7 @@ MDは異なる仕様で数種類生成します。 Rendered MDはPPTXソース�
 
 **PDF** [100-slide-md_target.pdf](build/100-slide-md_target.pdf)
 
-**README** このファイルです
+**README** 今、あなたがGitHubで読んでいるこのファイルです
 
 <img src="images/100-slide-md8.webp" alt="" width="100%">
 

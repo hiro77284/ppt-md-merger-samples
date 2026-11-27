@@ -16,8 +16,9 @@
 > - 1.7) 番号付与の抑制
 > - 1.8) PPTXのみの番号付与を行うレシピYAML
 > - 1.9) 注意！　MD、PDF生成時はchapt_sectionは使えない
-> - 1.10) 生成処理の実行
-> - 1.11) ソースPPTX、生成指示YAML、および成果物PPTX
+> - 1.10) 注意！　付番されるのは「タイトル」属性を持つシェイプのみ
+> - 1.11) 生成処理の実行
+> - 1.12) ソースPPTX、生成指示YAML、および成果物PPTX
 
 
 
@@ -190,9 +191,29 @@ procedure.insertPPTX: に原稿PPTXを指定します。
 
 
 <!-- source: ../mds/105-pptx-numbering_slide11.md -->
-<!-- md_merge_rawtitle: 生成処理の実行 -->
+<!-- md_merge_rawtitle: 注意！ 付番されるのは「タイトル」属性を持つシェイプのみ -->
 <!-- #id:section:105-pptx-numbering:slide11 -->
-## 1.10) 生成処理の実行
+## 1.10) 注意！　付番されるのは「タイトル」属性を持つシェイプのみ
+
+> [!WARNING]
+> 付番されるのは「タイトル」属性を持つシェイプのみ
+
+<img src="readme-images/105-pptx-numbering-slide11.webp" alt="" width="100%">
+
+シェイプ（PowerPointの図形）の中にはスライドごとに1つ、タイトル属性を持つものがあります。 未入力時に 「タイトルを入力」 というガイドメッセージが出るものがそれです。 通常、新スライドを追加すると一番上にあって目立ちますね。
+
+ppt-md-merger の番号付番はタイトルシェイプに対して行うので、それがないときは付番されません。　いったんタイトルシェイプを削除して、代わりに同じ位置に長方形シェイプを置くと、一見タイトルに見えてもそれはタイトル属性を持たないただの長方形なので付番されません。
+
+タイトルシェイプをコピペしてもタイトル属性が外れます。 スライドの内容をコピペしてタイトルを作り直したときに、この問題が起きやすいのでご注意ください。 一部のスライドのみ番号付番が行われない場合はこの現象を疑ってください。
+
+
+
+
+
+<!-- source: ../mds/105-pptx-numbering_slide12.md -->
+<!-- md_merge_rawtitle: 生成処理の実行 -->
+<!-- #id:section:105-pptx-numbering:slide12 -->
+## 1.11) 生成処理の実行
 
 以下の命令で生成を実行します。 このサンプルでは chapt_section 方式の PPTX のみの生成を行うので、サブコマンドは pptmerge です。
 
@@ -209,7 +230,7 @@ pptmdmerge pptmerge 105-example_recipe.yaml
 
 
 
-<img src="readme-images/105-pptx-numbering-slide11.webp" alt="" width="100%">
+<img src="readme-images/105-pptx-numbering-slide12.webp" alt="" width="100%">
 
 
 
@@ -217,10 +238,10 @@ pptmdmerge pptmerge 105-example_recipe.yaml
 
 
 
-<!-- source: ../mds/105-pptx-numbering_slide12.md -->
+<!-- source: ../mds/105-pptx-numbering_slide13.md -->
 <!-- md_merge_rawtitle: ソースPPTX、生成指示YAML、および成果物PPTX -->
-<!-- #id:section:105-pptx-numbering:slide12 -->
-## 1.11) ソースPPTX、生成指示YAML、および成果物PPTX
+<!-- #id:section:105-pptx-numbering:slide13 -->
+## 1.12) ソースPPTX、生成指示YAML、および成果物PPTX
 
 当サンプルのソースと成果物を以下のリンクで確認できます。
 
@@ -237,9 +258,9 @@ pptmdmerge pptmerge 105-example_recipe.yaml
 
 **付番後PPTX** [105-example_target.pptx](build/105-example_target.pptx)
 
-**README** このファイルです
+**README** 今、あなたがGitHubで読んでいるこのファイルです
 
-<img src="readme-images/105-pptx-numbering-slide12.webp" alt="" width="100%">
+<img src="readme-images/105-pptx-numbering-slide13.webp" alt="" width="100%">
 
 原稿PPTXと付番後PPTXを開いて CHAPT や NONUMBERING, SUBSECTION がどう働くかを確認してください。
 

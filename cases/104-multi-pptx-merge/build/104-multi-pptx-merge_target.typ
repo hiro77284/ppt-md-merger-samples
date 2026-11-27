@@ -312,7 +312,7 @@
 ])
 #v(7.4mm)
 #align(center, text(size: 11.5pt)[
-作成日：2026-11-27 11:42:30
+作成日：2026-11-28 07:51:03
 
 ])
 #v(6mm)
@@ -608,7 +608,7 @@ MDはPPTXソースから切り出したMDにさまざまな加工を加えた生
 #semterm[結合PPTX];
 #link("build/104-multi-pptx-merge_target.pptx")[104-multi-pptx-merge\_target.pptx]
 
-#semterm[README]; このファイルです
+#semterm[README]; 今、あなたがGitHubで読んでいるこのファイルです
 
 #semcenter[
 #box(image("images/104-multi-pptx-merge_slide8.webp", width: 100.0%))

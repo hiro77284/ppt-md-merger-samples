@@ -268,7 +268,7 @@ MDは何種類か異なる仕様で生成します。 Rendered MDはPPTXソー�
 
 [結合PPTX]{.term} [104-multi-pptx-merge_target.pptx](build/104-multi-pptx-merge_target.pptx)
 
-[README]{.term} このファイルです
+[README]{.term} 今、あなたがGitHubで読んでいるこのファイルです
 
 ::: {.center}
 ![](images/104-multi-pptx-merge_slide8.webp){ width=100% }

@@ -318,7 +318,7 @@ Markdown
 ])
 #v(7.4mm)
 #align(center, text(size: 11.5pt)[
-作成日：2026-11-28 07:35:26
+作成日：2026-11-28 07:50:54
 
 ])
 #v(6mm)
@@ -586,7 +586,7 @@ MDはPPTXソースから切り出したMDにさまざまな加工を加えた生
 #semterm[PDF];
 #link("build/102-cover-index_target.pdf")[102-cover-index\_target.pdf]
 
-#semterm[README]; このファイルです
+#semterm[README]; 今、あなたがGitHubで読んでいるこのファイルです
 
 #semcenter[
 #box(image("images/102-cover-index_slide8.webp", width: 100.0%))

@@ -154,7 +154,7 @@ MDは異なる仕様で数種類生成します。 Rendered MDはPPTXソース�
 
 **PDF** [101-special-variable-target.pdf](build/101-special-variable-target.pdf)
 
-**README** このファイルです
+**README** 今、あなたがGitHubで読んでいるこのファイルです
 
 <img src="readme-images/101-special-variable-6.webp" alt="" width="100%">
 

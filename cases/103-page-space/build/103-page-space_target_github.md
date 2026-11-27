@@ -190,7 +190,7 @@ MDは何種類か異なる仕様で生成します。 Rendered MDはPPTXソー�
 
 **PDF** [103-page-space_target.pdf](build/103-page-space_target.pdf)
 
-**README** このファイルです
+**README** 今、あなたがGitHubで読んでいるこのファイルです
 
 <img src="images/103-page-space_slide7.webp" alt="" width="100%">
 

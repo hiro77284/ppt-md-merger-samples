@@ -312,7 +312,7 @@
 ])
 #v(7.4mm)
 #align(center, text(size: 11.5pt)[
-作成日：2026-11-27 11:42:34
+作成日：2026-11-28 07:51:09
 
 ])
 #v(6mm)
@@ -344,8 +344,9 @@ MarkdownやPDF出力を行わず、PPTXへの章節番号付番のみ行う方�
 - 1.7) 番号付与の抑制
 - 1.8) PPTXのみの番号付与を行うレシピYAML
 - 1.9) 注意！　MD、PDF生成時はchapt\_sectionは使えない
-- 1.10) 生成処理の実行
-- 1.11) ソースPPTX、生成指示YAML、および成果物PPTX
+- 1.10) 注意！　付番されるのは「タイトル」属性を持つシェイプのみ
+- 1.11) 生成処理の実行
+- 1.12) ソースPPTX、生成指示YAML、および成果物PPTX
 
 ]
 ]
@@ -510,8 +511,32 @@ idresolve を使ってください。
 ]
 #v(1fr)
 #pagebreak(weak: true)
-== 1.10) 生成処理の実行
-<110-生成処理の実行>
+== 1.10) 注意！　付番されるのは「タイトル」属性を持つシェイプのみ
+<110-注意-付番されるのはタイトル属性を持つシェイプのみ>
+#sem-box("warning")[
+付番されるのは「タイトル」属性を持つシェイプのみ
+
+]
+#semcenter[
+#box(image("images/105-pptx-numbering_slide11.webp", width: 100.0%))
+
+]
+シェイプ（PowerPointの図形）の中にはスライドごとに1つ、タイトル属性を持つものがあります。
+未入力時に 「タイトルを入力」
+というガイドメッセージが出るものがそれです。
+通常、新スライドを追加すると一番上にあって目立ちますね。
+
+ppt-md-merger
+の番号付番はタイトルシェイプに対して行うので、それがないときは付番されません。　いったんタイトルシェイプを削除して、代わりに同じ位置に長方形シェイプを置くと、一見タイトルに見えてもそれはタイトル属性を持たないただの長方形なので付番されません。
+
+タイトルシェイプをコピペしてもタイトル属性が外れます。
+スライドの内容をコピペしてタイトルを作り直したときに、この問題が起きやすいのでご注意ください。
+一部のスライドのみ番号付番が行われない場合はこの現象を疑ってください。
+
+#v(1fr)
+#pagebreak(weak: true)
+== 1.11) 生成処理の実行
+<111-生成処理の実行>
 以下の命令で生成を実行します。 このサンプルでは chapt\_section 方式の
 PPTX のみの生成を行うので、サブコマンドは pptmerge です。
 
@@ -526,14 +551,14 @@ pptmdmerge pptmerge 105-example_recipe.yaml
 
 #v(1 * 1.65em)
 #semcenter[
-#box(image("images/105-pptx-numbering_slide11.webp", width: 100.0%))
+#box(image("images/105-pptx-numbering_slide12.webp", width: 100.0%))
 
 ]
 #v(1 * 1.65em)
 #v(1fr)
 #pagebreak(weak: true)
-== 1.11) ソースPPTX、生成指示YAML、および成果物PPTX
-<111-ソースpptx生成指示yamlおよび成果物pptx>
+== 1.12) ソースPPTX、生成指示YAML、および成果物PPTX
+<112-ソースpptx生成指示yamlおよび成果物pptx>
 当サンプルのソースと成果物を以下のリンクで確認できます。
 
 === ソース
@@ -551,10 +576,10 @@ pptmdmerge pptmerge 105-example_recipe.yaml
 #semterm[付番後PPTX];
 #link("build/105-example_target.pptx")[105-example\_target.pptx]
 
-#semterm[README]; このファイルです
+#semterm[README]; 今、あなたがGitHubで読んでいるこのファイルです
 
 #semcenter[
-#box(image("images/105-pptx-numbering_slide12.webp", width: 100.0%))
+#box(image("images/105-pptx-numbering_slide13.webp", width: 100.0%))
 
 ]
 原稿PPTXと付番後PPTXを開いて CHAPT や NONUMBERING, SUBSECTION
