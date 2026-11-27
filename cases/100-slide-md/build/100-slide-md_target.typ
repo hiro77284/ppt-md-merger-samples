@@ -312,7 +312,7 @@
 ])
 #v(7.4mm)
 #align(center, text(size: 11.5pt)[
-作成日：2026-11-26 02:17:22
+作成日：2026-11-27 11:42:18
 
 ])
 #v(6mm)
@@ -484,13 +484,27 @@ source.cropsrc.pptx には、原稿PPTXを指定します。
 ]
 pptx を複数使う場合はリストで記述します。
 
-```
+```plain
   cropsrc:  # リスト使用可能
     - pptx: 講師紹介_standard.pptx 
       pdf: ../temppdfs/講師紹介_standard.pdf           
     - pptx: ../../modules/src/問題・目標・原因・施策_standard.pptx
       pdf: ../temppdfs/問題・目標・原因・施策_standard.pdf
 ```
+
+cropimagedirs
+は原稿PPTXから切り出した画像の後加工をする場所です。この値は原稿PPTX内の画像切り出し命令
+
+```plain
+export-image-mode: slide_with_rectpct
+export-image-target: exportrange
+export-image: ../images/apple_orange.webp
+```
+
+の出力先フォルダ (expor-image中のフォルダ名) に合わせてください。
+ppt-md-mergerは expor-image-mode が slide\_with\_rectpct
+であった場合に、 cropimagedirs
+のディレクトリを見にいって画像の後加工処理をします。
 
 #v(1fr)
 #pagebreak(weak: true)

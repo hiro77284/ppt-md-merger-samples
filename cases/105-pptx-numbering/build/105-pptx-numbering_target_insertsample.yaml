@@ -1,0 +1,140 @@
+  # ===== ブロック1: insertpptx サンプル =====
+  # __________ NEW PPTX: 105-pptx-numbering.pptx __________
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 1
+    description: PPTXへの章節番号付番のみ(PDF化しない)
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 2
+    description: 単にPPTXに章節番号をつけたいだけ
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 3
+    description: 複数のPPTXをひとつにまとめて章節番号をつけたい
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 4
+    description: 基本は「章・節」方式
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 5
+    description: CHAPT マーカーで章を切替える
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 6
+    description: 章とびら無しなら CHAPT と SECTION を書く
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 7
+    description: 番号カウントの抑制
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 8
+    description: 番号付与の抑制
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 9
+    description: PPTXのみの番号付与を行うレシピYAML
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 10
+    description: 注意！　MD、PDF生成時はchapt_sectionは使えない
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 11
+    description: 生成処理の実行
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 12
+    description: ソースPPTX、生成指示YAML、および成果物PPTX
+
+  # ===== ブロック2: insertmd サンプル =====
+  # __________ NEW PPTX: 105-pptx-numbering.pptx __________
+  - insertmd: 105-pptx-numbering_slide1.md
+    description: PPTXへの章節番号付番のみ(PDF化しない)
+  - insertmd: 105-pptx-numbering_slide2.md
+    description: 単にPPTXに章節番号をつけたいだけ
+  - insertmd: 105-pptx-numbering_slide3.md
+    description: 複数のPPTXをひとつにまとめて章節番号をつけたい
+  - insertmd: 105-pptx-numbering_slide4.md
+    description: 基本は「章・節」方式
+  - insertmd: 105-pptx-numbering_slide5.md
+    description: CHAPT マーカーで章を切替える
+  - insertmd: 105-pptx-numbering_slide6.md
+    description: 章とびら無しなら CHAPT と SECTION を書く
+  - insertmd: 105-pptx-numbering_slide7.md
+    description: 番号カウントの抑制
+  - insertmd: 105-pptx-numbering_slide8.md
+    description: 番号付与の抑制
+  - insertmd: 105-pptx-numbering_slide9.md
+    description: PPTXのみの番号付与を行うレシピYAML
+  - insertmd: 105-pptx-numbering_slide10.md
+    description: 注意！　MD、PDF生成時はchapt_sectionは使えない
+  - insertmd: 105-pptx-numbering_slide11.md
+    description: 生成処理の実行
+  - insertmd: 105-pptx-numbering_slide12.md
+    description: ソースPPTX、生成指示YAML、および成果物PPTX
+
+  # ===== ブロック3: insertpptx + insertmd ミックス（スライド単位） =====
+  # __________ NEW PPTX: 105-pptx-numbering.pptx __________
+  # ----------- slide 1 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 1
+    description: PPTXへの章節番号付番のみ(PDF化しない)
+  - insertmd: 105-pptx-numbering_slide1.md
+    description: PPTXへの章節番号付番のみ(PDF化しない)
+  # ----------- slide 2 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 2
+    description: 単にPPTXに章節番号をつけたいだけ
+  - insertmd: 105-pptx-numbering_slide2.md
+    description: 単にPPTXに章節番号をつけたいだけ
+  # ----------- slide 3 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 3
+    description: 複数のPPTXをひとつにまとめて章節番号をつけたい
+  - insertmd: 105-pptx-numbering_slide3.md
+    description: 複数のPPTXをひとつにまとめて章節番号をつけたい
+  # ----------- slide 4 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 4
+    description: 基本は「章・節」方式
+  - insertmd: 105-pptx-numbering_slide4.md
+    description: 基本は「章・節」方式
+  # ----------- slide 5 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 5
+    description: CHAPT マーカーで章を切替える
+  - insertmd: 105-pptx-numbering_slide5.md
+    description: CHAPT マーカーで章を切替える
+  # ----------- slide 6 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 6
+    description: 章とびら無しなら CHAPT と SECTION を書く
+  - insertmd: 105-pptx-numbering_slide6.md
+    description: 章とびら無しなら CHAPT と SECTION を書く
+  # ----------- slide 7 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 7
+    description: 番号カウントの抑制
+  - insertmd: 105-pptx-numbering_slide7.md
+    description: 番号カウントの抑制
+  # ----------- slide 8 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 8
+    description: 番号付与の抑制
+  - insertmd: 105-pptx-numbering_slide8.md
+    description: 番号付与の抑制
+  # ----------- slide 9 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 9
+    description: PPTXのみの番号付与を行うレシピYAML
+  - insertmd: 105-pptx-numbering_slide9.md
+    description: PPTXのみの番号付与を行うレシピYAML
+  # ----------- slide 10 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 10
+    description: 注意！　MD、PDF生成時はchapt_sectionは使えない
+  - insertmd: 105-pptx-numbering_slide10.md
+    description: 注意！　MD、PDF生成時はchapt_sectionは使えない
+  # ----------- slide 11 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 11
+    description: 生成処理の実行
+  - insertmd: 105-pptx-numbering_slide11.md
+    description: 生成処理の実行
+  # ----------- slide 12 105-pptx-numbering.pptx -----------
+  - insertpptx: 105-pptx-numbering.pptx
+    slides: 12
+    description: ソースPPTX、生成指示YAML、および成果物PPTX
+  - insertmd: 105-pptx-numbering_slide12.md
+    description: ソースPPTX、生成指示YAML、および成果物PPTX

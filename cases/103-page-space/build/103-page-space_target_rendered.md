@@ -16,7 +16,7 @@ Markdown文書をPDF化する際にページとスペースを調整するため
 - 1.1) PDF資料作成時に改ページと余白を調整したい
 - 1.2) 改ページ・伸縮空白・固定空白
 - 1.3) 表紙と目次をつけるためのレシピYAML
-- 1.4) 現行PPTXの note での空行制御
+- 1.4) 原稿PPTXの note での空行制御
 - 1.5) 生成処理の実行
 - 1.6) ソースPPTX、生成指示YAML、および成果物MDとPDF
 :::
@@ -107,9 +107,9 @@ Markdown文書をPDF化する際にページとスペースを調整するため
 {{pagebreak}}
 
 <!-- source: ../mds/103-page-space_slide5.md -->
-<!-- md_merge_rawtitle: 現行PPTXの note での空行制御 -->
+<!-- md_merge_rawtitle: 原稿PPTXの note での空行制御 -->
 <!-- #id:section:AUTOHEAD:5 -->
-## 1.4) 現行PPTXの note での空行制御
+## 1.4) 原稿PPTXの note での空行制御
 
 原稿PPTXのMDテキスト上で空白行を空けるときは、vspace 命令を使います。
 

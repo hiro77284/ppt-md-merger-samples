@@ -11,7 +11,7 @@
     description: 配布用PDFと講師用PPTXへの章節番号付与のしくみ
   - insertpptx: 104-multi-pptx-merge.pptx
     slides: 4
-    description: 'ユニークな #id 付与のしくみ'
+    description: ユニークな id 付与のしくみ
   - insertpptx: 104-multi-pptx-merge.pptx
     slides: 5
     description: 複数の原稿PPTXを source に指定する
@@ -56,7 +56,7 @@
   - insertmd: 104-multi-pptx-merge_slide3.md
     description: 配布用PDFと講師用PPTXへの章節番号付与のしくみ
   - insertmd: 104-multi-pptx-merge_slide4.md
-    description: 'ユニークな #id 付与のしくみ'
+    description: ユニークな id 付与のしくみ
   - insertmd: 104-multi-pptx-merge_slide5.md
     description: 複数の原稿PPTXを source に指定する
   - insertmd: 104-multi-pptx-merge_slide6.md
@@ -104,9 +104,9 @@
   # ----------- slide 4 104-multi-pptx-merge.pptx -----------
   - insertpptx: 104-multi-pptx-merge.pptx
     slides: 4
-    description: 'ユニークな #id 付与のしくみ'
+    description: ユニークな id 付与のしくみ
   - insertmd: 104-multi-pptx-merge_slide4.md
-    description: 'ユニークな #id 付与のしくみ'
+    description: ユニークな id 付与のしくみ
   # ----------- slide 5 104-multi-pptx-merge.pptx -----------
   - insertpptx: 104-multi-pptx-merge.pptx
     slides: 5

@@ -312,7 +312,7 @@ PDF資料の改ページとコンテンツ間のスペースを調整する方�
 ])
 #v(7.4mm)
 #align(center, text(size: 11.5pt)[
-作成日：2026-11-26 02:17:32
+作成日：2026-11-27 11:42:27
 
 ])
 #v(6mm)
@@ -345,7 +345,7 @@ insertvfill,insertpagebreak,insetmdpages,vspace
 - 1.1) PDF資料作成時に改ページと余白を調整したい
 - 1.2) 改ページ・伸縮空白・固定空白
 - 1.3) 表紙と目次をつけるためのレシピYAML
-- 1.4) 現行PPTXの note での空行制御
+- 1.4) 原稿PPTXの note での空行制御
 - 1.5) 生成処理の実行
 - 1.6) ソースPPTX、生成指示YAML、および成果物MDとPDF
 
@@ -429,8 +429,8 @@ MDファイル1つにつき１ページずつ使いたい場合に重宝しま�
 
 #v(1fr)
 #pagebreak(weak: true)
-== 1.4) 現行PPTXの note での空行制御
-<14-現行pptxの-note-での空行制御>
+== 1.4) 原稿PPTXの note での空行制御
+<14-原稿pptxの-note-での空行制御>
 原稿PPTXのMDテキスト上で空白行を空けるときは、vspace 命令を使います。
 
 #v(1 * 1.65em)
