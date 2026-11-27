@@ -103,7 +103,7 @@
 
 <img src="readme-images/103-page-space-slide5.webp" alt="" width="100%">
 
-vspace の実際の使用例を下記に示します。この内容は原稿PPTXとPDFを照らし合わせて確認してください。
+vspace の実際の使用例を下記に示します。 この内容は原稿PPTXとPDFを照らし合わせて確認してください。 なお、PDF版での機能ですので、GitHub上で読む際は空白はできません。
 
 ↓↓PDF上では5行分の空行になります。
 
