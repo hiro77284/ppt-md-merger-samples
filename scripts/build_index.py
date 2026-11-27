@@ -21,6 +21,7 @@ import argparse
 import html
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 import yaml
@@ -35,7 +36,7 @@ END = "<!-- END CASE INDEX -->"
 REQUIRED = ("id", "title", "summary", "tags", "ppt_md_merger_version")
 CASE_DIR_RE = re.compile(r"^\d{3}-[a-z0-9]+(?:-[a-z0-9]+)*$")
 THUMBNAIL_CANDIDATES = ("thumbnail.png", "thumbnail.webp", "thumbnail.jpg")
-THUMBNAIL_WIDTH = 400
+THUMBNAIL_WIDTH = 600
 
 
 def _cell(text: object) -> str:
@@ -100,32 +101,49 @@ def load_case(case_dir: Path) -> tuple[dict | None, list[str]]:
     return data, errors
 
 
+def _anchor(heading: str) -> str:
+    """GitHub が見出しに付けるアンカー名を作る（小文字化、記号削除、空白を - に）。"""
+    out = []
+    for ch in heading.strip().lower():
+        if ch == " ":
+            out.append("-")
+        elif ch == "-" or unicodedata.category(ch)[0] in ("L", "M", "N") or unicodedata.category(ch) == "Pc":
+            out.append(ch)
+    return "".join(out)
+
+
+def _heading(c: dict) -> str:
+    num = c["_dir"].split("-", 1)[0]
+    return f"{num} {' '.join(str(c['title']).split())}"
+
+
 def render_index(cases: list[dict]) -> str:
     lines = [BEGIN, "<!-- この部分は scripts/build_index.py が生成する。手で書き換えない。 -->", ""]
     if not cases:
         lines += ["（まだ事例はありません）", ""]
     else:
-        # GitHub は Markdown 表の画像を列幅に合わせて縮めるため、列幅を指定できる HTML の表にする
+        # 先頭に一覧用の短い表、その後に事例ごとの見出し + 大きな画像 + 概要 + タグ・確認バージョン
+        lines += [f"全 {len(cases)} 件", "", "| No. | 事例 |", "| --- | --- |"]
+        for c in cases:
+            num = c["_dir"].split("-", 1)[0]
+            lines.append(f"| {num} | [{_cell(c['title'])}](#{_anchor(_heading(c))}) |")
+        lines.append("")
+
         w = THUMBNAIL_WIDTH
-        lines += [
-            f"全 {len(cases)} 件",
-            "",
-            "<table>",
-            f'<tr><th width="{w}"></th><th>事例</th><th>概要</th><th>タグ</th><th>確認バージョン</th></tr>',
-        ]
         for c in cases:
             d = c["_dir"]
-            thumb = (
-                f'<img src="cases/{d}/{_html(c["_thumbnail"])}" width="{w}" alt="">'
-                if c["_thumbnail"] else ""
-            )
-            title = f'<a href="cases/{d}/">{_html(c["title"])}</a><br><code>{d}</code>'
-            tags = " ".join(f"<code>{_html(t)}</code>" for t in c["tags"])
-            lines.append(
-                f'<tr><td width="{w}">{thumb}</td><td>{title}</td><td>{_html(c["summary"])}</td>'
-                f'<td>{tags}</td><td>{_html(c["ppt_md_merger_version"])}</td></tr>'
-            )
-        lines += ["</table>", ""]
+            lines += [f"### {_heading(c)}", ""]
+            if c["_thumbnail"]:
+                lines += [
+                    f'<a href="cases/{d}/"><img src="cases/{d}/{_html(c["_thumbnail"])}" width="{w}" alt="{_html(c["title"])}"></a>',
+                    "",
+                ]
+            lines += [" ".join(str(c["summary"]).split()), ""]
+            tags = " ".join(f"`{_cell(t)}`" for t in c["tags"])
+            lines += [
+                f"[事例を開く](cases/{d}/) ・ タグ: {tags} ・ 確認バージョン: {_cell(c['ppt_md_merger_version'])}",
+                "",
+            ]
 
         tag_counts: dict[str, list[str]] = {}
         for c in cases:
