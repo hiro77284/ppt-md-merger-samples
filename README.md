@@ -11,7 +11,7 @@
 <!-- BEGIN CASE INDEX -->
 <!-- この部分は scripts/build_index.py が生成する。手で書き換えない。 -->
 
-全 6 件
+全 7 件
 
 | No. | 事例 |
 | --- | --- |
@@ -21,6 +21,7 @@
 | 103 | [PDF資料のページとスペースを調整する](#103-pdf資料のページとスペースを調整する) |
 | 104 | [複数の原稿PPTXをマージしてPDFおよび同一構成の単一PPTXを生成する](#104-複数の原稿pptxをマージしてpdfおよび同一構成の単一pptxを生成する) |
 | 105 | [大きなPPTXファイルに章・節番号を付番する](#105-大きなpptxファイルに章節番号を付番する) |
+| 106 | [章節番号制御をレシピYAMLの procedure で行う](#106-章節番号制御をレシピyamlの-procedure-で行う) |
 
 ### 100 pptxで画像＋Markdown一括制作
 
@@ -70,8 +71,17 @@ PDF資料の改ページとコンテンツ間のスペースを調整する方�
 
 [事例を開く](cases/105-pptx-numbering/) ・ タグ: `pptx` `numbering` ・ 確認バージョン: 2.1.2
 
+### 106 章節番号制御をレシピYAMLの procedure で行う
+
+<a href="cases/106-numbering-by-procedure/"><img src="cases/106-numbering-by-procedure/readme-images/106-numbering-by-procedure-slide2.webp" width="600" alt="章節番号制御をレシピYAMLの procedure で行う"></a>
+
+原稿PPTXにCHAPT,SECTIONマーカーを書けない（書きたくない）場合に、レシピYAMLの procedure で章節番号を制御する方法を解説します。
+
+[事例を開く](cases/106-numbering-by-procedure/) ・ タグ: `PowerPoint` `章節番号` ・ 確認バージョン: 2.1.0
+
 ### タグ別
 
+- `PowerPoint` (1): [106-numbering-by-procedure](cases/106-numbering-by-procedure/)
 - `cover` (1): [102-cover-index](cases/102-cover-index/)
 - `export` (1): [101-special-variable](cases/101-special-variable/)
 - `image-crop` (1): [100-slide-md](cases/100-slide-md/)
@@ -84,6 +94,7 @@ PDF資料の改ページとコンテンツ間のスペースを調整する方�
 - `pptx` (2): [104-multi-pptx-merge](cases/104-multi-pptx-merge/), [105-pptx-numbering](cases/105-pptx-numbering/)
 - `space` (1): [103-page-space](cases/103-page-space/)
 - `ファイル名` (1): [101-special-variable](cases/101-special-variable/)
+- `章節番号` (1): [106-numbering-by-procedure](cases/106-numbering-by-procedure/)
 
 <!-- END CASE INDEX -->
 

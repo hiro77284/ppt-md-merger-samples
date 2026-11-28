@@ -1,0 +1,20 @@
+# 事例メタデータ（雛形）。cases/NNN-slug/case.yaml としてコピーし、<...> を書き換える。
+# ルート README.md の一覧は scripts/build_index.py がこのファイルから生成する。
+
+# 必須 ----------------------------------------------------------------
+id: 106-numbering-by-procedure                 # フォルダ名と同じにする（例: 002-chapter-cover）
+title: 章節番号制御をレシピYAMLの procedure で行う
+summary: 原稿PPTXにCHAPT,SECTIONマーカーを書けない（書きたくない）場合に、レシピYAMLの procedure で章節番号を制御する方法を解説します。
+tags: [PowerPoint,章節番号]                  # 推奨タグは CONTRIBUTING.md を参照
+ppt_md_merger_version: "2.1.0"   # この事例を最後にビルドして確認した ppt-md-merger のバージョン
+
+# 任意 ----------------------------------------------------------------
+recipe_version: 4              # レシピの version（一覧には出さない。将来の一括移行用）
+build:                         # 再生成手順。上から順に実行する（cases/<id>/ 基準のパス）
+  - recipe: src/106-numbering-by-procedure_recipe.yaml
+    command: ppt_build
+    options: --githubmd --transfer --pdf --yes-clear-dir --pptx
+outputs: [pdf, githubmd, pptx]       # 生成物の種類: pdf / githubmd / puremd / html / reveal / pptx
+thumbnail: readme-images/106-numbering-by-procedure-slide2.webp                    # 省略時は thumbnail.png / .webp / .jpg を探す。無ければ一覧に画像なし
+added: 2026-11-28            # 追加日
+updated:                       # 内容を更新した日（任意）

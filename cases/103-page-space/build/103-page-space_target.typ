@@ -169,6 +169,67 @@
   it
 }
 
+// ── 巻末索引（bookindex。docs/design_book_index.md）──────────────────────
+// filters/bookindex.lua が印の位置に #metadata("見出し語")<sem-index> を置き、
+// pandoc 段が {{printindex}} を #sem-bookindex(groups: ...) に展開する（並び順と
+// グループは bookindexcollect が決めたもの）。ページ番号は組版時に query で集める。
+#let sem-index-head-color = luma(30%)
+
+// 見出し語 key のページ番号（本文へのリンク付き）。同じページは 1 回だけ。
+// page-range: true なら連続するページを「12–14」にまとめる。表示はそのページの番号形式に従う。
+#let sem-index-pages(key, page-range: true) = context {
+  let items = ()
+  let seen = ()
+  for m in query(<sem-index>) {
+    if m.value != key { continue }
+    let loc = m.location()
+    let phys = loc.page()
+    if phys in seen { continue }
+    seen.push(phys)
+    let fmt = loc.page-numbering()
+    let nums = counter(page).at(loc)
+    let disp = if fmt == none { str(nums.first()) } else { numbering(fmt, ..nums) }
+    items.push((phys: phys, n: nums.first(), fmt: fmt, disp: disp, loc: loc))
+  }
+  let runs = ()
+  for it in items {
+    let joined = false
+    if page-range and runs.len() > 0 {
+      let prev = runs.last().last()
+      if it.phys == prev.phys + 1 and it.n == prev.n + 1 and it.fmt == prev.fmt {
+        runs.last().push(it)
+        joined = true
+      }
+    }
+    if not joined { runs.push((it,)) }
+  }
+  if runs.len() == 0 {
+    [—]
+  } else {
+    runs.map(r => {
+      let a = r.first()
+      let b = r.last()
+      if r.len() == 1 { link(a.loc, a.disp) } else { link(a.loc, a.disp) + [–] + link(b.loc, b.disp) }
+    }).join([, ])
+  }
+}
+
+// 索引ページの本体。groups は ((head: "A" | none, keys: ("語", ...)), ...)。
+#let sem-bookindex(groups: (), columns: 2, page-range: true) = {
+  set par(first-line-indent: 0pt, justify: false, leading: 0.5em, spacing: 0.5em)
+  let body = for g in groups {
+    if g.head != none {
+      block(above: 1.1em, below: 0.5em, sticky: true,
+        text(font: sem-fonts.sans, weight: "bold", fill: sem-index-head-color, g.head))
+    }
+    for k in g.keys {
+      block(above: 0.35em, below: 0.35em, breakable: false,
+        [#k#box(width: 1fr, inset: (x: 0.3em), repeat[.])#sem-index-pages(k, page-range: page-range)])
+    }
+  }
+  if columns > 1 { std.columns(columns, gutter: 2em, body) } else { body }
+}
+
 // report_style.typ
 // PDF（typst）のページ設計。旧 LaTeX 版の report_header.tex（titlesec / fancyhdr / 目次。撤去済み）を移したもの。
 // pandoc の include-in-header で semantic_macros.typ の後に読む（sem-fonts / sem-leading を使う）。
@@ -312,7 +373,7 @@ PDF資料の改ページとコンテンツ間のスペースを調整する方�
 ])
 #v(7.4mm)
 #align(center, text(size: 11.5pt)[
-作成日：2026-11-28 08:14:04
+作成日：2026-11-28 13:24:47
 
 ])
 #v(6mm)

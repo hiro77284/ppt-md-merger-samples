@@ -1,0 +1,58 @@
+version: 4
+
+# 実行: pptmdmerge pptmerge 105-example_recipe.yaml
+
+log:
+  level: info
+  filename: log.txt
+
+indexer:
+  # 章節番号付与方式の設定
+  pptxnumbering: "chapt_section"       # PPTX中に#CHAPT# #SECTION# マーカーを書く
+
+output:
+  outputdir: ../build
+  pptxfilename: 106-example_target.pptx    # 成果物ファイルはpptxのみ。MD、PDFは生成しない
+  force: true
+
+
+merge:
+  copy-images: true
+  image-dir: ../build/images
+  flatten-images: true
+  strict: true
+
+procedure:
+  - insertpptx: 106-example1.pptx
+    slides: 1
+  - insertpptx: 106-example1.pptx
+    slides: 2
+    chapter: "+"
+  - insertpptx: 106-example1.pptx
+    slides: 3-6
+  - insertpptx: 106-example1.pptx
+    slides: 7
+    chapter: "+"
+  - insertpptx: 106-example1.pptx
+    slides: 8-9
+  - insertpptx: 106-example1.pptx
+    slides: 10
+    nonumbering: true
+  - insertpptx: 106-example1.pptx
+    slides: 11-END
+
+  - insertpptx: 106-example2.pptx
+    slides: 1
+    chapter: "+"
+  - insertpptx: 106-example2.pptx
+    slides: 2
+  - insertpptx: 106-example2.pptx
+    slides: 3
+    subsection: "+"
+  - insertpptx: 106-example2.pptx
+    slides: 4
+    subsection: "+"
+  - insertpptx: 106-example2.pptx
+    slides: 5-END
+    #section: "+"
+

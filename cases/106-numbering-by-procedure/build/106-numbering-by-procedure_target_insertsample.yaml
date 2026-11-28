@@ -1,0 +1,63 @@
+  # ===== ブロック1: insertpptx サンプル =====
+  # __________ NEW PPTX: 106-numbering-by-procedure.pptx __________
+  - insertpptx: 106-numbering-by-procedure.pptx
+    slides: 1
+    description: procedureによる章節番号制御
+  - insertpptx: 106-numbering-by-procedure.pptx
+    slides: 2
+    description: PPTXにマーカーを書きたくない
+  - insertpptx: 106-numbering-by-procedure.pptx
+    slides: 3
+    description: PPTXのみの番号付与を行うレシピYAML
+  - insertpptx: 106-numbering-by-procedure.pptx
+    slides: 4
+    description: 生成処理の実行
+  - insertpptx: 106-numbering-by-procedure.pptx
+    slides: 5
+    description: ソースPPTX、生成指示YAML、および成果物PPTX
+
+  # ===== ブロック2: insertmd サンプル =====
+  # __________ NEW PPTX: 106-numbering-by-procedure.pptx __________
+  - insertmd: 106-numbering-by-procedure_slide1.md
+    description: procedureによる章節番号制御
+  - insertmd: 106-numbering-by-procedure_slide2.md
+    description: PPTXにマーカーを書きたくない
+  - insertmd: 106-numbering-by-procedure_slide3.md
+    description: PPTXのみの番号付与を行うレシピYAML
+  - insertmd: 106-numbering-by-procedure_slide4.md
+    description: 生成処理の実行
+  - insertmd: 106-numbering-by-procedure_slide5.md
+    description: ソースPPTX、生成指示YAML、および成果物PPTX
+
+  # ===== ブロック3: insertpptx + insertmd ミックス（スライド単位） =====
+  # __________ NEW PPTX: 106-numbering-by-procedure.pptx __________
+  # ----------- slide 1 106-numbering-by-procedure.pptx -----------
+  - insertpptx: 106-numbering-by-procedure.pptx
+    slides: 1
+    description: procedureによる章節番号制御
+  - insertmd: 106-numbering-by-procedure_slide1.md
+    description: procedureによる章節番号制御
+  # ----------- slide 2 106-numbering-by-procedure.pptx -----------
+  - insertpptx: 106-numbering-by-procedure.pptx
+    slides: 2
+    description: PPTXにマーカーを書きたくない
+  - insertmd: 106-numbering-by-procedure_slide2.md
+    description: PPTXにマーカーを書きたくない
+  # ----------- slide 3 106-numbering-by-procedure.pptx -----------
+  - insertpptx: 106-numbering-by-procedure.pptx
+    slides: 3
+    description: PPTXのみの番号付与を行うレシピYAML
+  - insertmd: 106-numbering-by-procedure_slide3.md
+    description: PPTXのみの番号付与を行うレシピYAML
+  # ----------- slide 4 106-numbering-by-procedure.pptx -----------
+  - insertpptx: 106-numbering-by-procedure.pptx
+    slides: 4
+    description: 生成処理の実行
+  - insertmd: 106-numbering-by-procedure_slide4.md
+    description: 生成処理の実行
+  # ----------- slide 5 106-numbering-by-procedure.pptx -----------
+  - insertpptx: 106-numbering-by-procedure.pptx
+    slides: 5
+    description: ソースPPTX、生成指示YAML、および成果物PPTX
+  - insertmd: 106-numbering-by-procedure_slide5.md
+    description: ソースPPTX、生成指示YAML、および成果物PPTX

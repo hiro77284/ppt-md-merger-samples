@@ -125,7 +125,7 @@ toc-depth: は目次の階層数です。数字を大きくすると、より深
 
 
 
-これが pptxnumbering: idresolve と autoid: true の効果です。 MDの章節番号を手打ちするのは加筆や削除に弱いのですが、この方式なら自動付与なので手間が省けます。
+これが pptxnumbering: idresolve と autoid: true の効果です。 MDの章節番号を手打ちするのはページの挿入や削除に弱いのですが、この方式なら自動付与なので手間が省けます。
 
 
 

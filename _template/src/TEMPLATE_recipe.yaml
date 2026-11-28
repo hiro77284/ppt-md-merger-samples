@@ -37,15 +37,17 @@ merge:
   flatten-images: true
   strict: true
 
-input:
+fragment:
   dirs:
     - .
     - ../mds
-  imagesdir:
+
+source:
+  cropimagedirs:
     - ../images
+  croppdfdir: ../temppdfs
   cropsrc:
     pptx: TEMPLATE.pptx
-    pdf: ../temppdfs/TEMPLATE.pdf
 
 # 事例ページ（../README.md と ../readme-images/）を書き出す
 transfer:
@@ -60,7 +62,7 @@ pandoc:
   resource-path:
     - ../build
   # 共通設定はリポジトリ直下の user_settings/ に置く（本体 examples/ と同じ深さ）
-  data-dir: ../../user_settings
+  data-dir: ../../../user_settings
   # PDFに2階層で目次をつける defaults を指定
   defaults: pandoc/defaults/report_base_defaults_toc2level.yaml
   # 表紙を付けるときは同梱の cover_standard.md を指定するか、コピーして src/ に置く
