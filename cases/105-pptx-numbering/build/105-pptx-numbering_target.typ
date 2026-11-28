@@ -373,7 +373,7 @@
 ])
 #v(7.4mm)
 #align(center, text(size: 11.5pt)[
-作成日：2026-11-28 13:31:58
+作成日：2026-11-28 21:14:29
 
 ])
 #v(6mm)
@@ -562,7 +562,7 @@ range-max で明示します。
 == 1.9) 注意！　MD、PDF生成時はchapt\_sectionは使えない
 <19-注意-mdpdf生成時はchapt_sectionは使えない>
 #sem-box("warning")[
-chapt\_section方式が使えるのは、PDFのみを生成する場合です。MD、PDFも生成するときは
+chapt\_section方式が使えるのは、PPTXのみを生成する場合です。MD、PDFも生成するときは
 idresolve を使ってください。
 
 ]

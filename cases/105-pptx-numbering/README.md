@@ -182,7 +182,7 @@ procedure.insertPPTX: に原稿PPTXを指定します。
 ## 1.9) 注意！　MD、PDF生成時はchapt_sectionは使えない
 
 > [!WARNING]
-> chapt_section方式が使えるのは、PDFのみを生成する場合です。MD、PDFも生成するときは idresolve を使ってください。
+> chapt_section方式が使えるのは、PPTXのみを生成する場合です。MD、PDFも生成するときは idresolve を使ってください。
 
 <img src="readme-images/105-pptx-numbering-slide10.webp" alt="" width="100%">
 
