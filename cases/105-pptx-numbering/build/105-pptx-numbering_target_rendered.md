@@ -17,7 +17,7 @@ MarkdownやPDF出力を行わず、PPTXへの章節番号付番のみ行う方�
 - 1.2) 複数のPPTXをひとつにまとめて章節番号をつけたい
 - 1.3) 基本は「章・節」方式
 - 1.4) CHAPT マーカーで章を切替える
-- 1.5) 章とびら無しなら CHAPT と SECTION を書く
+- 1.5) 章とびら無しなら CHAPTER と SECTION を書く
 - 1.6) 番号カウントの抑制
 - 1.7) 番号付与の抑制
 - 1.8) PPTXのみの番号付与を行うレシピYAML
@@ -119,9 +119,9 @@ Word にはアウトラインで自動的に章・節・項以下の番号を振
 {{pagebreak}}
 
 <!-- source: ../mds/105-pptx-numbering_slide6.md -->
-<!-- md_merge_rawtitle: 章とびら無しなら CHAPT と SECTION を書く -->
+<!-- md_merge_rawtitle: 章とびら無しなら CHAPTER と SECTION を書く -->
 <!-- #id:section:105-pptx-numbering:slide6 -->
-## 1.5) 章とびら無しなら CHAPT と SECTION を書く
+## 1.5) 章とびら無しなら CHAPTER と SECTION を書く
 
 章とびらを置かないスタイルの時は、新章開始スライドで CHAPT と SECTION の両方を書くと、章とびらなしで節から始まります。(SECTION を単独で使うと、節番号を1にリセットします）
 

@@ -55,7 +55,7 @@ COVER_FOOTERIMAGE　フッター画像
 #align(center, text(size: 11.5pt)[
 ```
 
-作成日：2026-11-28 13:24:56
+作成日：2026-11-28 13:31:58
 
 ```{=typst}
 ])

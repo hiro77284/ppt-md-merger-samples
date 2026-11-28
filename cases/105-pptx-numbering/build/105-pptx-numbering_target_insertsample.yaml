@@ -17,7 +17,7 @@
     description: CHAPT マーカーで章を切替える
   - insertpptx: 105-pptx-numbering.pptx
     slides: 6
-    description: 章とびら無しなら CHAPT と SECTION を書く
+    description: 章とびら無しなら CHAPTER と SECTION を書く
   - insertpptx: 105-pptx-numbering.pptx
     slides: 7
     description: 番号カウントの抑制
@@ -53,7 +53,7 @@
   - insertmd: 105-pptx-numbering_slide5.md
     description: CHAPT マーカーで章を切替える
   - insertmd: 105-pptx-numbering_slide6.md
-    description: 章とびら無しなら CHAPT と SECTION を書く
+    description: 章とびら無しなら CHAPTER と SECTION を書く
   - insertmd: 105-pptx-numbering_slide7.md
     description: 番号カウントの抑制
   - insertmd: 105-pptx-numbering_slide8.md
@@ -104,9 +104,9 @@
   # ----------- slide 6 105-pptx-numbering.pptx -----------
   - insertpptx: 105-pptx-numbering.pptx
     slides: 6
-    description: 章とびら無しなら CHAPT と SECTION を書く
+    description: 章とびら無しなら CHAPTER と SECTION を書く
   - insertmd: 105-pptx-numbering_slide6.md
-    description: 章とびら無しなら CHAPT と SECTION を書く
+    description: 章とびら無しなら CHAPTER と SECTION を書く
   # ----------- slide 7 105-pptx-numbering.pptx -----------
   - insertpptx: 105-pptx-numbering.pptx
     slides: 7
